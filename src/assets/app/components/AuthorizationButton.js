@@ -12,35 +12,22 @@ class AuthorizationButton extends React.Component {
 		}
 
 		this.handleToggleBtnList = this.handleToggleBtnList.bind(this)
+		this.handleBlurHideBtn = this.handleBlurHideBtn.bind(this)
 	} 
 
 	handleToggleBtnList(e) {
-		e.stopPropagation()
-
-		let _ = this
-
-		document.documentElement.addEventListener('click', function handleHideButton(e) {
-			if (e.target.className !== '_3ujDIxQN2zoK3sTK9PfSJL'
-				&& e.currentTarget.className !== '_3ujDIxQN2zoK3sTK9PfSJL'
-				) {
-
-				_.setState({
-					isToggle: true 
-				})
-
-			}
-
-			document.documentElement.removeEventListener('click', handleHideButton)
-		})
-
-		
-
 		this.setState((state) => {
 			return {
 				isToggle: !this.state.isToggle
 			}
 		})
 
+	}
+
+	handleBlurHideBtn() {
+		this.setState({
+			isToggle: true
+		})
 	}
 
 	render() {
@@ -71,7 +58,10 @@ class AuthorizationButton extends React.Component {
 		return (
 			<div className={styles.authButton}>
 				<div className={styles.authButton__user}>
-					<button className={styles.authButton__buttonUser} onClick={this.handleToggleBtnList}>U</button>
+					<button 
+						className={styles.authButton__buttonUser} 
+						onClick={this.handleToggleBtnList} 
+						onBlur={this.handleBlurHideBtn}>U</button>
 				</div>
 				<nav className={styles.authButton__nav}>
 					<ul className={styles.authButton__buttonList}>
