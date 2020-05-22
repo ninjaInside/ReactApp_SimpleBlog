@@ -1,0 +1,124 @@
+.main
+	@include flex(column, flex-start, center)
+	width: 100%
+	height: 100vh
+
+.wrraper 
+	width: 100%
+	max-width: 1200px
+	margin: 0 auto 
+
+.appField
+	@include flex(row, space-between, stretch)
+	width: 100%
+	max-width: 1215px
+	padding: 0 15px
+	height: 100%
+	padding: 15px
+
+	&__postList
+		width: 100% 
+		overflow: auto
+		border-left: 1px solid $mainC
+		border-bottom: 1px solid $mainC
+
+		& > * 
+			width: 100%
+
+	&__tagList
+		width: 200px
+		overflow: auto
+		border: 1px solid $mainC
+		flex-shrink: 0
+
+		& > *
+			width: 100%
+
+.postItem
+	padding: 10px
+	position: relative
+	border-bottom: 1px solid $mainC
+	height: auto 
+	min-height: 100px
+
+	&:first-child 
+		border-top: 1px solid $mainC
+
+	&:last-child
+		border-bottom: 0
+
+	& > * 
+		display: block
+
+	&__title
+		margin: 0
+		margin-bottom: 10px
+
+	&__text
+		margin-bottom: 15px
+
+	&__tag 
+		position: absolute
+		right: 10px
+		bottom: 5px
+
+.tagItem
+	border: 0
+	padding: 10px 
+	border-bottom: 1px solid $mainC
+	background-color: $addC
+
+	&:last-child 
+		border-bottom: 0
+
+	&:hover 
+		background-color: $mainC
+		color: $addC
+
+
+.authButton 
+	position: relative
+	z-index: 100
+
+	&__nav 
+		position: absolute
+		color: $mainC
+		margin-top: 10px
+		width: auto
+
+	&__buttonList 
+		padding: 0
+		list-style: none
+
+	&__buttonItem 
+		margin-bottom: 10px
+		width: 54px
+		height: 54px
+
+		& > a
+			display: table-cell 
+			vertical-align: middle
+			text-align: center
+			width: inherit
+			height: inherit
+			border-radius: 1000px
+			border: 1px solid $mainC
+			background-color: $addC
+			text-decoration: none
+
+	&__buttonUser 
+		display: table-cell 
+		vertical-align: middle
+		text-align: center
+		width: 44px
+		height: 44px
+		border: 0
+		border-radius: 50%
+		background-color: $addC
+		font: 1.1rem sans-serif
+		margin-left: 5px
+		cursor: pointer
+
+
+
+

@@ -1,0 +1,23 @@
+@mixin flex($fd, $js, $at)
+	display: flex
+	flex-direction: $fd
+	justify-content: $js 
+	align-items: $at
+
+$mainC: #000
+$addC: #fff
+
+$mxW: 1200px
+
+body 
+	margin: 0
+	padding: 0
+
+* 
+	box-sizing: border-box 
+
+.header 
+	width: 100%
+	padding: 15px
+	background-color: $mainC
+	color: $addC 
