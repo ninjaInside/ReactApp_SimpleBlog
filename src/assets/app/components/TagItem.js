@@ -5,8 +5,8 @@ import styles from '../styles/main.sass'
 class TagItem extends React.Component {
 	render() {
 		return (
-			<button className={styles.tagItem}>
-				<span>{this.props.text}</span>
+			<button className={styles.tagItem} onClick={this.props.handleToggle}>
+				{this.props.text}
 			</button>
 		)
 	}

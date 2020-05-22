@@ -34,9 +34,10 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
+		this.handleGetPosts()
+		
 		this.setState({
-			postList: this.handleGetPosts(),
-			tagList: this.handleGetTags(),
+			tagList: this.handleGetTags()
 		})
 	}
 
@@ -51,6 +52,7 @@ class App extends React.Component {
 	}
 
 	handleShowPost(postId) {
+		console.log(postId)
 		this.setState(state => {
 			return {
 				fieldPostItem: state.postList[postId]
@@ -65,8 +67,15 @@ class App extends React.Component {
 	}
 
 	handleToggleTag(tag) {
-		this.setState({
-			tag: tag
+		new Promise(resolve => {
+			this.setState({
+				tag: tag
+			})
+
+			resolve()
+		})
+		.then(r => {
+			this.handleGetPosts()
 		})
 	}
 
@@ -81,42 +90,7 @@ class App extends React.Component {
 			console.log(this.state.currentTag)
 		}
 
-		if (!this.state.currentTag) {
-			return [
-				{
-					title: `This is allow title`,
-					text: `
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius alias culpa doloremque ipsam debitis eligendi reprehenderit asperiores sint, eum iusto doloribus. Quae, est consequatur corporis molestias cum aut nemo quaerat animi pariatur, provident nisi voluptates.
-					`,
-					tag: 'another', 
-					id: 0
-				},
-				{
-					title: `This is garbage title`,
-					text: `
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, pariatur qui tempore. Optio odit eos velit neque consectetur quidem. Repudiandae, quia. Voluptate beatae, fuga laudantium.
-					`,
-					tag: 'hellooooo',
-					id: 1
-				},
-				{
-					title: `This is no title`,
-					text: `
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, tempore! Commodi illum fugit, iste officiis!
-					`,
-					tag: 'another',
-					id: 2
-				},
-				{
-					title: `This is my title`,
-					text: `
-						Lorem ipsum dolor sit amet.
-					`,
-					tag: 'hellooooo',
-					id: 3
-				}
-			]
-		}
+		
 	}
 
 	handleGetTags() {
@@ -159,8 +133,9 @@ class App extends React.Component {
 					</div>
 
 					<div className={styles.appField__tagList}>
+						<TagItem text='all' key='all' handleToggle={this.handleToggleTag.bind(this, null)} />
 						{this.state.tagList.map((i) => {
-							return <TagItem text={i.text} key={i.text} onClick={this.handleToggleTag.bind(this, i.text)} />
+							return <TagItem text={i.text} key={i.text} handleToggle={this.handleToggleTag.bind(this, i.text)} />
 						})}
 					</div>
 				</>
