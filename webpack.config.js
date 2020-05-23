@@ -24,6 +24,7 @@ module.exports = {
 	context: paths.src,
 	entry: {
 		app: 'app.js',
+		auth: 'auth.js',
 	},
 	output: {
 		path: paths.dist,
@@ -45,7 +46,6 @@ module.exports = {
 		}),
 
 		new HardSourceWebpackPlugin(),
-		new UglifyJs()
 	],
 
 	module: {
@@ -103,4 +103,9 @@ module.exports = {
 		aggregateTimeout: 50
 	},
 
+	devServer: {
+    	contentBase: paths.dist,
+    	port: 3000
+  }
 }
+	

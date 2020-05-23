@@ -37,8 +37,8 @@ class AuthorizationButton extends React.Component {
 
 			buttonList = (
 				<>
-					<li className={styles.authButton__buttonItem}> <a href="//">S</a> </li>
-					<li className={styles.authButton__buttonItem}> <a href="//">S</a> </li>
+					<li className={styles.authButton__buttonItem}> <a href="./users.html">S</a> </li>
+					<li className={styles.authButton__buttonItem}> <a href="./users.html">S</a> </li>
 				</>
 			)
 

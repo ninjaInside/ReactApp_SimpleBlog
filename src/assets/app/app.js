@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './styles/main.sass'
+import axios from 'axios'
 
 import AuthorizationButton from './components/AuthorizationButton'
 import WarningMessage from './components/WarningMessage'
@@ -34,14 +35,23 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		this.handleGetPosts()
-		
-		this.setState({
-			tagList: this.handleGetTags()
+		new Promise(resolve => {
+			this.handleGetPosts()
+
+			resolve()
+		})
+		.then(() => {
+			this.setState({
+				tagList: this.handleGetTags()
+			})
 		})
 	}
 
 	handleGetUserToken() {
+		if (localStorage.getItem('AuthKey')) {
+			return localStorage.getItem('AuthKey')
+		}
+
 		return false
 	}
 
@@ -86,18 +96,24 @@ class App extends React.Component {
 					currentTag: state.tag
 				}
 			})
-
-			console.log(this.state.currentTag)
 		}
 
+		if (!this.state.currentTag) {
+			axios({
+				method: 'get',
+				url: 'http:\/\/localhost:8000/api/v1/posts/'
+			})
+			.then((response) => {
+				this.setState({
+					postList: response
+				})
+			})
+		}
 		
 	}
 
 	handleGetTags() {
-		return [
-			{text: 'another'},
-			{text: 'hellooooo'}
-		]
+		if (!(this.state.postList instanceof Array)) return
 	}
 
 	render() {
@@ -125,18 +141,18 @@ class App extends React.Component {
 			content = (
 				<>
 					<div className={styles.appField__postList}>
-						{this.state.postList.map((i) => {
+						{this.state.postList instanceof Array ? this.state.postList.map((i) => {
 							return <PostItem title={i.title} text={
 								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
 							} tag={i.tag} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
-						})}
+						}) : <span>На данный момент постов нет</span>}
 					</div>
 
 					<div className={styles.appField__tagList}>
 						<TagItem text='all' key='all' handleToggle={this.handleToggleTag.bind(this, null)} />
-						{this.state.tagList.map((i) => {
+						{this.state.postList instanceof Array ? this.state.tagList.map((i) => {
 							return <TagItem text={i.text} key={i.text} handleToggle={this.handleToggleTag.bind(this, i.text)} />
-						})}
+						}) : ''}
 					</div>
 				</>
 			)
