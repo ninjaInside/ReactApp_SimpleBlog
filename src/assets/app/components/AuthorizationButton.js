@@ -24,10 +24,12 @@ class AuthorizationButton extends React.Component {
 
 	}
 
-	handleBlurHideBtn() {
-		this.setState({
-			isToggle: true
-		})
+	handleBlurHideBtn(e) {
+		setTimeout(() => {
+			this.setState({
+				isToggle: true
+			})
+		}, 200)
 	}
 
 	render() {
@@ -37,8 +39,7 @@ class AuthorizationButton extends React.Component {
 
 			buttonList = (
 				<>
-					<li className={styles.authButton__buttonItem}> <a href="./users.html">S</a> </li>
-					<li className={styles.authButton__buttonItem}> <a href="./users.html">S</a> </li>
+					<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
 				</>
 			)
 
@@ -49,19 +50,18 @@ class AuthorizationButton extends React.Component {
 					<li className={styles.authButton__buttonItem}> <a href="//">A</a> </li>
 					<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
 					<li className={styles.authButton__buttonItem}> <a href="//">L</a> </li>
-					<li className={styles.authButton__buttonItem}> <a href="//">P</a> </li>
 				</>
 			)
 
 		}
 
 		return (
-			<div className={styles.authButton}>
+			<div className={styles.authButton} onBlur={this.handleBlurHideBtn}>
 				<div className={styles.authButton__user}>
 					<button 
 						className={styles.authButton__buttonUser} 
 						onClick={this.handleToggleBtnList} 
-						onBlur={this.handleBlurHideBtn}>U</button>
+						>U</button>
 				</div>
 				<nav className={styles.authButton__nav}>
 					<ul className={styles.authButton__buttonList}>

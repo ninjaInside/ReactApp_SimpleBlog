@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './styles/main.sass'
+import WebFont from 'webfontloader'
+
+WebFont.load({
+	google: {
+	  families: ['Montserrat', 'Open-Sans']
+	}
+});
 
 import FormRegistration from './components/FormRegistration'
 import FormLogin from './components/FormLogin'

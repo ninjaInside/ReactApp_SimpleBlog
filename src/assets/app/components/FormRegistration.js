@@ -35,7 +35,7 @@ class FormRegistration extends React.Component {
 
 						}
 
-						if (!values.password1 || !values.password2) {
+						if (!values.password1) {
 						
 							errors.password = 'Нет пароля'
 							
@@ -47,10 +47,6 @@ class FormRegistration extends React.Component {
 						} else if (values.password1.length < 8) {
 
 							errors.password1 = 'Пароль слишком короткий'
-
-						} else if (!/[0-9]{3}/g.test(values.password1)) {
-
-							errors.password1 = 'Пароль должен содержать как минимум три разных цифры'
 
 						} else if (/(.)\1\1/g.test(values.password1)) {
 
@@ -97,9 +93,13 @@ class FormRegistration extends React.Component {
 					            onChange={handleChange}
 					            onBlur={handleBlur}
 					            value={values.text}
-					            className={styles.authField__input}
+								className={styles.authField__input}
+								placeholder='Username'
 							/>
-							{errors.username && touched.username && errors.username}
+							{errors.username && touched.username ? 
+								<ul className={styles.errorMessage}>
+									<li>{errors.username}</li>
+								</ul> : ''}
 							<input
 								type='email'
 								name='email'
@@ -107,8 +107,12 @@ class FormRegistration extends React.Component {
 								onBlur={handleBlur}
 								value={values.email}
 								className={styles.authField__input}
+								placeholder='Email'
 							/>
-							{errors.email && touched.email && errors.email}
+							{errors.email && touched.email ? 
+								<ul className={styles.errorMessage}>
+									<li>{errors.email}</li>
+								</ul> : ''}
 							<input
 								type='password'
 								name='password1'
@@ -116,6 +120,7 @@ class FormRegistration extends React.Component {
 								onBlur={handleBlur}
 								value={values.password}
 								className={styles.authField__input}
+								placeholder='Password'
 							/>
 							<input
 								type='password'
@@ -124,10 +129,15 @@ class FormRegistration extends React.Component {
 								onBlur={handleBlur}
 								value={values.allowPassword}
 								className={styles.authField__input}
+								placeholder='Allow Passord'
 							/>
-							{errors.password1 && touched.password1 && errors.password1}
+							{errors.password1 && touched.password1 ? 
+								<ul className={styles.errorMessage}>
+									<li>{errors.password1}</li>
+								</ul> : ''}
 							<button
 								type='submit'
+								className={styles.authField__btn}
 							>Sign up</button>
 						</form>	
 					)}

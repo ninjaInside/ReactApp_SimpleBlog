@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './styles/main.sass'
 import axios from 'axios'
+import WebFont from 'webfontloader'
+
+WebFont.load({
+	google: {
+	  families: ['Montserrat', 'Open-Sans']
+	}
+  });
 
 import AuthorizationButton from './components/AuthorizationButton'
 import WarningMessage from './components/WarningMessage'
 import PostItem from './components/PostItem'
 import TagItem from './components/TagItem'
 import BlogItem from './components/BlogItem'
+
+
 
 class App extends React.Component {
 	constructor(props) {
@@ -174,7 +183,7 @@ class App extends React.Component {
 				<header className={styles.header}>
 					<div className={`${styles.wrraper} ${styles.wrraper_flexSb}`}>
 						<AuthorizationButton token={this.state.AuthorizationToken} />
-						<span>Блог типа</span>
+						<span className={styles.header__logo}>The Blog</span>
 					</div>
 				</header>
 				

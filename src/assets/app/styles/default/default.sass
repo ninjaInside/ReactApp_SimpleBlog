@@ -5,8 +5,10 @@
 	align-items: $at
 
 $mainC: #09294a
-$addC: #1faee9
+$addC: #0087bd
 $addC2: #000d0f
+
+$warningColor: red
 
 $blackC: #000
 $whiteC: #fff
@@ -19,11 +21,7 @@ body
 
 * 
 	box-sizing: border-box 
-
-
-@font-face
 	font-family: 'Montserrat'
-	src: url('./fonts/Montserrat/Montserrat-Regular.ttf') format('ttf')
 
 
 .header 
@@ -31,4 +29,6 @@ body
 	padding: 15px
 	background-color: $addC
 	color: $whiteC 
-	font: 1rem 'Montserrat'
+
+	&__logo
+		font-size: 1.4rem 
