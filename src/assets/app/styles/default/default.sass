@@ -4,8 +4,12 @@
 	justify-content: $js 
 	align-items: $at
 
-$mainC: #000
-$addC: #fff
+$mainC: #09294a
+$addC: #1faee9
+$addC2: #000d0f
+
+$blackC: #000
+$whiteC: #fff
 
 $mxW: 1200px
 
@@ -16,8 +20,15 @@ body
 * 
 	box-sizing: border-box 
 
+
+@font-face
+	font-family: 'Montserrat'
+	src: url('./fonts/Montserrat/Montserrat-Regular.ttf') format('ttf')
+
+
 .header 
 	width: 100%
 	padding: 15px
-	background-color: $mainC
-	color: $addC 
+	background-color: $addC
+	color: $whiteC 
+	font: 1rem 'Montserrat'
