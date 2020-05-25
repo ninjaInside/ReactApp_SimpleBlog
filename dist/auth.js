@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../../node_modules/axios/index.js":
-/*!****************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/index.js ***!
-  \****************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/index.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98,9 +98,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ "../../../node_modules/a
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/adapters/xhr.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/adapters/xhr.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/adapters/xhr.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -286,9 +286,9 @@ module.exports = function xhrAdapter(config) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/axios.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/axios.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/axios.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -348,9 +348,9 @@ module.exports.default = axios;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/Cancel.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/Cancel.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/Cancel.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -377,9 +377,9 @@ module.exports = Cancel;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/CancelToken.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/CancelToken.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -447,9 +447,9 @@ module.exports = CancelToken;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/isCancel.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/isCancel.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/isCancel.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -463,9 +463,9 @@ module.exports = function isCancel(value) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/Axios.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/Axios.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/Axios.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -569,9 +569,9 @@ module.exports = Axios;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/InterceptorManager.js":
-/*!**************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/InterceptorManager.js ***!
-  \**************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -635,9 +635,9 @@ module.exports = InterceptorManager;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/buildFullPath.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/buildFullPath.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/buildFullPath.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -669,9 +669,9 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/createError.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/createError.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/createError.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -699,9 +699,9 @@ module.exports = function createError(message, config, code, request, response) 
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/dispatchRequest.js":
-/*!***********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/dispatchRequest.js ***!
-  \***********************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -766,9 +766,9 @@ module.exports = function dispatchRequest(config) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/enhanceError.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/enhanceError.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/enhanceError.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -821,9 +821,9 @@ module.exports = function enhanceError(error, config, code, request, response) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/mergeConfig.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/mergeConfig.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/mergeConfig.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -888,9 +888,9 @@ module.exports = function mergeConfig(config1, config2) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/settle.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/settle.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/settle.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -920,9 +920,9 @@ module.exports = function settle(resolve, reject, response) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/transformData.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/transformData.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/transformData.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -951,9 +951,9 @@ module.exports = function transformData(data, headers, fns) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/defaults.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/defaults.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/defaults.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1056,9 +1056,9 @@ module.exports = defaults;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/bind.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/bind.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/bind.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1080,9 +1080,9 @@ module.exports = function bind(fn, thisArg) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/buildURL.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/buildURL.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/buildURL.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1157,9 +1157,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/combineURLs.js":
-/*!**********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/combineURLs.js ***!
-  \**********************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1180,9 +1180,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/cookies.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/cookies.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/cookies.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1238,9 +1238,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/isAbsoluteURL.js":
-/*!************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1263,9 +1263,9 @@ module.exports = function isAbsoluteURL(url) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/isURLSameOrigin.js":
-/*!**************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \**************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1332,9 +1332,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/normalizeHeaderName.js":
-/*!******************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \******************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1355,9 +1355,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/parseHeaders.js":
-/*!***********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \***********************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1416,9 +1416,9 @@ module.exports = function parseHeaders(headers) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/spread.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/spread.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/spread.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1454,9 +1454,9 @@ module.exports = function spread(callback) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/utils.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/utils.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/utils.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1833,9 +1833,9 @@ module.exports = {
 /***/ }),
 
 /***/ "../../../node_modules/css-loader/dist/cjs.js?!../../../node_modules/postcss-loader/src/index.js?!../../../node_modules/sass-loader/dist/cjs.js!./styles/main.sass":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/css-loader/dist/cjs.js??ref--5-1!C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/postcss-loader/src??ref--5-2!C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/sass-loader/dist/cjs.js!./styles/main.sass ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/css-loader/dist/cjs.js??ref--5-1!/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/postcss-loader/src??ref--5-2!/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/sass-loader/dist/cjs.js!./styles/main.sass ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1843,18 +1843,22 @@ module.exports = {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "../../../node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center; }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 100%;\n    max-width: 415px;\n    padding: 15px;\n    margin-bottom: 25px; }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 10px; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto;\n    background-color: #fff; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .1rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\default\\default.sass","C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\modules\\modules.sass","C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\modification\\modification.sass"],"names":[],"mappings":"AAeA;EACC,SAAS;EACT,UAAU,EAAA;;AAEX;EACC,8BAAsB;UAAtB,sBAAsB;EACtB,yBAAyB,EAAA;;AAG1B;EACC,WAAW;EACX,aAAa;EACb,yBApBa;EAqBb,WAjBY,EAAA;EAmBZ;IACC,iBAAiB,EAAA;;AC/BnB;EDCC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCDoB;EDCpB,6BCDoB;MDCpB,0BCDoB;UDCpB,sBCDoB;EDEpB,uBCFgC;MDEhC,oBCFgC;UDEhC,2BCFgC;EDGhC,yBCHwC;MDGxC,sBCHwC;UDGxC,mBCHwC;EACxC,WAAW;EACX,aAAa;EACb,yBDIc,EAAA;;ACFf;EACC,WAAW;EACX,iBAAiB;EACjB,cAAc;EACd,uBAAuB,EAAA;;AAExB;EDXC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCWoB;EDXpB,6BCWoB;MDXpB,0BCWoB;UDXpB,sBCWoB;EDVpB,wBCU4B;MDV5B,qBCU4B;UDV5B,uBCU4B;EDT5B,yBCSoC;MDTpC,sBCSoC;UDTpC,mBCSoC;EACpC,WAAW;EACX,YAAY,EAAA;EAEZ;IACC,qBAAqB;IACrB,mBAAmB;IACnB,WAAW;IACX,gBAAgB;IAChB,kBAAkB,EAAA;;AAIpB;EDzBC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCyBoB;EDzBpB,6BCyBoB;MDzBpB,0BCyBoB;UDzBpB,sBCyBoB;EDxBpB,wBCwB4B;MDxB5B,qBCwB4B;UDxB5B,uBCwB4B;EDvB5B,yBCuBoC;MDvBpC,sBCuBoC;UDvBpC,mBCuBoC;EACpC,WAAW;EACX,aAAa,EAAA;EAEb;ID9BA,oBAAa;IAAb,oBAAa;IAAb,aAAa;IACb,4BC8BqB;ID9BrB,6BC8BqB;QD9BrB,0BC8BqB;YD9BrB,sBC8BqB;ID7BrB,wBC6B6B;QD7B7B,qBC6B6B;YD7B7B,uBC6B6B;ID5B7B,yBC4BqC;QD5BrC,sBC4BqC;YD5BrC,mBC4BqC;IACpC,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,mBAAmB,EAAA;EAEpB;IACC,mBAAmB,EAAA;;AAErB;EDxCC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCwCoB;EDxCpB,6BCwCoB;MDxCpB,0BCwCoB;UDxCpB,sBCwCoB;EDvCpB,uBCuCgC;MDvChC,oBCuCgC;UDvChC,2BCuCgC;EDtChC,wBCsC4C;MDtC5C,qBCsC4C;UDtC5C,uBCsC4C;EAC5C,WAAW;EACX,iBAAiB;EACjB,eAAe;EACf,YAAY;EACZ,aAAa;EACb,kBAAkB,EAAA;EAElB;IACC,kBAAkB;IAClB,SAAS;IACT,WAAW,EAAA;EAEZ;IACC,mBAAmB;IACnB,mBAAmB,EAAA;EAEpB;IACC,gBAAgB,EAAA;EAEjB;IAEE;MACC,mBAAmB,EAAA,EAAG;;AAE1B;EDlEC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,8BCkEiB;EDlEjB,6BCkEiB;MDlEjB,uBCkEiB;UDlEjB,mBCkEiB;EDjEjB,yBCiEgC;MDjEhC,sBCiEgC;UDjEhC,8BCiEgC;EDhEhC,0BCgEyC;MDhEzC,uBCgEyC;UDhEzC,oBCgEyC;EACzC,WAAW;EACX,iBAAiB;EACjB,eAAe;EACf,YAAY;EACZ,aAAa,EAAA;EAEb;IACC,WAAW;IACX,cAAc;IACd,sBDnEW,EAAA;ICgEX;MAMC,WAAW,EAAA;EAEb;IACC,YAAY;IACZ,cAAc;IACd,oBAAc;QAAd,cAAc;IACd,yBDjFa,EAAA;IC6Eb;MAOC,WAAW,EAAA;;AAEd;EACC,aAAa;EACb,kBAAkB;EAClB,8BAA8B;EAC9B,YAAY;EACZ,iBAAiB;EACjB,eAAe,EAAA;EANhB;IASE,2BAA2B,EAAA;EAT7B;IAYE,gBAAgB,EAAA;EAZlB;IAeE,cAAc,EAAA;EAEf;IACC,SAAS;IACT,mBAAmB,EAAA;EAEpB;IACC,mBAAmB,EAAA;EAEpB;IACC,kBAAkB;IAClB,WAAW;IACX,WAAW,EAAA;;AAEb;EACC,SAAS;EACT,kBAAkB;EAClB,6BAA6B;EAC7B,WDlHY;ECmHZ,yBAAyB;EACzB,qBAAqB;EACrB,iBAAiB,EAAA;EAPlB;IAUE,yBD5HY,EAAA;;AC+Hd;EACC,kBAAkB;EAClB,YAAY,EAAA;EAEZ;IACC,kBAAkB;IAClB,YAAY;IACZ,gBAAgB;IAChB,WAAW,EAAA;EAEZ;IACC,UAAU;IACV,gBAAgB,EAAA;EAEjB;IACC,mBAAmB;IACnB,WAAW;IACX,YAAY,EAAA;IAHZ;MAMC,mBAAmB;MACnB,sBAAsB;MACtB,kBAAkB;MAClB,cAAc;MACd,eAAe;MACf,qBAAqB;MACrB,uBAAuB;MACvB,uBAAuB;MACvB,qBAAqB,EAAA;EAEvB;IACC,mBAAmB;IACnB,sBAAsB;IACtB,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,SAAS;IACT,kBAAkB;IAClB,yBDtKa;ICuKb,cDtKY;ICuKZ,uBAAuB;IACvB,gBAAgB;IAChB,eAAe,EAAA;;AC/KhB;EFAA,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,8BEAkB;EFAlB,6BEAkB;MFAlB,uBEAkB;UFAlB,mBEAkB;EFClB,yBEDiC;MFCjC,sBEDiC;UFCjC,8BEDiC;EFEjC,yBEFyC;MFEzC,sBEFyC;UFEzC,mBEFyC,EAAA","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center; }\n\n\t&__btn {} }\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 100%;\n\t\tmax-width: 415px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px; }\n\n\t&__input {\n\t\tmargin-bottom: 10px; } }\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: $whiteC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .1rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #09294a; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer;\n    underline: none; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"AAiBA;EACC,SAAS;EACT,UAAU,EAAA;;AAEX;EACC,8BAAsB;UAAtB,sBAAsB;EACtB,yBAAyB,EAAA;;AAG1B;EACC,WAAW;EACX,aAAa;EACb,yBAtBa;EAuBb,WAjBY,EAAA;EAmBZ;IACC,iBAAiB,EAAA;;ACjCnB;EDCC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCDoB;EDCpB,6BCDoB;MDCpB,0BCDoB;UDCpB,sBCDoB;EDEpB,uBCFgC;MDEhC,oBCFgC;UDEhC,2BCFgC;EDGhC,yBCHwC;MDGxC,sBCHwC;UDGxC,mBCHwC;EACxC,WAAW;EACX,aAAa;EACb,yBDIc,EAAA;;ACFf;EACC,WAAW;EACX,iBAAiB;EACjB,cAAc;EACd,uBAAuB,EAAA;;AAExB;EACC,WAAW;EACX,kBAAkB;EAClB,UDLiB;ECMjB,qBAAqB,EAAA;;AAGtB;EDlBC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCkBoB;EDlBpB,6BCkBoB;MDlBpB,0BCkBoB;UDlBpB,sBCkBoB;EDjBpB,wBCiB4B;MDjB5B,qBCiB4B;UDjB5B,uBCiB4B;EDhB5B,yBCgBoC;MDhBpC,sBCgBoC;UDhBpC,mBCgBoC;EACpC,WAAW;EACX,YAAY,EAAA;EAEZ;IACC,qBAAqB;IACrB,mBAAmB;IACnB,WAAW;IACX,gBAAgB;IAChB,kBAAkB;IAClB,WDjBW,EAAA;ECmBZ;IACC,gBAAgB;IAChB,kBAAkB;IAClB,yBD5BY;IC6BZ,SAAS;IACT,WDxBW;ICyBX,eAAe;IACf,eAAe,EAAA;IAPf;MAUC,wCDnCW,EAAA;;ACsCd;ED5CC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BC4CoB;ED5CpB,6BC4CoB;MD5CpB,0BC4CoB;UD5CpB,sBC4CoB;ED3CpB,wBC2C4B;MD3C5B,qBC2C4B;UD3C5B,uBC2C4B;ED1C5B,yBC0CoC;MD1CpC,sBC0CoC;UD1CpC,mBC0CoC;EACpC,WAAW;EACX,aAAa;EACb,yBD3Cc,EAAA;EC6Cd;IDlDA,oBAAa;IAAb,oBAAa;IAAb,aAAa;IACb,4BCkDqB;IDlDrB,6BCkDqB;QDlDrB,0BCkDqB;YDlDrB,sBCkDqB;IDjDrB,wBCiD6B;QDjD7B,qBCiD6B;YDjD7B,uBCiD6B;IDhD7B,yBCgDqC;QDhDrC,sBCgDqC;YDhDrC,mBCgDqC;IACpC,YAAY;IACZ,aAAa;IACb,mBAAmB,EAAA;IAEnB;MANA;QAQE,WAAW,EAAA,EAAG;EAEjB;IACC,mBAAmB;IACnB,YAAY;IACZ,6BAA6B;IAC7B,SAAS;IACT,gCD3DY;IC4DZ,eAAe;IACf,WDvDW;ICwDX,WAAW,EAAA;IARX;MAWC,aAAa;MACb,uCAA+B;cAA/B,+BAA+B;MAC/B,iBDhEe,EAAA;ECkEjB;IACC,WAAW;IACX,gBAAgB;IAChB,kBAAkB;IAClB,yBDzEY;IC0EZ,SAAS;IACT,WDrEW;ICsEX,eAAe;IACf,eAAe,EAAA;IARf;MAWC,wCDhFW,EAAA;ECkFb;IACC,yBDnFY;ICoFZ,kBAAkB;IAClB,WD/EW;ICgFX,6BAA6B;IAC7B,YAAY;IACZ,eAAe;IACf,eAAe,EAAA;;AAEjB;EDjGC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,4BCiGoB;EDjGpB,6BCiGoB;MDjGpB,0BCiGoB;UDjGpB,sBCiGoB;EDhGpB,uBCgGgC;MDhGhC,oBCgGgC;UDhGhC,2BCgGgC;ED/FhC,wBC+F4C;MD/F5C,qBC+F4C;UD/F5C,uBC+F4C;EAC5C,WAAW;EACX,iBAAiB;EACjB,eAAe;EACf,YAAY;EACZ,aAAa;EACb,kBAAkB,EAAA;EAElB;IACC,kBAAkB;IAClB,SAAS;IACT,WAAW,EAAA;EAEZ;IACC,mBAAmB;IACnB,mBAAmB,EAAA;EAEpB;IACC,gBAAgB,EAAA;EAEjB;IAEE;MACC,mBAAmB,EAAA,EAAG;;AAE1B;ED3HC,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,8BC2HiB;ED3HjB,6BC2HiB;MD3HjB,uBC2HiB;UD3HjB,mBC2HiB;ED1HjB,yBC0HgC;MD1HhC,sBC0HgC;UD1HhC,8BC0HgC;EDzHhC,0BCyHyC;MDzHzC,uBCyHyC;UDzHzC,oBCyHyC;EACzC,WAAW;EACX,iBAAiB;EACjB,eAAe;EACf,YAAY;EACZ,aAAa,EAAA;EAEb;IACC,WAAW;IACX,cAAc,EAAA;IAFd;MAMC,WAAW,EAAA;EAEb;IACC,YAAY;IACZ,cAAc;IACd,oBAAc;QAAd,cAAc;IACd,yBD1Ia,EAAA;ICsIb;MAOC,WAAW,EAAA;;AAEd;EACC,aAAa;EACb,kBAAkB;EAClB,8BAA8B;EAC9B,YAAY;EACZ,iBAAiB;EACjB,eAAe,EAAA;EANhB;IASE,2BAA2B,EAAA;EAT7B;IAYE,gBAAgB,EAAA;EAZlB;IAeE,cAAc,EAAA;EAEf;IACC,SAAS;IACT,mBAAmB,EAAA;EAEpB;IACC,mBAAmB,EAAA;EAEpB;IACC,kBAAkB;IAClB,WAAW;IACX,WAAW,EAAA;;AAEb;EACC,SAAS;EACT,kBAAkB;EAClB,6BAA6B;EAC7B,WDzKY;EC0KZ,yBAAyB;EACzB,sBAAsB;EACtB,iBAAiB,EAAA;EAPlB;IAUE,yBDrLY,EAAA;;ACwLd;EACC,kBAAkB;EAClB,YAAY,EAAA;EAEZ;IACC,kBAAkB;IAClB,YAAY;IACZ,gBAAgB;IAChB,WAAW,EAAA;EAEZ;IACC,UAAU;IACV,gBAAgB,EAAA;EAEjB;IACC,mBAAmB;IACnB,WAAW;IACX,YAAY,EAAA;IAHZ;MAMC,mBAAmB;MACnB,sBAAsB;MACtB,kBAAkB;MAClB,cAAc;MACd,eAAe;MACf,qBAAqB;MACrB,uBAAuB;MACvB,uBAAuB;MACvB,qBAAqB,EAAA;EAEvB;IACC,mBAAmB;IACnB,sBAAsB;IACtB,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,SAAS;IACT,kBAAkB;IAClB,yBD/Na;ICgOb,cD/NY;ICgOZ,uBAAuB;IACvB,gBAAgB;IAChB,eAAe,EAAA;;ACxOhB;EFAA,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,8BEAkB;EFAlB,6BEAkB;MFAlB,uBEAkB;UFAlB,mBEAkB;EFClB,yBEDiC;MFCjC,sBEDiC;UFCjC,8BEDiC;EFEjC,yBEFyC;MFEzC,sBEFyC;UFEzC,mBEFyC,EAAA","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $mainC;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer;\n\t\tunderline: none; } }\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: {}\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
 // Exports
 exports.locals = {
 	"header": "_2BWgge0yt73bmhFIgv08dv",
 	"header__logo": "Ccp3zPbiESAawvlJYihms",
 	"main": "_3Z1i1AqKHMKSiTgHdf2Uoa",
 	"wrraper": "_1dIAROcXWgdrUwoZdOARUV",
+	"errorMessage": "_18sEA6hRtdtR9PeXckJGAs",
 	"warningMessage": "_23CTfpc3xrc9dAw2JLCC6-",
 	"warningMessage__title": "_3Xfm3Vi8zzJDbYFN8f797x",
+	"warningMessage__btn": "_2V7ROz81_AYSck_z4udl00",
 	"authField": "_2A7BXLNkvnrMz4mfvxxO58",
 	"authField__form": "ppliOgpYJdZZceueEaFW5",
 	"authField__input": "_1HnKGi-uwoe-bUSse2RimT",
+	"authField__btn": "_1MoRAIyFkfpr6SXRaBTsnE",
+	"authField__toggleBtn": "_2WZl7K_t-RdpsLlikEjTl8",
 	"blogItem": "FT_Go-5nfbPtBpdNnY9g8",
 	"blogItem__btn": "_33sOpbce9UbX2_KSc-KuMO",
 	"blogItem__text": "ZChupKaClrJwJhDNzNUwQ",
@@ -1880,9 +1884,9 @@ module.exports = exports;
 /***/ }),
 
 /***/ "../../../node_modules/css-loader/dist/runtime/api.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/css-loader/dist/runtime/api.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/css-loader/dist/runtime/api.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1985,9 +1989,9 @@ function toComment(sourceMap) {
 /***/ }),
 
 /***/ "../../../node_modules/deepmerge/dist/es.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/deepmerge/dist/es.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/deepmerge/dist/es.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2080,9 +2084,9 @@ var deepmerge_1 = deepmerge;
 /***/ }),
 
 /***/ "../../../node_modules/formik/dist/formik.esm.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/formik/dist/formik.esm.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/formik/dist/formik.esm.js ***!
+  \***************************************************************************************************/
 /*! exports provided: ErrorMessage, FastField, Field, FieldArray, Form, Formik, FormikConsumer, FormikContext, FormikProvider, connect, getActiveElement, getIn, insert, isEmptyArray, isEmptyChildren, isFunction, isInputEvent, isInteger, isNaN, isObject, isPromise, isString, move, prepareDataForValidation, replace, setIn, setNestedObjectValues, swap, useField, useFormik, useFormikContext, validateYupSchema, withFormik, yupToFormErrors */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4169,9 +4173,9 @@ var FastField = /*#__PURE__*/connect(FastFieldInner);
 /***/ }),
 
 /***/ "../../../node_modules/formik/node_modules/scheduler/cjs/scheduler.development.js":
-/*!************************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/formik/node_modules/scheduler/cjs/scheduler.development.js ***!
-  \************************************************************************************************************************/
+/*!************************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/formik/node_modules/scheduler/cjs/scheduler.development.js ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5087,9 +5091,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/formik/node_modules/scheduler/index.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/formik/node_modules/scheduler/index.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/formik/node_modules/scheduler/index.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5103,9 +5107,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
-/*!*************************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
-  \*************************************************************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5219,9 +5223,9 @@ module.exports = hoistNonReactStatics;
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_DataView.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_DataView.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_DataView.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5239,9 +5243,9 @@ var DataView = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_ro
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Hash.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Hash.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Hash.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5287,9 +5291,9 @@ Hash.prototype.set = _hashSet_js__WEBPACK_IMPORTED_MODULE_4__["default"];
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_ListCache.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_ListCache.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_ListCache.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5335,9 +5339,9 @@ ListCache.prototype.set = _listCacheSet_js__WEBPACK_IMPORTED_MODULE_4__["default
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Map.js":
-/*!*******************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Map.js ***!
-  \*******************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Map.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5355,9 +5359,9 @@ var Map = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_root_js
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_MapCache.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_MapCache.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_MapCache.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5403,9 +5407,9 @@ MapCache.prototype.set = _mapCacheSet_js__WEBPACK_IMPORTED_MODULE_4__["default"]
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Promise.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Promise.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Promise.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5423,9 +5427,9 @@ var Promise = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_roo
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Set.js":
-/*!*******************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Set.js ***!
-  \*******************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Set.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5443,9 +5447,9 @@ var Set = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_root_js
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Stack.js":
-/*!*********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Stack.js ***!
-  \*********************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Stack.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5487,9 +5491,9 @@ Stack.prototype.set = _stackSet_js__WEBPACK_IMPORTED_MODULE_5__["default"];
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Symbol.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Symbol.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Symbol.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5505,9 +5509,9 @@ var Symbol = _root_js__WEBPACK_IMPORTED_MODULE_0__["default"].Symbol;
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_Uint8Array.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_Uint8Array.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_Uint8Array.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5523,9 +5527,9 @@ var Uint8Array = _root_js__WEBPACK_IMPORTED_MODULE_0__["default"].Uint8Array;
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_WeakMap.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_WeakMap.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_WeakMap.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5543,9 +5547,9 @@ var WeakMap = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_roo
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_arrayEach.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayEach.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayEach.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5578,9 +5582,9 @@ function arrayEach(array, iteratee) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_arrayFilter.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayFilter.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayFilter.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5617,9 +5621,9 @@ function arrayFilter(array, predicate) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_arrayLikeKeys.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayLikeKeys.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayLikeKeys.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5679,9 +5683,9 @@ function arrayLikeKeys(value, inherited) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_arrayMap.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayMap.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayMap.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5713,9 +5717,9 @@ function arrayMap(array, iteratee) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_arrayPush.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayPush.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_arrayPush.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5746,9 +5750,9 @@ function arrayPush(array, values) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_assignValue.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_assignValue.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_assignValue.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5788,9 +5792,9 @@ function assignValue(object, key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_assocIndexOf.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_assocIndexOf.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_assocIndexOf.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5824,9 +5828,9 @@ function assocIndexOf(array, key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseAssign.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssign.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssign.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5855,9 +5859,9 @@ function baseAssign(object, source) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseAssignIn.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssignIn.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssignIn.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5886,9 +5890,9 @@ function baseAssignIn(object, source) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseAssignValue.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssignValue.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseAssignValue.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5924,9 +5928,9 @@ function baseAssignValue(object, key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseClone.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseClone.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseClone.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6117,9 +6121,9 @@ function baseClone(value, bitmask, customizer, key, object, stack) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseCreate.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseCreate.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseCreate.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6163,9 +6167,9 @@ var baseCreate = function () {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseGetAllKeys.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseGetAllKeys.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseGetAllKeys.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6197,9 +6201,9 @@ function baseGetAllKeys(object, keysFunc, symbolsFunc) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseGetTag.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseGetTag.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseGetTag.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6239,9 +6243,9 @@ function baseGetTag(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseIsArguments.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsArguments.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsArguments.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6271,9 +6275,9 @@ function baseIsArguments(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseIsMap.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsMap.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsMap.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6303,9 +6307,9 @@ function baseIsMap(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseIsNative.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsNative.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsNative.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6364,9 +6368,9 @@ function baseIsNative(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseIsSet.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsSet.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsSet.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6396,9 +6400,9 @@ function baseIsSet(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseIsTypedArray.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsTypedArray.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseIsTypedArray.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6458,9 +6462,9 @@ function baseIsTypedArray(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseKeys.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseKeys.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseKeys.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6505,9 +6509,9 @@ function baseKeys(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseKeysIn.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseKeysIn.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseKeysIn.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6555,9 +6559,9 @@ function baseKeysIn(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseTimes.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseTimes.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseTimes.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6588,9 +6592,9 @@ function baseTimes(n, iteratee) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseToString.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseToString.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseToString.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6644,9 +6648,9 @@ function baseToString(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_baseUnary.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_baseUnary.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_baseUnary.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6670,9 +6674,9 @@ function baseUnary(func) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneArrayBuffer.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneArrayBuffer.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneArrayBuffer.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6699,9 +6703,9 @@ function cloneArrayBuffer(arrayBuffer) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneBuffer.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneBuffer.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneBuffer.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6748,9 +6752,9 @@ function cloneBuffer(buffer, isDeep) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneDataView.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneDataView.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneDataView.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6777,9 +6781,9 @@ function cloneDataView(dataView, isDeep) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneRegExp.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneRegExp.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneRegExp.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6806,9 +6810,9 @@ function cloneRegExp(regexp) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneSymbol.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneSymbol.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneSymbol.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6837,9 +6841,9 @@ function cloneSymbol(symbol) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_cloneTypedArray.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneTypedArray.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_cloneTypedArray.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6866,9 +6870,9 @@ function cloneTypedArray(typedArray, isDeep) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_copyArray.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_copyArray.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_copyArray.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6899,9 +6903,9 @@ function copyArray(source, array) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_copyObject.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_copyObject.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_copyObject.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6951,9 +6955,9 @@ function copyObject(source, props, object, customizer) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_copySymbols.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_copySymbols.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_copySymbols.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6981,9 +6985,9 @@ function copySymbols(source, object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_copySymbolsIn.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_copySymbolsIn.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_copySymbolsIn.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7011,9 +7015,9 @@ function copySymbolsIn(source, object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_coreJsData.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_coreJsData.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_coreJsData.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7029,9 +7033,9 @@ var coreJsData = _root_js__WEBPACK_IMPORTED_MODULE_0__["default"]['__core-js_sha
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_defineProperty.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_defineProperty.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_defineProperty.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7053,9 +7057,9 @@ var defineProperty = function () {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_freeGlobal.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_freeGlobal.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_freeGlobal.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7069,9 +7073,9 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getAllKeys.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getAllKeys.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getAllKeys.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7100,9 +7104,9 @@ function getAllKeys(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getAllKeysIn.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getAllKeysIn.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getAllKeysIn.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7132,9 +7136,9 @@ function getAllKeysIn(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getMapData.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getMapData.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getMapData.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7161,9 +7165,9 @@ function getMapData(map, key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getNative.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getNative.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getNative.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7192,9 +7196,9 @@ function getNative(object, key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getPrototype.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getPrototype.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getPrototype.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7210,9 +7214,9 @@ var getPrototype = Object(_overArg_js__WEBPACK_IMPORTED_MODULE_0__["default"])(O
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getRawTag.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getRawTag.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getRawTag.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7271,9 +7275,9 @@ function getRawTag(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getSymbols.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getSymbols.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getSymbols.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7315,9 +7319,9 @@ var getSymbols = !nativeGetSymbols ? _stubArray_js__WEBPACK_IMPORTED_MODULE_1__[
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getSymbolsIn.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getSymbolsIn.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getSymbolsIn.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7357,9 +7361,9 @@ var getSymbolsIn = !nativeGetSymbols ? _stubArray_js__WEBPACK_IMPORTED_MODULE_3_
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getTag.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getTag.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getTag.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7438,9 +7442,9 @@ if (_DataView_js__WEBPACK_IMPORTED_MODULE_0__["default"] && getTag(new _DataView
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_getValue.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_getValue.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_getValue.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7463,9 +7467,9 @@ function getValue(object, key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_hashClear.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_hashClear.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_hashClear.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7491,9 +7495,9 @@ function hashClear() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_hashDelete.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_hashDelete.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_hashDelete.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7520,9 +7524,9 @@ function hashDelete(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_hashGet.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_hashGet.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_hashGet.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7565,9 +7569,9 @@ function hashGet(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_hashHas.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_hashHas.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_hashHas.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7601,9 +7605,9 @@ function hashHas(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_hashSet.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_hashSet.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_hashSet.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7637,9 +7641,9 @@ function hashSet(key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_initCloneArray.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneArray.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneArray.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7675,9 +7679,9 @@ function initCloneArray(array) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_initCloneByTag.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneByTag.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneByTag.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7775,9 +7779,9 @@ function initCloneByTag(object, tag, isDeep) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_initCloneObject.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneObject.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_initCloneObject.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7806,9 +7810,9 @@ function initCloneObject(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_isIndex.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_isIndex.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_isIndex.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7839,9 +7843,9 @@ function isIndex(value, length) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_isKeyable.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_isKeyable.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_isKeyable.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7864,9 +7868,9 @@ function isKeyable(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_isMasked.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_isMasked.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_isMasked.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7898,9 +7902,9 @@ function isMasked(func) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_isPrototype.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_isPrototype.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_isPrototype.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7927,9 +7931,9 @@ function isPrototype(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_listCacheClear.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheClear.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheClear.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7952,9 +7956,9 @@ function listCacheClear() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_listCacheDelete.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheDelete.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheDelete.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8003,9 +8007,9 @@ function listCacheDelete(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_listCacheGet.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheGet.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheGet.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8034,9 +8038,9 @@ function listCacheGet(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_listCacheHas.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheHas.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheHas.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8063,9 +8067,9 @@ function listCacheHas(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_listCacheSet.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheSet.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_listCacheSet.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8103,9 +8107,9 @@ function listCacheSet(key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_mapCacheClear.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheClear.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheClear.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8139,9 +8143,9 @@ function mapCacheClear() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_mapCacheDelete.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheDelete.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheDelete.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8170,9 +8174,9 @@ function mapCacheDelete(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_mapCacheGet.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheGet.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheGet.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8199,9 +8203,9 @@ function mapCacheGet(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_mapCacheHas.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheHas.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheHas.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8228,9 +8232,9 @@ function mapCacheHas(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_mapCacheSet.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheSet.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_mapCacheSet.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8262,9 +8266,9 @@ function mapCacheSet(key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_memoizeCapped.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_memoizeCapped.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_memoizeCapped.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8301,9 +8305,9 @@ function memoizeCapped(func) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_nativeCreate.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeCreate.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeCreate.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8319,9 +8323,9 @@ var nativeCreate = Object(_getNative_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_nativeKeys.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeKeys.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeKeys.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8337,9 +8341,9 @@ var nativeKeys = Object(_overArg_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Obj
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_nativeKeysIn.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeKeysIn.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_nativeKeysIn.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8371,9 +8375,9 @@ function nativeKeysIn(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_nodeUtil.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_nodeUtil.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_nodeUtil.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8415,9 +8419,9 @@ var nodeUtil = function () {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_objectToString.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_objectToString.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_objectToString.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8449,9 +8453,9 @@ function objectToString(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_overArg.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_overArg.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_overArg.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8476,9 +8480,9 @@ function overArg(func, transform) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_root.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_root.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_root.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8497,9 +8501,9 @@ var root = _freeGlobal_js__WEBPACK_IMPORTED_MODULE_0__["default"] || freeSelf ||
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stackClear.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stackClear.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stackClear.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8525,9 +8529,9 @@ function stackClear() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stackDelete.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stackDelete.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stackDelete.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8554,9 +8558,9 @@ function stackDelete(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stackGet.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stackGet.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stackGet.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8580,9 +8584,9 @@ function stackGet(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stackHas.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stackHas.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stackHas.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8606,9 +8610,9 @@ function stackHas(key) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stackSet.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stackSet.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stackSet.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8659,9 +8663,9 @@ function stackSet(key, value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_stringToPath.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_stringToPath.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_stringToPath.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8702,9 +8706,9 @@ var stringToPath = Object(_memoizeCapped_js__WEBPACK_IMPORTED_MODULE_0__["defaul
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_toKey.js":
-/*!*********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_toKey.js ***!
-  \*********************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_toKey.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8737,9 +8741,9 @@ function toKey(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/_toSource.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/_toSource.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/_toSource.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8777,9 +8781,9 @@ function toSource(func) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/clone.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/clone.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/clone.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8826,9 +8830,9 @@ function clone(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/cloneDeep.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/cloneDeep.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/cloneDeep.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8868,9 +8872,9 @@ function cloneDeep(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/eq.js":
-/*!*****************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/eq.js ***!
-  \*****************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/eq.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8917,9 +8921,9 @@ function eq(value, other) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isArguments.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isArguments.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isArguments.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8967,9 +8971,9 @@ var isArguments = Object(_baseIsArguments_js__WEBPACK_IMPORTED_MODULE_0__["defau
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isArray.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isArray.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isArray.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9004,9 +9008,9 @@ var isArray = Array.isArray;
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isArrayLike.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isArrayLike.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isArrayLike.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9051,9 +9055,9 @@ function isArrayLike(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isBuffer.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isBuffer.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isBuffer.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9103,9 +9107,9 @@ var isBuffer = nativeIsBuffer || _stubFalse_js__WEBPACK_IMPORTED_MODULE_1__["def
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isFunction.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isFunction.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isFunction.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9155,9 +9159,9 @@ function isFunction(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isLength.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isLength.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isLength.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9201,9 +9205,9 @@ function isLength(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isMap.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isMap.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isMap.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9242,9 +9246,9 @@ var isMap = nodeIsMap ? Object(_baseUnary_js__WEBPACK_IMPORTED_MODULE_1__["defau
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isObject.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isObject.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isObject.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9285,9 +9289,9 @@ function isObject(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isObjectLike.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isObjectLike.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isObjectLike.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9326,9 +9330,9 @@ function isObjectLike(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isPlainObject.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isPlainObject.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isPlainObject.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9405,9 +9409,9 @@ function isPlainObject(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isSet.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isSet.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isSet.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9446,9 +9450,9 @@ var isSet = nodeIsSet ? Object(_baseUnary_js__WEBPACK_IMPORTED_MODULE_1__["defau
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isSymbol.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isSymbol.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isSymbol.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9488,9 +9492,9 @@ function isSymbol(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/isTypedArray.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/isTypedArray.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/isTypedArray.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9529,9 +9533,9 @@ var isTypedArray = nodeIsTypedArray ? Object(_baseUnary_js__WEBPACK_IMPORTED_MOD
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/keys.js":
-/*!*******************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/keys.js ***!
-  \*******************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/keys.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9581,9 +9585,9 @@ function keys(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/keysIn.js":
-/*!*********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/keysIn.js ***!
-  \*********************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/keysIn.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9628,9 +9632,9 @@ function keysIn(object) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/memoize.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/memoize.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/memoize.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9716,9 +9720,9 @@ memoize.Cache = _MapCache_js__WEBPACK_IMPORTED_MODULE_0__["default"];
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/stubArray.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/stubArray.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/stubArray.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9751,9 +9755,9 @@ function stubArray() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/stubFalse.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/stubFalse.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/stubFalse.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9781,9 +9785,9 @@ function stubFalse() {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/toPath.js":
-/*!*********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/toPath.js ***!
-  \*********************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/toPath.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9834,9 +9838,9 @@ function toPath(value) {
 /***/ }),
 
 /***/ "../../../node_modules/lodash-es/toString.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/lodash-es/toString.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/lodash-es/toString.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9875,9 +9879,9 @@ function toString(value) {
 /***/ }),
 
 /***/ "../../../node_modules/object-assign/index.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/object-assign/index.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/object-assign/index.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9981,9 +9985,9 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /***/ }),
 
 /***/ "../../../node_modules/process/browser.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/process/browser.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/process/browser.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -10199,9 +10203,9 @@ process.umask = function () {
 /***/ }),
 
 /***/ "../../../node_modules/prop-types/checkPropTypes.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/prop-types/checkPropTypes.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/prop-types/checkPropTypes.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10305,9 +10309,9 @@ module.exports = checkPropTypes;
 /***/ }),
 
 /***/ "../../../node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10326,9 +10330,9 @@ module.exports = ReactPropTypesSecret;
 /***/ }),
 
 /***/ "../../../node_modules/react-dom/cjs/react-dom.development.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-dom/cjs/react-dom.development.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-dom/cjs/react-dom.development.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14472,9 +14476,9 @@ console.info('%cDownload the React DevTools '+'for a better development experien
 /***/ }),
 
 /***/ "../../../node_modules/react-dom/index.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-dom/index.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-dom/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14515,9 +14519,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/react-fast-compare/index.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-fast-compare/index.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-fast-compare/index.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14615,9 +14619,9 @@ module.exports = function exportedEqual(a, b) {
 /***/ }),
 
 /***/ "../../../node_modules/react-is/cjs/react-is.development.js":
-/*!**************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-is/cjs/react-is.development.js ***!
-  \**************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-is/cjs/react-is.development.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14815,9 +14819,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/react-is/index.js":
-/*!*******************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-is/index.js ***!
-  \*******************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-is/index.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14831,9 +14835,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/react/cjs/react.development.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react/cjs/react.development.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react/cjs/react.development.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16718,9 +16722,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/react/index.js":
-/*!****************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react/index.js ***!
-  \****************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react/index.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16734,9 +16738,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/cjs/scheduler-tracing.development.js":
-/*!************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
-  \************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17092,9 +17096,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/cjs/scheduler.development.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler.development.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler.development.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17957,9 +17961,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/index.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/index.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17973,9 +17977,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/tracing.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/tracing.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/tracing.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17989,9 +17993,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \*******************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18269,9 +18273,9 @@ module.exports = function (list, options) {
 /***/ }),
 
 /***/ "../../../node_modules/tiny-warning/dist/tiny-warning.esm.js":
-/*!***************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
-  \***************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18298,6 +18302,820 @@ function warning(condition, message) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (warning);
+
+/***/ }),
+
+/***/ "../../../node_modules/webfontloader/webfontloader.js":
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/webfontloader/webfontloader.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_RESULT__;/* Web Font Loader v1.6.28 - (c) Adobe Systems, Google. License: Apache 2.0 */
+(function () {
+  function aa(a, b, c) {
+    return a.call.apply(a.bind, arguments);
+  }
+
+  function ba(a, b, c) {
+    if (!a) throw Error();
+
+    if (2 < arguments.length) {
+      var d = Array.prototype.slice.call(arguments, 2);
+      return function () {
+        var c = Array.prototype.slice.call(arguments);
+        Array.prototype.unshift.apply(c, d);
+        return a.apply(b, c);
+      };
+    }
+
+    return function () {
+      return a.apply(b, arguments);
+    };
+  }
+
+  function p(a, b, c) {
+    p = Function.prototype.bind && -1 != Function.prototype.bind.toString().indexOf("native code") ? aa : ba;
+    return p.apply(null, arguments);
+  }
+
+  var q = Date.now || function () {
+    return +new Date();
+  };
+
+  function ca(a, b) {
+    this.a = a;
+    this.o = b || a;
+    this.c = this.o.document;
+  }
+
+  var da = !!window.FontFace;
+
+  function t(a, b, c, d) {
+    b = a.c.createElement(b);
+    if (c) for (var e in c) c.hasOwnProperty(e) && ("style" == e ? b.style.cssText = c[e] : b.setAttribute(e, c[e]));
+    d && b.appendChild(a.c.createTextNode(d));
+    return b;
+  }
+
+  function u(a, b, c) {
+    a = a.c.getElementsByTagName(b)[0];
+    a || (a = document.documentElement);
+    a.insertBefore(c, a.lastChild);
+  }
+
+  function v(a) {
+    a.parentNode && a.parentNode.removeChild(a);
+  }
+
+  function w(a, b, c) {
+    b = b || [];
+    c = c || [];
+
+    for (var d = a.className.split(/\s+/), e = 0; e < b.length; e += 1) {
+      for (var f = !1, g = 0; g < d.length; g += 1) if (b[e] === d[g]) {
+        f = !0;
+        break;
+      }
+
+      f || d.push(b[e]);
+    }
+
+    b = [];
+
+    for (e = 0; e < d.length; e += 1) {
+      f = !1;
+
+      for (g = 0; g < c.length; g += 1) if (d[e] === c[g]) {
+        f = !0;
+        break;
+      }
+
+      f || b.push(d[e]);
+    }
+
+    a.className = b.join(" ").replace(/\s+/g, " ").replace(/^\s+|\s+$/, "");
+  }
+
+  function y(a, b) {
+    for (var c = a.className.split(/\s+/), d = 0, e = c.length; d < e; d++) if (c[d] == b) return !0;
+
+    return !1;
+  }
+
+  function ea(a) {
+    return a.o.location.hostname || a.a.location.hostname;
+  }
+
+  function z(a, b, c) {
+    function d() {
+      m && e && f && (m(g), m = null);
+    }
+
+    b = t(a, "link", {
+      rel: "stylesheet",
+      href: b,
+      media: "all"
+    });
+    var e = !1,
+        f = !0,
+        g = null,
+        m = c || null;
+    da ? (b.onload = function () {
+      e = !0;
+      d();
+    }, b.onerror = function () {
+      e = !0;
+      g = Error("Stylesheet failed to load");
+      d();
+    }) : setTimeout(function () {
+      e = !0;
+      d();
+    }, 0);
+    u(a, "head", b);
+  }
+
+  function A(a, b, c, d) {
+    var e = a.c.getElementsByTagName("head")[0];
+
+    if (e) {
+      var f = t(a, "script", {
+        src: b
+      }),
+          g = !1;
+
+      f.onload = f.onreadystatechange = function () {
+        g || this.readyState && "loaded" != this.readyState && "complete" != this.readyState || (g = !0, c && c(null), f.onload = f.onreadystatechange = null, "HEAD" == f.parentNode.tagName && e.removeChild(f));
+      };
+
+      e.appendChild(f);
+      setTimeout(function () {
+        g || (g = !0, c && c(Error("Script load timeout")));
+      }, d || 5E3);
+      return f;
+    }
+
+    return null;
+  }
+
+  ;
+
+  function B() {
+    this.a = 0;
+    this.c = null;
+  }
+
+  function C(a) {
+    a.a++;
+    return function () {
+      a.a--;
+      D(a);
+    };
+  }
+
+  function E(a, b) {
+    a.c = b;
+    D(a);
+  }
+
+  function D(a) {
+    0 == a.a && a.c && (a.c(), a.c = null);
+  }
+
+  ;
+
+  function F(a) {
+    this.a = a || "-";
+  }
+
+  F.prototype.c = function (a) {
+    for (var b = [], c = 0; c < arguments.length; c++) b.push(arguments[c].replace(/[\W_]+/g, "").toLowerCase());
+
+    return b.join(this.a);
+  };
+
+  function G(a, b) {
+    this.c = a;
+    this.f = 4;
+    this.a = "n";
+    var c = (b || "n4").match(/^([nio])([1-9])$/i);
+    c && (this.a = c[1], this.f = parseInt(c[2], 10));
+  }
+
+  function fa(a) {
+    return H(a) + " " + (a.f + "00") + " 300px " + I(a.c);
+  }
+
+  function I(a) {
+    var b = [];
+    a = a.split(/,\s*/);
+
+    for (var c = 0; c < a.length; c++) {
+      var d = a[c].replace(/['"]/g, "");
+      -1 != d.indexOf(" ") || /^\d/.test(d) ? b.push("'" + d + "'") : b.push(d);
+    }
+
+    return b.join(",");
+  }
+
+  function J(a) {
+    return a.a + a.f;
+  }
+
+  function H(a) {
+    var b = "normal";
+    "o" === a.a ? b = "oblique" : "i" === a.a && (b = "italic");
+    return b;
+  }
+
+  function ga(a) {
+    var b = 4,
+        c = "n",
+        d = null;
+    a && ((d = a.match(/(normal|oblique|italic)/i)) && d[1] && (c = d[1].substr(0, 1).toLowerCase()), (d = a.match(/([1-9]00|normal|bold)/i)) && d[1] && (/bold/i.test(d[1]) ? b = 7 : /[1-9]00/.test(d[1]) && (b = parseInt(d[1].substr(0, 1), 10))));
+    return c + b;
+  }
+
+  ;
+
+  function ha(a, b) {
+    this.c = a;
+    this.f = a.o.document.documentElement;
+    this.h = b;
+    this.a = new F("-");
+    this.j = !1 !== b.events;
+    this.g = !1 !== b.classes;
+  }
+
+  function ia(a) {
+    a.g && w(a.f, [a.a.c("wf", "loading")]);
+    K(a, "loading");
+  }
+
+  function L(a) {
+    if (a.g) {
+      var b = y(a.f, a.a.c("wf", "active")),
+          c = [],
+          d = [a.a.c("wf", "loading")];
+      b || c.push(a.a.c("wf", "inactive"));
+      w(a.f, c, d);
+    }
+
+    K(a, "inactive");
+  }
+
+  function K(a, b, c) {
+    if (a.j && a.h[b]) if (c) a.h[b](c.c, J(c));else a.h[b]();
+  }
+
+  ;
+
+  function ja() {
+    this.c = {};
+  }
+
+  function ka(a, b, c) {
+    var d = [],
+        e;
+
+    for (e in b) if (b.hasOwnProperty(e)) {
+      var f = a.c[e];
+      f && d.push(f(b[e], c));
+    }
+
+    return d;
+  }
+
+  ;
+
+  function M(a, b) {
+    this.c = a;
+    this.f = b;
+    this.a = t(this.c, "span", {
+      "aria-hidden": "true"
+    }, this.f);
+  }
+
+  function N(a) {
+    u(a.c, "body", a.a);
+  }
+
+  function O(a) {
+    return "display:block;position:absolute;top:-9999px;left:-9999px;font-size:300px;width:auto;height:auto;line-height:normal;margin:0;padding:0;font-variant:normal;white-space:nowrap;font-family:" + I(a.c) + ";" + ("font-style:" + H(a) + ";font-weight:" + (a.f + "00") + ";");
+  }
+
+  ;
+
+  function P(a, b, c, d, e, f) {
+    this.g = a;
+    this.j = b;
+    this.a = d;
+    this.c = c;
+    this.f = e || 3E3;
+    this.h = f || void 0;
+  }
+
+  P.prototype.start = function () {
+    var a = this.c.o.document,
+        b = this,
+        c = q(),
+        d = new Promise(function (d, e) {
+      function f() {
+        q() - c >= b.f ? e() : a.fonts.load(fa(b.a), b.h).then(function (a) {
+          1 <= a.length ? d() : setTimeout(f, 25);
+        }, function () {
+          e();
+        });
+      }
+
+      f();
+    }),
+        e = null,
+        f = new Promise(function (a, d) {
+      e = setTimeout(d, b.f);
+    });
+    Promise.race([f, d]).then(function () {
+      e && (clearTimeout(e), e = null);
+      b.g(b.a);
+    }, function () {
+      b.j(b.a);
+    });
+  };
+
+  function Q(a, b, c, d, e, f, g) {
+    this.v = a;
+    this.B = b;
+    this.c = c;
+    this.a = d;
+    this.s = g || "BESbswy";
+    this.f = {};
+    this.w = e || 3E3;
+    this.u = f || null;
+    this.m = this.j = this.h = this.g = null;
+    this.g = new M(this.c, this.s);
+    this.h = new M(this.c, this.s);
+    this.j = new M(this.c, this.s);
+    this.m = new M(this.c, this.s);
+    a = new G(this.a.c + ",serif", J(this.a));
+    a = O(a);
+    this.g.a.style.cssText = a;
+    a = new G(this.a.c + ",sans-serif", J(this.a));
+    a = O(a);
+    this.h.a.style.cssText = a;
+    a = new G("serif", J(this.a));
+    a = O(a);
+    this.j.a.style.cssText = a;
+    a = new G("sans-serif", J(this.a));
+    a = O(a);
+    this.m.a.style.cssText = a;
+    N(this.g);
+    N(this.h);
+    N(this.j);
+    N(this.m);
+  }
+
+  var R = {
+    D: "serif",
+    C: "sans-serif"
+  },
+      S = null;
+
+  function T() {
+    if (null === S) {
+      var a = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent);
+      S = !!a && (536 > parseInt(a[1], 10) || 536 === parseInt(a[1], 10) && 11 >= parseInt(a[2], 10));
+    }
+
+    return S;
+  }
+
+  Q.prototype.start = function () {
+    this.f.serif = this.j.a.offsetWidth;
+    this.f["sans-serif"] = this.m.a.offsetWidth;
+    this.A = q();
+    U(this);
+  };
+
+  function la(a, b, c) {
+    for (var d in R) if (R.hasOwnProperty(d) && b === a.f[R[d]] && c === a.f[R[d]]) return !0;
+
+    return !1;
+  }
+
+  function U(a) {
+    var b = a.g.a.offsetWidth,
+        c = a.h.a.offsetWidth,
+        d;
+    (d = b === a.f.serif && c === a.f["sans-serif"]) || (d = T() && la(a, b, c));
+    d ? q() - a.A >= a.w ? T() && la(a, b, c) && (null === a.u || a.u.hasOwnProperty(a.a.c)) ? V(a, a.v) : V(a, a.B) : ma(a) : V(a, a.v);
+  }
+
+  function ma(a) {
+    setTimeout(p(function () {
+      U(this);
+    }, a), 50);
+  }
+
+  function V(a, b) {
+    setTimeout(p(function () {
+      v(this.g.a);
+      v(this.h.a);
+      v(this.j.a);
+      v(this.m.a);
+      b(this.a);
+    }, a), 0);
+  }
+
+  ;
+
+  function W(a, b, c) {
+    this.c = a;
+    this.a = b;
+    this.f = 0;
+    this.m = this.j = !1;
+    this.s = c;
+  }
+
+  var X = null;
+
+  W.prototype.g = function (a) {
+    var b = this.a;
+    b.g && w(b.f, [b.a.c("wf", a.c, J(a).toString(), "active")], [b.a.c("wf", a.c, J(a).toString(), "loading"), b.a.c("wf", a.c, J(a).toString(), "inactive")]);
+    K(b, "fontactive", a);
+    this.m = !0;
+    na(this);
+  };
+
+  W.prototype.h = function (a) {
+    var b = this.a;
+
+    if (b.g) {
+      var c = y(b.f, b.a.c("wf", a.c, J(a).toString(), "active")),
+          d = [],
+          e = [b.a.c("wf", a.c, J(a).toString(), "loading")];
+      c || d.push(b.a.c("wf", a.c, J(a).toString(), "inactive"));
+      w(b.f, d, e);
+    }
+
+    K(b, "fontinactive", a);
+    na(this);
+  };
+
+  function na(a) {
+    0 == --a.f && a.j && (a.m ? (a = a.a, a.g && w(a.f, [a.a.c("wf", "active")], [a.a.c("wf", "loading"), a.a.c("wf", "inactive")]), K(a, "active")) : L(a.a));
+  }
+
+  ;
+
+  function oa(a) {
+    this.j = a;
+    this.a = new ja();
+    this.h = 0;
+    this.f = this.g = !0;
+  }
+
+  oa.prototype.load = function (a) {
+    this.c = new ca(this.j, a.context || this.j);
+    this.g = !1 !== a.events;
+    this.f = !1 !== a.classes;
+    pa(this, new ha(this.c, a), a);
+  };
+
+  function qa(a, b, c, d, e) {
+    var f = 0 == --a.h;
+    (a.f || a.g) && setTimeout(function () {
+      var a = e || null,
+          m = d || null || {};
+      if (0 === c.length && f) L(b.a);else {
+        b.f += c.length;
+        f && (b.j = f);
+        var h,
+            l = [];
+
+        for (h = 0; h < c.length; h++) {
+          var k = c[h],
+              n = m[k.c],
+              r = b.a,
+              x = k;
+          r.g && w(r.f, [r.a.c("wf", x.c, J(x).toString(), "loading")]);
+          K(r, "fontloading", x);
+          r = null;
+          if (null === X) if (window.FontFace) {
+            var x = /Gecko.*Firefox\/(\d+)/.exec(window.navigator.userAgent),
+                xa = /OS X.*Version\/10\..*Safari/.exec(window.navigator.userAgent) && /Apple/.exec(window.navigator.vendor);
+            X = x ? 42 < parseInt(x[1], 10) : xa ? !1 : !0;
+          } else X = !1;
+          X ? r = new P(p(b.g, b), p(b.h, b), b.c, k, b.s, n) : r = new Q(p(b.g, b), p(b.h, b), b.c, k, b.s, a, n);
+          l.push(r);
+        }
+
+        for (h = 0; h < l.length; h++) l[h].start();
+      }
+    }, 0);
+  }
+
+  function pa(a, b, c) {
+    var d = [],
+        e = c.timeout;
+    ia(b);
+    var d = ka(a.a, c, a.c),
+        f = new W(a.c, b, e);
+    a.h = d.length;
+    b = 0;
+
+    for (c = d.length; b < c; b++) d[b].load(function (b, d, c) {
+      qa(a, f, b, d, c);
+    });
+  }
+
+  ;
+
+  function ra(a, b) {
+    this.c = a;
+    this.a = b;
+  }
+
+  ra.prototype.load = function (a) {
+    function b() {
+      if (f["__mti_fntLst" + d]) {
+        var c = f["__mti_fntLst" + d](),
+            e = [],
+            h;
+        if (c) for (var l = 0; l < c.length; l++) {
+          var k = c[l].fontfamily;
+          void 0 != c[l].fontStyle && void 0 != c[l].fontWeight ? (h = c[l].fontStyle + c[l].fontWeight, e.push(new G(k, h))) : e.push(new G(k));
+        }
+        a(e);
+      } else setTimeout(function () {
+        b();
+      }, 50);
+    }
+
+    var c = this,
+        d = c.a.projectId,
+        e = c.a.version;
+
+    if (d) {
+      var f = c.c.o;
+      A(this.c, (c.a.api || "https://fast.fonts.net/jsapi") + "/" + d + ".js" + (e ? "?v=" + e : ""), function (e) {
+        e ? a([]) : (f["__MonotypeConfiguration__" + d] = function () {
+          return c.a;
+        }, b());
+      }).id = "__MonotypeAPIScript__" + d;
+    } else a([]);
+  };
+
+  function sa(a, b) {
+    this.c = a;
+    this.a = b;
+  }
+
+  sa.prototype.load = function (a) {
+    var b,
+        c,
+        d = this.a.urls || [],
+        e = this.a.families || [],
+        f = this.a.testStrings || {},
+        g = new B();
+    b = 0;
+
+    for (c = d.length; b < c; b++) z(this.c, d[b], C(g));
+
+    var m = [];
+    b = 0;
+
+    for (c = e.length; b < c; b++) if (d = e[b].split(":"), d[1]) for (var h = d[1].split(","), l = 0; l < h.length; l += 1) m.push(new G(d[0], h[l]));else m.push(new G(d[0]));
+
+    E(g, function () {
+      a(m, f);
+    });
+  };
+
+  function ta(a, b) {
+    a ? this.c = a : this.c = ua;
+    this.a = [];
+    this.f = [];
+    this.g = b || "";
+  }
+
+  var ua = "https://fonts.googleapis.com/css";
+
+  function va(a, b) {
+    for (var c = b.length, d = 0; d < c; d++) {
+      var e = b[d].split(":");
+      3 == e.length && a.f.push(e.pop());
+      var f = "";
+      2 == e.length && "" != e[1] && (f = ":");
+      a.a.push(e.join(f));
+    }
+  }
+
+  function wa(a) {
+    if (0 == a.a.length) throw Error("No fonts to load!");
+    if (-1 != a.c.indexOf("kit=")) return a.c;
+
+    for (var b = a.a.length, c = [], d = 0; d < b; d++) c.push(a.a[d].replace(/ /g, "+"));
+
+    b = a.c + "?family=" + c.join("%7C");
+    0 < a.f.length && (b += "&subset=" + a.f.join(","));
+    0 < a.g.length && (b += "&text=" + encodeURIComponent(a.g));
+    return b;
+  }
+
+  ;
+
+  function ya(a) {
+    this.f = a;
+    this.a = [];
+    this.c = {};
+  }
+
+  var za = {
+    latin: "BESbswy",
+    "latin-ext": "\u00e7\u00f6\u00fc\u011f\u015f",
+    cyrillic: "\u0439\u044f\u0416",
+    greek: "\u03b1\u03b2\u03a3",
+    khmer: "\u1780\u1781\u1782",
+    Hanuman: "\u1780\u1781\u1782"
+  },
+      Aa = {
+    thin: "1",
+    extralight: "2",
+    "extra-light": "2",
+    ultralight: "2",
+    "ultra-light": "2",
+    light: "3",
+    regular: "4",
+    book: "4",
+    medium: "5",
+    "semi-bold": "6",
+    semibold: "6",
+    "demi-bold": "6",
+    demibold: "6",
+    bold: "7",
+    "extra-bold": "8",
+    extrabold: "8",
+    "ultra-bold": "8",
+    ultrabold: "8",
+    black: "9",
+    heavy: "9",
+    l: "3",
+    r: "4",
+    b: "7"
+  },
+      Ba = {
+    i: "i",
+    italic: "i",
+    n: "n",
+    normal: "n"
+  },
+      Ca = /^(thin|(?:(?:extra|ultra)-?)?light|regular|book|medium|(?:(?:semi|demi|extra|ultra)-?)?bold|black|heavy|l|r|b|[1-9]00)?(n|i|normal|italic)?$/;
+
+  function Da(a) {
+    for (var b = a.f.length, c = 0; c < b; c++) {
+      var d = a.f[c].split(":"),
+          e = d[0].replace(/\+/g, " "),
+          f = ["n4"];
+
+      if (2 <= d.length) {
+        var g;
+        var m = d[1];
+        g = [];
+        if (m) for (var m = m.split(","), h = m.length, l = 0; l < h; l++) {
+          var k;
+          k = m[l];
+
+          if (k.match(/^[\w-]+$/)) {
+            var n = Ca.exec(k.toLowerCase());
+            if (null == n) k = "";else {
+              k = n[2];
+              k = null == k || "" == k ? "n" : Ba[k];
+              n = n[1];
+              if (null == n || "" == n) n = "4";else var r = Aa[n],
+                  n = r ? r : isNaN(n) ? "4" : n.substr(0, 1);
+              k = [k, n].join("");
+            }
+          } else k = "";
+
+          k && g.push(k);
+        }
+        0 < g.length && (f = g);
+        3 == d.length && (d = d[2], g = [], d = d ? d.split(",") : g, 0 < d.length && (d = za[d[0]]) && (a.c[e] = d));
+      }
+
+      a.c[e] || (d = za[e]) && (a.c[e] = d);
+
+      for (d = 0; d < f.length; d += 1) a.a.push(new G(e, f[d]));
+    }
+  }
+
+  ;
+
+  function Ea(a, b) {
+    this.c = a;
+    this.a = b;
+  }
+
+  var Fa = {
+    Arimo: !0,
+    Cousine: !0,
+    Tinos: !0
+  };
+
+  Ea.prototype.load = function (a) {
+    var b = new B(),
+        c = this.c,
+        d = new ta(this.a.api, this.a.text),
+        e = this.a.families;
+    va(d, e);
+    var f = new ya(e);
+    Da(f);
+    z(c, wa(d), C(b));
+    E(b, function () {
+      a(f.a, f.c, Fa);
+    });
+  };
+
+  function Ga(a, b) {
+    this.c = a;
+    this.a = b;
+  }
+
+  Ga.prototype.load = function (a) {
+    var b = this.a.id,
+        c = this.c.o;
+    b ? A(this.c, (this.a.api || "https://use.typekit.net") + "/" + b + ".js", function (b) {
+      if (b) a([]);else if (c.Typekit && c.Typekit.config && c.Typekit.config.fn) {
+        b = c.Typekit.config.fn;
+
+        for (var e = [], f = 0; f < b.length; f += 2) for (var g = b[f], m = b[f + 1], h = 0; h < m.length; h++) e.push(new G(g, m[h]));
+
+        try {
+          c.Typekit.load({
+            events: !1,
+            classes: !1,
+            async: !0
+          });
+        } catch (l) {}
+
+        a(e);
+      }
+    }, 2E3) : a([]);
+  };
+
+  function Ha(a, b) {
+    this.c = a;
+    this.f = b;
+    this.a = [];
+  }
+
+  Ha.prototype.load = function (a) {
+    var b = this.f.id,
+        c = this.c.o,
+        d = this;
+    b ? (c.__webfontfontdeckmodule__ || (c.__webfontfontdeckmodule__ = {}), c.__webfontfontdeckmodule__[b] = function (b, c) {
+      for (var g = 0, m = c.fonts.length; g < m; ++g) {
+        var h = c.fonts[g];
+        d.a.push(new G(h.name, ga("font-weight:" + h.weight + ";font-style:" + h.style)));
+      }
+
+      a(d.a);
+    }, A(this.c, (this.f.api || "https://f.fontdeck.com/s/css/js/") + ea(this.c) + "/" + b + ".js", function (b) {
+      b && a([]);
+    })) : a([]);
+  };
+
+  var Y = new oa(window);
+
+  Y.a.c.custom = function (a, b) {
+    return new sa(b, a);
+  };
+
+  Y.a.c.fontdeck = function (a, b) {
+    return new Ha(b, a);
+  };
+
+  Y.a.c.monotype = function (a, b) {
+    return new ra(b, a);
+  };
+
+  Y.a.c.typekit = function (a, b) {
+    return new Ga(b, a);
+  };
+
+  Y.a.c.google = function (a, b) {
+    return new Ea(b, a);
+  };
+
+  var Z = {
+    load: p(Y.load, Y)
+  };
+   true ? !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+    return Z;
+  }).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : undefined;
+})();
 
 /***/ }),
 
@@ -18379,8 +19197,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/main.sass */ "./styles/main.sass");
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_FormRegistration__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/FormRegistration */ "./components/FormRegistration.js");
-/* harmony import */ var _components_FormLogin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/FormLogin */ "./components/FormLogin.js");
+/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! webfontloader */ "../../../node_modules/webfontloader/webfontloader.js");
+/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(webfontloader__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_FormRegistration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/FormRegistration */ "./components/FormRegistration.js");
+/* harmony import */ var _components_FormLogin__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/FormLogin */ "./components/FormLogin.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -18406,6 +19226,12 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
+webfontloader__WEBPACK_IMPORTED_MODULE_3___default.a.load({
+  google: {
+    families: ['Montserrat', 'Open-Sans']
+  }
+});
 
 
 
@@ -18441,7 +19267,7 @@ var App = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authField
-      }, this.state.toggleField ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormRegistration__WEBPACK_IMPORTED_MODULE_3__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormLogin__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, this.state.toggleField ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormRegistration__WEBPACK_IMPORTED_MODULE_4__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormLogin__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authField__toggleFieldInterface
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authField__toggleBtn,
@@ -18457,10 +19283,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./components/FormLogin.js":
-/*!*********************************!*\
-  !*** ./components/FormLogin.js ***!
-  \*********************************/
+/***/ "./components/ErrorMessage.js":
+/*!************************************!*\
+  !*** ./components/ErrorMessage.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18468,11 +19294,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! formik */ "../../../node_modules/formik/dist/formik.esm.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -18494,6 +19319,77 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+var ErrorMessage = /*#__PURE__*/function (_React$Component) {
+  _inherits(ErrorMessage, _React$Component);
+
+  var _super = _createSuper(ErrorMessage);
+
+  function ErrorMessage() {
+    _classCallCheck(this, ErrorMessage);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(ErrorMessage, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.errorMessage
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, this.props.text));
+    }
+  }]);
+
+  return ErrorMessage;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (ErrorMessage);
+
+/***/ }),
+
+/***/ "./components/FormLogin.js":
+/*!*********************************!*\
+  !*** ./components/FormLogin.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! formik */ "../../../node_modules/formik/dist/formik.esm.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ErrorMessage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ErrorMessage */ "./components/ErrorMessage.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -18577,23 +19473,33 @@ var FormLogin = /*#__PURE__*/function (_React$Component) {
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.text,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.username && touched.username && errors.username, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Username"
+        }), errors.username && touched.username ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.username
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "email",
           name: "email",
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.email,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.email && touched.email && errors.email, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Email"
+        }), errors.email && touched.email ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.email
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "password",
           name: "password",
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.password,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.password && touched.password && errors.password, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-          type: "submit"
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Password"
+        }), errors.password && touched.password ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.password
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+          type: "submit",
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__btn
         }, "Sign in"));
       });
     }
@@ -18622,6 +19528,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! formik */ "../../../node_modules/formik/dist/formik.esm.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ErrorMessage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ErrorMessage */ "./components/ErrorMessage.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -18643,6 +19550,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -18685,14 +19593,12 @@ var FormRegistration = /*#__PURE__*/function (_React$Component) {
             errors.email = 'Почта неверна';
           }
 
-          if (!values.password1 || !values.password2) {
+          if (!values.password1) {
             errors.password = 'Нет пароля';
           } else if (values.password1 !== values.password2) {
             errors.password1 = 'Пароли не совпадают';
           } else if (values.password1.length < 8) {
             errors.password1 = 'Пароль слишком короткий';
-          } else if (!/[0-9]{3}/g.test(values.password1)) {
-            errors.password1 = 'Пароль должен содержать как минимум три разных цифры';
           } else if (/(.)\1\1/g.test(values.password1)) {
             errors.password1 = 'В пароле не должно быть знаков которые повторяются 3 раза';
           }
@@ -18735,30 +19641,41 @@ var FormRegistration = /*#__PURE__*/function (_React$Component) {
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.text,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.username && touched.username && errors.username, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Username"
+        }), errors.username && touched.username ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.username
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "email",
           name: "email",
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.email,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.email && touched.email && errors.email, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Email"
+        }), errors.email && touched.email ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.email
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "password",
           name: "password1",
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.password,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Password"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           type: "password",
           name: "password2",
           onChange: handleChange,
           onBlur: handleBlur,
           value: values.allowPassword,
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input
-        }), errors.password1 && touched.password1 && errors.password1, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-          type: "submit"
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__input,
+          placeholder: "Allow Passord"
+        }), errors.password1 && touched.password1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ErrorMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: errors.password1
+        }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+          type: "submit",
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authField__btn
         }, "Sign up"));
       });
     }

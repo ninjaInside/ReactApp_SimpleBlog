@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../../node_modules/axios/index.js":
-/*!****************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/index.js ***!
-  \****************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/index.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98,9 +98,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ "../../../node_modules/a
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/adapters/xhr.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/adapters/xhr.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/adapters/xhr.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -286,9 +286,9 @@ module.exports = function xhrAdapter(config) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/axios.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/axios.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/axios.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -348,9 +348,9 @@ module.exports.default = axios;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/Cancel.js":
-/*!****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/Cancel.js ***!
-  \****************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/Cancel.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -377,9 +377,9 @@ module.exports = Cancel;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/CancelToken.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/CancelToken.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -447,9 +447,9 @@ module.exports = CancelToken;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/cancel/isCancel.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/isCancel.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/cancel/isCancel.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -463,9 +463,9 @@ module.exports = function isCancel(value) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/Axios.js":
-/*!*************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/Axios.js ***!
-  \*************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/Axios.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -569,9 +569,9 @@ module.exports = Axios;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/InterceptorManager.js":
-/*!**************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/InterceptorManager.js ***!
-  \**************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -635,9 +635,9 @@ module.exports = InterceptorManager;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/buildFullPath.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/buildFullPath.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/buildFullPath.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -669,9 +669,9 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/createError.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/createError.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/createError.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -699,9 +699,9 @@ module.exports = function createError(message, config, code, request, response) 
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/dispatchRequest.js":
-/*!***********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/dispatchRequest.js ***!
-  \***********************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -766,9 +766,9 @@ module.exports = function dispatchRequest(config) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/enhanceError.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/enhanceError.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/enhanceError.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -821,9 +821,9 @@ module.exports = function enhanceError(error, config, code, request, response) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/mergeConfig.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/mergeConfig.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/mergeConfig.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -888,9 +888,9 @@ module.exports = function mergeConfig(config1, config2) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/settle.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/settle.js ***!
-  \**************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/settle.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -920,9 +920,9 @@ module.exports = function settle(resolve, reject, response) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/core/transformData.js":
-/*!*********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/core/transformData.js ***!
-  \*********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/core/transformData.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -951,9 +951,9 @@ module.exports = function transformData(data, headers, fns) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/defaults.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/defaults.js ***!
-  \***********************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/defaults.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1056,9 +1056,9 @@ module.exports = defaults;
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/bind.js":
-/*!***************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/bind.js ***!
-  \***************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/bind.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1080,9 +1080,9 @@ module.exports = function bind(fn, thisArg) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/buildURL.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/buildURL.js ***!
-  \*******************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/buildURL.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1157,9 +1157,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/combineURLs.js":
-/*!**********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/combineURLs.js ***!
-  \**********************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1180,9 +1180,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/cookies.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/cookies.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/cookies.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1238,9 +1238,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/isAbsoluteURL.js":
-/*!************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1263,9 +1263,9 @@ module.exports = function isAbsoluteURL(url) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/isURLSameOrigin.js":
-/*!**************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \**************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1332,9 +1332,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/normalizeHeaderName.js":
-/*!******************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \******************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1355,9 +1355,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/parseHeaders.js":
-/*!***********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \***********************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1416,9 +1416,9 @@ module.exports = function parseHeaders(headers) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/helpers/spread.js":
-/*!*****************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/spread.js ***!
-  \*****************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/helpers/spread.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1454,9 +1454,9 @@ module.exports = function spread(callback) {
 /***/ }),
 
 /***/ "../../../node_modules/axios/lib/utils.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/axios/lib/utils.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/axios/lib/utils.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1833,9 +1833,9 @@ module.exports = {
 /***/ }),
 
 /***/ "../../../node_modules/css-loader/dist/cjs.js?!../../../node_modules/postcss-loader/src/index.js?!../../../node_modules/sass-loader/dist/cjs.js!./styles/main.sass":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/css-loader/dist/cjs.js??ref--5-1!C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/postcss-loader/src??ref--5-2!C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/sass-loader/dist/cjs.js!./styles/main.sass ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/css-loader/dist/cjs.js??ref--5-1!/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/postcss-loader/src??ref--5-2!/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/sass-loader/dist/cjs.js!./styles/main.sass ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1843,18 +1843,22 @@ module.exports = {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "../../../node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center; }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 100%;\n    max-width: 415px;\n    padding: 15px;\n    margin-bottom: 25px; }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 10px; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto;\n    background-color: #fff; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .1rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\default\\default.sass","C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\modules\\modules.sass","C:\\Users\\ДНС\\Desktop\\ReactApp_SimpleBlog/src\\assets\\app\\styles\\modification\\modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center; }\n\n\t&__btn {} }\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 100%;\n\t\tmax-width: 415px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px; }\n\n\t&__input {\n\t\tmargin-bottom: 10px; } }\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: $whiteC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .1rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #09294a; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer;\n    underline: none; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $mainC;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer;\n\t\tunderline: none; } }\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: {}\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
 // Exports
 exports.locals = {
 	"header": "_2BWgge0yt73bmhFIgv08dv",
 	"header__logo": "Ccp3zPbiESAawvlJYihms",
 	"main": "_3Z1i1AqKHMKSiTgHdf2Uoa",
 	"wrraper": "_1dIAROcXWgdrUwoZdOARUV",
+	"errorMessage": "_18sEA6hRtdtR9PeXckJGAs",
 	"warningMessage": "_23CTfpc3xrc9dAw2JLCC6-",
 	"warningMessage__title": "_3Xfm3Vi8zzJDbYFN8f797x",
+	"warningMessage__btn": "_2V7ROz81_AYSck_z4udl00",
 	"authField": "_2A7BXLNkvnrMz4mfvxxO58",
 	"authField__form": "ppliOgpYJdZZceueEaFW5",
 	"authField__input": "_1HnKGi-uwoe-bUSse2RimT",
+	"authField__btn": "_1MoRAIyFkfpr6SXRaBTsnE",
+	"authField__toggleBtn": "_2WZl7K_t-RdpsLlikEjTl8",
 	"blogItem": "FT_Go-5nfbPtBpdNnY9g8",
 	"blogItem__btn": "_33sOpbce9UbX2_KSc-KuMO",
 	"blogItem__text": "ZChupKaClrJwJhDNzNUwQ",
@@ -1880,9 +1884,9 @@ module.exports = exports;
 /***/ }),
 
 /***/ "../../../node_modules/css-loader/dist/runtime/api.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/css-loader/dist/runtime/api.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/css-loader/dist/runtime/api.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1985,9 +1989,9 @@ function toComment(sourceMap) {
 /***/ }),
 
 /***/ "../../../node_modules/object-assign/index.js":
-/*!************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/object-assign/index.js ***!
-  \************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/object-assign/index.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2091,9 +2095,9 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /***/ }),
 
 /***/ "../../../node_modules/process/browser.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/process/browser.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/process/browser.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2309,9 +2313,9 @@ process.umask = function () {
 /***/ }),
 
 /***/ "../../../node_modules/prop-types/checkPropTypes.js":
-/*!******************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/prop-types/checkPropTypes.js ***!
-  \******************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/prop-types/checkPropTypes.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2415,9 +2419,9 @@ module.exports = checkPropTypes;
 /***/ }),
 
 /***/ "../../../node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2436,9 +2440,9 @@ module.exports = ReactPropTypesSecret;
 /***/ }),
 
 /***/ "../../../node_modules/react-dom/cjs/react-dom.development.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-dom/cjs/react-dom.development.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-dom/cjs/react-dom.development.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6582,9 +6586,9 @@ console.info('%cDownload the React DevTools '+'for a better development experien
 /***/ }),
 
 /***/ "../../../node_modules/react-dom/index.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react-dom/index.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react-dom/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6625,9 +6629,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/react/cjs/react.development.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react/cjs/react.development.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react/cjs/react.development.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8512,9 +8516,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/react/index.js":
-/*!****************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/react/index.js ***!
-  \****************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/react/index.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8528,9 +8532,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/cjs/scheduler-tracing.development.js":
-/*!************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
-  \************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8886,9 +8890,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/cjs/scheduler.development.js":
-/*!****************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler.development.js ***!
-  \****************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/cjs/scheduler.development.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9751,9 +9755,9 @@ if (true) {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/index.js":
-/*!********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/index.js ***!
-  \********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9767,9 +9771,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/scheduler/tracing.js":
-/*!**********************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/scheduler/tracing.js ***!
-  \**********************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/scheduler/tracing.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9783,9 +9787,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \*******************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10063,9 +10067,9 @@ module.exports = function (list, options) {
 /***/ }),
 
 /***/ "../../../node_modules/webfontloader/webfontloader.js":
-/*!********************************************************************************************!*\
-  !*** C:/Users/ДНС/Desktop/ReactApp_SimpleBlog/node_modules/webfontloader/webfontloader.js ***!
-  \********************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/node_modules/webfontloader/webfontloader.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11078,8 +11082,8 @@ var App = /*#__PURE__*/function (_React$Component) {
 
       if (!this.state.contentVisible) {
         content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WarningMessage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          text: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430 \u0443\u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F",
-          textButton: "\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C",
+          text: "\n\t\t\t\t\t\t\u041D\u0443, \u0442\u044B \u043A\u0430\u043A \u0431\u044B \u043D\u0435 \u0437\u0430\u0440\u0435\u0433\u0430\u043D. \u041F\u0440\u043E\u0448\u0443 \u0442\u0435\u0431\u044F \u0437\u0430\u0440\u0435\u0433\u0430\u0442\u044C\u0441\u044F, \u0438\u0431\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0430\u043A \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043F\u043E\u0441\u0442\u044B,\n\t\t\t\t\t\t\u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0436\u0430\u0442\u044C \u043B\u0435\u0432\u0443\u044E \u0432\u0435\u0440\u0445\u043D\u044E\u044E \u043A\u043D\u043E\u043F\u043E\u0447\u043A\u0443, \u043D\u043E \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0437 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 :)",
+          textButton: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C",
           toggleContent: this.handleShowContent
         });
       } else {
@@ -11095,7 +11099,9 @@ var App = /*#__PURE__*/function (_React$Component) {
               return _this5.handleShowPost(i.id);
             }
           });
-        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041D\u0430 \u0434\u0430\u043D\u043D\u044B\u0439 \u043C\u043E\u043C\u0435\u043D\u0442 \u043F\u043E\u0441\u0442\u043E\u0432 \u043D\u0435\u0442")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WarningMessage__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          text: 'Извините, но я ничего не откопал'
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.appField__tagList
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TagItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
           text: "all",
@@ -11553,10 +11559,10 @@ var WarningMessage = /*#__PURE__*/function (_React$Component) {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage__title
-      }, this.props.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }, this.props.text), this.props.toggleContent ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: this.props.toggleContent,
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage__btn
-      }, this.props.textButton));
+      }, this.props.textButton) : '');
     }
   }]);
 

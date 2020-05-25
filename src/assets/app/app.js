@@ -140,8 +140,10 @@ class App extends React.Component {
 		if (!this.state.contentVisible) {
 
 			content = <WarningMessage 
-						text='Пожалуйста убейте меня' 
-						textButton='продолжить' 
+						text={`
+						Ну, ты как бы не зареган. Прошу тебя зарегаться, ибо только так ты сможешь создавать посты,
+						для этого ты можешь нажать левую верхнюю кнопочку, но ты можешь и продолжить без регистрации :)`} 
+						textButton='Продолжить' 
 						toggleContent={this.handleShowContent}
 						/>
 
@@ -154,7 +156,7 @@ class App extends React.Component {
 							return <PostItem title={i.title} text={
 								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
 							} tag={i.tag} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
-						}) : <span>На данный момент постов нет</span>}
+						}) : <WarningMessage text={'Извините, но я ничего не откопал'} />}
 					</div>
 
 					<div className={styles.appField__tagList}>

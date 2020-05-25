@@ -3,6 +3,8 @@ import styles from '../styles/main.sass'
 import {Formik} from 'formik'
 import axios from 'axios'
 
+import ErrorMessage from './ErrorMessage'
+
 class FormRegistration extends React.Component {
 	render() {
 		return (<Formik
@@ -96,10 +98,7 @@ class FormRegistration extends React.Component {
 								className={styles.authField__input}
 								placeholder='Username'
 							/>
-							{errors.username && touched.username ? 
-								<ul className={styles.errorMessage}>
-									<li>{errors.username}</li>
-								</ul> : ''}
+							{errors.username && touched.username ? <ErrorMessage text={errors.username} /> : ''}
 							<input
 								type='email'
 								name='email'
@@ -109,10 +108,7 @@ class FormRegistration extends React.Component {
 								className={styles.authField__input}
 								placeholder='Email'
 							/>
-							{errors.email && touched.email ? 
-								<ul className={styles.errorMessage}>
-									<li>{errors.email}</li>
-								</ul> : ''}
+							{errors.email && touched.email ? <ErrorMessage text={errors.email} /> : ''}
 							<input
 								type='password'
 								name='password1'
@@ -131,10 +127,7 @@ class FormRegistration extends React.Component {
 								className={styles.authField__input}
 								placeholder='Allow Passord'
 							/>
-							{errors.password1 && touched.password1 ? 
-								<ul className={styles.errorMessage}>
-									<li>{errors.password1}</li>
-								</ul> : ''}
+							{errors.password1 && touched.password1 ? <ErrorMessage text={errors.password1} /> : ''}
 							<button
 								type='submit'
 								className={styles.authField__btn}

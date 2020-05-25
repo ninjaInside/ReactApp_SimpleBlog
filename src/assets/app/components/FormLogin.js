@@ -3,6 +3,8 @@ import styles from '../styles/main.sass'
 import {Formik} from 'formik'
 import axios from 'axios'
 
+import ErrorMessage from './ErrorMessage'
+
 class FormLogin extends React.Component {
 	render() {
 		return (<Formik
@@ -80,8 +82,9 @@ class FormLogin extends React.Component {
 					            onBlur={handleBlur}
 					            value={values.text}
 					            className={styles.authField__input}
+					            placeholder='Username'
 							/>
-							{errors.username && touched.username && errors.username}
+							{errors.username && touched.username ? <ErrorMessage text={errors.username} /> : ''}
 							<input
 								type='email'
 								name='email'
@@ -89,8 +92,9 @@ class FormLogin extends React.Component {
 								onBlur={handleBlur}
 								value={values.email}
 								className={styles.authField__input}
+								placeholder='Email'
 							/>
-							{errors.email && touched.email && errors.email}
+							{errors.email && touched.email ? <ErrorMessage text={errors.email} /> : ''}
 							<input
 								type='password'
 								name='password'
@@ -98,10 +102,12 @@ class FormLogin extends React.Component {
 								onBlur={handleBlur}
 								value={values.password}
 								className={styles.authField__input}
+								placeholder='Password'
 							/>
-							{errors.password && touched.password && errors.password}
+							{errors.password && touched.password ? <ErrorMessage text={errors.password} /> : ''}
 							<button
 								type='submit'
+								className={styles.authField__btn}
 							>Sign in</button>
 						</form>	
 					)}
