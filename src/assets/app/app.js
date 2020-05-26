@@ -80,7 +80,6 @@ class App extends React.Component {
 	}
 
 	handleShowPost(postId) {
-		console.log(postId)
 		this.setState(state => {
 			return {
 				fieldPostItem: state.postList[postId]
@@ -178,8 +177,6 @@ class App extends React.Component {
 			)
 
 		}
-
-		console.log(this.state.fieldAdd)
 
 		if (this.state.fieldPostItem) {
 

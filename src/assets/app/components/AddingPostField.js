@@ -9,7 +9,7 @@ class AddingPostField extends React.Component {
 		super(props)
 
 		this.state = {
-			valueTag: ''
+			valueTag: '',
 			modificateField: null
 		}
 
@@ -34,17 +34,15 @@ class AddingPostField extends React.Component {
 		let render
 
 		if (!this.state.modificateField) {
-			render = {
-				<form>
+			render = <form>
 						<input type="text" placeholder="Title" className={styles.addingPostField__title} />
 						<input type="text" placeholder="Tag" className={styles.addingPostField__tag} />
 						<textarea placeholder="Text" className={styles.addingPostField__text}></textarea>
 						<button className={styles.addingPostField__createBtn}>Create</button>
-				</form>
-			}
+					</form>
+		} else {
+			render = <ModificationPosts />
 		}
-
-		render = <ModificationPosts />
 
 		return (
 			<div className={styles.addingPostField}>
@@ -56,7 +54,9 @@ class AddingPostField extends React.Component {
 						className={styles.addingPostField__modificateBtn}
 						onClick={() => {
 							this.setState((state) => {
-								modificateField: !modificateField
+								return {
+									modificateField: !state.modificateField
+								}
 							})
 						}}>Modification my posts</button>				
 				</div>

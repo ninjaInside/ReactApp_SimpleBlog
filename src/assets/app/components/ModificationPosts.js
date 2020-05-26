@@ -2,7 +2,8 @@ import React from 'react';
 import styles from '../styles/main.sass'
 import axios from 'axios'
 
-import ModificationPosts from './ModificationPosts'
+import PostItem from './PostItem'
+import WarningMessage from './WarningMessage'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
@@ -26,11 +27,15 @@ class ModificationPosts extends React.Component {
 
 	}
 
+	handleAddPost() {
+
+	}
+
 	render() {
 		let render
 
 		if (!this.state.currentPost) {
-			render = <div className={styles.appField__postList}>
+			render = <div className={`${styles.appField__postList} ${styles.h100}`}>
 						{this.state.postList instanceof Array ? this.state.postList.map((i) => {
 							return <PostItem title={i.title} text={
 								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
@@ -40,7 +45,7 @@ class ModificationPosts extends React.Component {
 		}
 
 		return (
-			{render}
+			render
 		)
 	}
 }
