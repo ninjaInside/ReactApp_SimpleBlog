@@ -16,6 +16,89 @@
 	color: $warningColor
 	word-break: break-all
 
+.addingPostField
+	@include flex(column, center, center) 
+	width: 100%
+	max-width: 1215px
+	padding: 15px
+	height: 100%
+	position: relative
+
+	& > form 
+		@include flex(column, center, center) 
+		width: inherit
+		height: inherit
+
+	& > form > *
+		margin-bottom: 20px
+		transition: .3s linear
+
+		&:focus
+			background-color: rgba($addC, .2)
+
+		@media screen and (max-width: 464px) 
+			&
+				width: 100%
+
+	*:last-child
+		margin: 0
+
+	&__text 
+		height: 100%
+		width: 100%
+		max-width: 450px
+		border: 2px solid $addC
+		background-color: transparent
+		padding: 5px
+		color: $whiteC
+		resize: none
+
+	&__title, &__tag 
+		padding: 5px
+		background-color: transparent 
+		border: 0
+		border-bottom: 2px solid $addC 
+		font-size: 1rem
+		color: $whiteC
+
+	&__btns 
+		@include flex(column, center, flex-start)
+		position: absolute
+		top: 15px 
+		left: 15px
+
+		& > * 
+			margin-bottom: 5px
+
+			&:last-child
+				margin: 0
+
+	&__closeBtn, &__modificateBtn, &__createBtn
+		padding: 10px 15px
+		background-color: $addC
+		border: 0
+		color: $whiteC
+		cursor: pointer
+
+		&:active
+			background-color: rgba($addC, .5)
+	
+	@media screen and (max-width: 664px)
+		& 
+			&__btns
+				position: static
+				width: 100%
+				align-items: center
+				margin-bottom: 30px
+
+	@media screen and (max-width: 464px)
+		& 
+			&__btns
+
+				& > * 
+					width: 100%
+
+
 .warningMessage
 	@include flex(column, center, center)
 	width: 100%
@@ -36,7 +119,6 @@
 		border: 0
 		color: $whiteC
 		cursor: pointer
-		underline: none
 
 		&:active
 			background-color: rgba($addC, .5)
@@ -81,7 +163,6 @@
 		border: 0
 		color: $whiteC
 		cursor: pointer
-		underline: none
 
 		&:active
 			background-color: rgba($addC, .5)
@@ -93,7 +174,7 @@
 		background-color: transparent
 		padding: 8px
 		cursor: pointer
-		underline: none
+
 
 .blogItem 
 	@include flex(column, flex-start, flex-start)
@@ -207,7 +288,7 @@
 		width: 54px
 		height: 54px
 
-		& > a
+		& > a, button
 			display: table-cell 
 			vertical-align: middle
 			text-align: center

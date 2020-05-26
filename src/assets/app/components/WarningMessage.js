@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styles from '../styles/main.sass'
 
 class WarningMessage extends React.Component {

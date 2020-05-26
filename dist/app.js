@@ -1843,7 +1843,7 @@ module.exports = {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "../../../node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #09294a; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer;\n    underline: none; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer;\n    underline: none; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $mainC;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\t\tunderline: none;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer;\n\t\tunderline: none; } }\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: {}\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._3AGX28uocB_PGnpfr5ixhy {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  max-width: 1215px;\n  padding: 15px;\n  height: 100%;\n  position: relative; }\n  ._3AGX28uocB_PGnpfr5ixhy > form {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: inherit;\n    height: inherit; }\n  ._3AGX28uocB_PGnpfr5ixhy > form > * {\n    margin-bottom: 20px;\n    -webkit-transition: .3s linear;\n    -o-transition: .3s linear;\n    transition: .3s linear; }\n    ._3AGX28uocB_PGnpfr5ixhy > form > *:focus {\n      background-color: rgba(0, 135, 189, 0.2); }\n    @media screen and (max-width: 464px) {\n      ._3AGX28uocB_PGnpfr5ixhy > form > * {\n        width: 100%; } }\n  ._3AGX28uocB_PGnpfr5ixhy *:last-child {\n    margin: 0; }\n  .CGPT3WIjEDkvnaNv-K3Fm {\n    height: 100%;\n    width: 100%;\n    max-width: 450px;\n    border: 2px solid #0087bd;\n    background-color: transparent;\n    padding: 5px;\n    color: #fff;\n    resize: none; }\n  ._3506JMEIlnwlW-kojSTpli, .-Pk7U_-vZxhrSx9Dcu9ZI {\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff; }\n  ._2TbFmf5ehTO9y7IJfjoXEn {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    position: absolute;\n    top: 15px;\n    left: 15px; }\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      margin-bottom: 5px; }\n      ._2TbFmf5ehTO9y7IJfjoXEn > *:last-child {\n        margin: 0; }\n  ._14VQy2FjGhgw8YOd3KYxqP, .iCiG4BH576oMcDsau-YWx, ._11jPRx7tfPO9Rt5pvHcXLG {\n    padding: 10px 15px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._14VQy2FjGhgw8YOd3KYxqP:active, .iCiG4BH576oMcDsau-YWx:active, ._11jPRx7tfPO9Rt5pvHcXLG:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  @media screen and (max-width: 664px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn {\n      position: static;\n      width: 100%;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-bottom: 30px; } }\n  @media screen and (max-width: 464px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      width: 100%; } }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #09294a; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a, ._2z1LH2XcHbOI-xDM_7G1BO button {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n.addingPostField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 15px;\n\theight: 100%;\n\tposition: relative;\n\n\t& > form {\n\t\t@include flex(column, center, center);\n\t\twidth: inherit;\n\t\theight: inherit; }\n\n\t& > form > * {\n\t\tmargin-bottom: 20px;\n\t\ttransition: .3s linear;\n\n\t\t&:focus {\n\t\t\tbackground-color: rgba($addC, .2); }\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t*:last-child {\n\t\tmargin: 0; }\n\n\t&__text {\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\tmax-width: 450px;\n\t\tborder: 2px solid $addC;\n\t\tbackground-color: transparent;\n\t\tpadding: 5px;\n\t\tcolor: $whiteC;\n\t\tresize: none; }\n\n\t&__title, &__tag {\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC; }\n\n\t&__btns {\n\t\t@include flex(column, center, flex-start);\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tleft: 15px;\n\n\t\t& > * {\n\t\t\tmargin-bottom: 5px;\n\n\t\t\t&:last-child {\n\t\t\t\tmargin: 0; } } }\n\n\t&__closeBtn, &__modificateBtn, &__createBtn {\n\t\tpadding: 10px 15px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t@media screen and (max-width: 664px) {\n\t\t& {\n\t\t\t&__btns {\n\t\t\t\tposition: static;\n\t\t\t\twidth: 100%;\n\t\t\t\talign-items: center;\n\t\t\t\tmargin-bottom: 30px; } } }\n\n\t@media screen and (max-width: 464px) {\n\t\t& {\n\t\t\t&__btns {\n\n\t\t\t\t& > * {\n\t\t\t\t\twidth: 100%; } } } } }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $mainC;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer; } }\n\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: {}\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a, button {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n"]}]);
 // Exports
 exports.locals = {
 	"header": "_2BWgge0yt73bmhFIgv08dv",
@@ -1851,6 +1851,14 @@ exports.locals = {
 	"main": "_3Z1i1AqKHMKSiTgHdf2Uoa",
 	"wrraper": "_1dIAROcXWgdrUwoZdOARUV",
 	"errorMessage": "_18sEA6hRtdtR9PeXckJGAs",
+	"addingPostField": "_3AGX28uocB_PGnpfr5ixhy",
+	"addingPostField__text": "CGPT3WIjEDkvnaNv-K3Fm",
+	"addingPostField__title": "_3506JMEIlnwlW-kojSTpli",
+	"addingPostField__tag": "-Pk7U_-vZxhrSx9Dcu9ZI",
+	"addingPostField__btns": "_2TbFmf5ehTO9y7IJfjoXEn",
+	"addingPostField__closeBtn": "_14VQy2FjGhgw8YOd3KYxqP",
+	"addingPostField__modificateBtn": "iCiG4BH576oMcDsau-YWx",
+	"addingPostField__createBtn": "_11jPRx7tfPO9Rt5pvHcXLG",
 	"warningMessage": "_23CTfpc3xrc9dAw2JLCC6-",
 	"warningMessage__title": "_3Xfm3Vi8zzJDbYFN8f797x",
 	"warningMessage__btn": "_2V7ROz81_AYSck_z4udl00",
@@ -10904,6 +10912,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_PostItem__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/PostItem */ "./components/PostItem.js");
 /* harmony import */ var _components_TagItem__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/TagItem */ "./components/TagItem.js");
 /* harmony import */ var _components_BlogItem__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/BlogItem */ "./components/BlogItem.js");
+/* harmony import */ var _components_AddingPostField__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/AddingPostField */ "./components/AddingPostField.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -10942,6 +10951,7 @@ webfontloader__WEBPACK_IMPORTED_MODULE_4___default.a.load({
 
 
 
+
 var App = /*#__PURE__*/function (_React$Component) {
   _inherits(App, _React$Component);
 
@@ -10960,6 +10970,7 @@ var App = /*#__PURE__*/function (_React$Component) {
     _this.handleToggleTag = _this.handleToggleTag.bind(_assertThisInitialized(_this));
     _this.handleGetPosts = _this.handleGetPosts.bind(_assertThisInitialized(_this));
     _this.handleGetTags = _this.handleGetTags.bind(_assertThisInitialized(_this));
+    _this.handleToggleFieldAdd = _this.handleToggleFieldAdd.bind(_assertThisInitialized(_this));
     _this.state = {
       postList: null,
       tagList: null,
@@ -10968,6 +10979,8 @@ var App = /*#__PURE__*/function (_React$Component) {
       fieldPostItem: null,
       tag: null,
       currentTag: null,
+      fieldAdd: null,
+      modificateField: null,
       pointerOne: 0,
       pointerTwo: 50
     };
@@ -10987,6 +11000,13 @@ var App = /*#__PURE__*/function (_React$Component) {
         _this2.setState({
           tagList: _this2.handleGetTags()
         });
+      });
+    }
+  }, {
+    key: "handleToggleFieldAdd",
+    value: function handleToggleFieldAdd(value) {
+      this.setState({
+        fieldAdd: value
       });
     }
   }, {
@@ -11093,7 +11113,7 @@ var App = /*#__PURE__*/function (_React$Component) {
           return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
             title: i.title,
             text: i.text.length > 370 ? i.text.slice(0, 370) : i.text,
-            tag: i.tag,
+            tag: i.tags,
             key: i.id,
             handleShow: function handleShow() {
               return _this5.handleShowPost(i.id);
@@ -11116,6 +11136,8 @@ var App = /*#__PURE__*/function (_React$Component) {
         }) : ''));
       }
 
+      console.log(this.state.fieldAdd);
+
       if (this.state.fieldPostItem) {
         endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogItem__WEBPACK_IMPORTED_MODULE_9__["default"], {
           item: this.state.fieldPostItem,
@@ -11125,6 +11147,12 @@ var App = /*#__PURE__*/function (_React$Component) {
         endRendering = contentWrap(content);
       }
 
+      if (this.state.fieldAdd) {
+        endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddingPostField__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          closeField: this.handleToggleFieldAdd
+        });
+      }
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.main
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
@@ -11132,7 +11160,8 @@ var App = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "".concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.wrraper, " ").concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.wrraper_flexSb)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AuthorizationButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        token: this.state.AuthorizationToken
+        token: this.state.AuthorizationToken,
+        toggleFieldAdd: this.handleToggleFieldAdd
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.header__logo
       }, "The Blog"))), endRendering);
@@ -11146,10 +11175,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./components/AuthorizationButton.js":
-/*!*******************************************!*\
-  !*** ./components/AuthorizationButton.js ***!
-  \*******************************************/
+/***/ "./components/AddingPostField.js":
+/*!***************************************!*\
+  !*** ./components/AddingPostField.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11157,10 +11186,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11183,6 +11212,109 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+
+
+
+
+var AddingPostField = /*#__PURE__*/function (_React$Component) {
+  _inherits(AddingPostField, _React$Component);
+
+  var _super = _createSuper(AddingPostField);
+
+  function AddingPostField(props) {
+    var _this;
+
+    _classCallCheck(this, AddingPostField);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      valueTag: ''
+    };
+    _this.handleCloseField = _this.handleCloseField.bind(_assertThisInitialized(_this));
+    _this.handleUpdateValue = _this.handleUpdateValue.bind(_assertThisInitialized(_this));
+    _this.handleAddPost = _this.handleAddPost.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(AddingPostField, [{
+    key: "handleAddPost",
+    value: function handleAddPost() {}
+  }, {
+    key: "handleUpdateValue",
+    value: function handleUpdateValue() {}
+  }, {
+    key: "handleCloseField",
+    value: function handleCloseField() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__btns
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__closeBtn,
+        onClick: this.props.closeField.bind(this, null)
+      }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__modificateBtn
+      }, "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0421\u0432\u043E\u0438 \u043F\u043E\u0441\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        placeholder: "Title",
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__title
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        placeholder: "Tag",
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__tag
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        placeholder: "Text",
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__text
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__createBtn
+      }, "Create")));
+    }
+  }]);
+
+  return AddingPostField;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (AddingPostField);
+
+/***/ }),
+
+/***/ "./components/AuthorizationButton.js":
+/*!*******************************************!*\
+  !*** ./components/AuthorizationButton.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 
 
@@ -11236,38 +11368,38 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
 
       if (!this.state.token) {
         buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonItem
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: "users.html"
         }, "S"), " "));
       } else {
         buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonItem
-        }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "//"
-        }, "A"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonItem
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+          onClick: this.props.toggleFieldAdd.bind(this, true)
+        }, "A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: "//"
         }, "E"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonItem
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: "//"
         }, "L"), " "));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton,
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton,
         onBlur: this.handleBlurHideBtn
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__user
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__user
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonUser,
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonUser,
         onClick: this.handleToggleBtnList
       }, "U")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__nav
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__nav
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.authButton__buttonList
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonList
       }, this.state.isToggle ? '' : buttonList)));
     }
   }]);
@@ -11290,10 +11422,8 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11319,7 +11449,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var BlogItem = /*#__PURE__*/function (_React$Component) {
   _inherits(BlogItem, _React$Component);
 
@@ -11335,16 +11464,16 @@ var BlogItem = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.blogItem
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: this.props.handleEmpty,
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.blogItem__btn
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__btn
       }, "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.blogItem__title
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__title
       }, this.props.item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.blogItem__text
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__text
       }, this.props.item.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.blogItem__tag
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__tag
       }, this.props.item.tag));
     }
   }]);
@@ -11367,10 +11496,8 @@ var BlogItem = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11396,7 +11523,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var PostItem = /*#__PURE__*/function (_React$Component) {
   _inherits(PostItem, _React$Component);
 
@@ -11412,14 +11538,14 @@ var PostItem = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.postItem,
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.postItem,
         onClick: this.props.handleShow
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.postItem__title
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.postItem__title
       }, this.props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.postItem__text
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.postItem__text
       }, this.props.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.postItem__tag
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.postItem__tag
       }, this.props.tag));
     }
   }]);
@@ -11442,10 +11568,8 @@ var PostItem = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11471,7 +11595,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var TagItem = /*#__PURE__*/function (_React$Component) {
   _inherits(TagItem, _React$Component);
 
@@ -11487,7 +11610,7 @@ var TagItem = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.tagItem,
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.tagItem,
         onClick: this.props.handleToggle
       }, this.props.text);
     }
@@ -11511,10 +11634,8 @@ var TagItem = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "../../../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
-/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11540,7 +11661,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-
 var WarningMessage = /*#__PURE__*/function (_React$Component) {
   _inherits(WarningMessage, _React$Component);
 
@@ -11556,12 +11676,12 @@ var WarningMessage = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage__title
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage__title
       }, this.props.text), this.props.toggleContent ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: this.props.toggleContent,
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.warningMessage__btn
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage__btn
       }, this.props.textButton) : '');
     }
   }]);

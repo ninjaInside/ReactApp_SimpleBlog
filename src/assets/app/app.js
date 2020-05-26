@@ -15,7 +15,7 @@ import WarningMessage from './components/WarningMessage'
 import PostItem from './components/PostItem'
 import TagItem from './components/TagItem'
 import BlogItem from './components/BlogItem'
-
+import AddingPostField from './components/AddingPostField' 
 
 
 class App extends React.Component {
@@ -29,6 +29,7 @@ class App extends React.Component {
 		this.handleToggleTag = this.handleToggleTag.bind(this)
 		this.handleGetPosts = this.handleGetPosts.bind(this)
 		this.handleGetTags = this.handleGetTags.bind(this)
+		this.handleToggleFieldAdd = this.handleToggleFieldAdd.bind(this)
 
 		this.state = {
 			postList: null,
@@ -38,6 +39,8 @@ class App extends React.Component {
 			fieldPostItem: null,
 			tag: null,
 			currentTag: null,
+			fieldAdd: null,
+			modificateField: null,
 			pointerOne: 0,
 			pointerTwo: 50,
 		}
@@ -53,6 +56,12 @@ class App extends React.Component {
 			this.setState({
 				tagList: this.handleGetTags()
 			})
+		})
+	}
+
+	handleToggleFieldAdd(value) {
+		this.setState({
+			fieldAdd: value 
 		})
 	}
 
@@ -155,7 +164,7 @@ class App extends React.Component {
 						{this.state.postList instanceof Array ? this.state.postList.map((i) => {
 							return <PostItem title={i.title} text={
 								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
-							} tag={i.tag} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
+							} tag={i.tags} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
 						}) : <WarningMessage text={'Извините, но я ничего не откопал'} />}
 					</div>
 
@@ -170,6 +179,8 @@ class App extends React.Component {
 
 		}
 
+		console.log(this.state.fieldAdd)
+
 		if (this.state.fieldPostItem) {
 
 			endRendering = <BlogItem item={this.state.fieldPostItem} handleEmpty={this.handleEmptyField} />
@@ -180,11 +191,16 @@ class App extends React.Component {
 
 		}
 
+
+		if (this.state.fieldAdd) {
+			endRendering = <AddingPostField closeField={this.handleToggleFieldAdd} />
+		}
+
 		return (
 			<div className={styles.main}>
 				<header className={styles.header}>
 					<div className={`${styles.wrraper} ${styles.wrraper_flexSb}`}>
-						<AuthorizationButton token={this.state.AuthorizationToken} />
+						<AuthorizationButton token={this.state.AuthorizationToken} toggleFieldAdd={this.handleToggleFieldAdd} />
 						<span className={styles.header__logo}>The Blog</span>
 					</div>
 				</header>

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styles from '../styles/main.sass'
 
 class AuthorizationButton extends React.Component {
@@ -47,7 +46,10 @@ class AuthorizationButton extends React.Component {
 
 			buttonList = (
 				<>
-					<li className={styles.authButton__buttonItem}> <a href="//">A</a> </li>
+					<li className={styles.authButton__buttonItem}> 
+					<button 
+						onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
+					</li>
 					<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
 					<li className={styles.authButton__buttonItem}> <a href="//">L</a> </li>
 				</>
