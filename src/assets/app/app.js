@@ -36,7 +36,7 @@ class App extends React.Component {
 			tagList: null,
 			AuthorizationToken: this.handleGetUserToken(),
 			contentVisible: this.handleGetUserToken(),
-			fieldPostItem: null,
+			fieldPostItem: true,
 			tag: null,
 			currentTag: null,
 			fieldAdd: null,
@@ -131,6 +131,8 @@ class App extends React.Component {
 
 	handleGetTags() {
 		if (!(this.state.postList instanceof Array)) return
+
+		return ['жопа']
 	}
 
 	render() {
@@ -141,6 +143,10 @@ class App extends React.Component {
 				</div>
 			)
 		}
+
+		setTimeout(() => {
+			console.log(this.state.tagList)
+		}, 1000)
 
 		let content
 		let endRendering

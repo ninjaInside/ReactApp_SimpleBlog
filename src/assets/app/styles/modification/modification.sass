@@ -2,9 +2,20 @@
 	&_flexSb
 		@include flex(row, space-between, center)
 
+.warningMessage
+	&_textLeft
+		align-items: flex-start
+		
+		& > * 
+			text-align: left
+
+	&_hAuto
+		height: auto 
+
 
 .h100
 	height: 100%
 
 .pStatic
 	position: static 
+
