@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/main.sass'
 
-import CommentList from './CommentList'
+import CommentList from './CommentList.jsx'
 
 class BlogItem extends React.Component {
 	render() {

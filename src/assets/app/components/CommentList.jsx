@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '../styles/main.sass'
 
-import CommentItem from './CommentItem'
-import WarningMessage from './WarningMessage'
+import CommentItem from './CommentItem.jsx'
+import WarningMessage from './WarningMessage.jsx'
 
 class CommentList extends React.Component {
 	render() {

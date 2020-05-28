@@ -2,8 +2,8 @@ import React from 'react';
 import styles from '../styles/main.sass'
 import axios from 'axios'
 
-import PostItem from './PostItem'
-import WarningMessage from './WarningMessage'
+import PostItem from './PostItem.jsx'
+import WarningMessage from './WarningMessage.jsx'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
@@ -40,7 +40,9 @@ class ModificationPosts extends React.Component {
 							return <PostItem title={i.title} text={
 								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
 							} tag={i.tags} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
-						}) : <WarningMessage text={'Извините, но я ничего не откопал'} />}
+						}) : <WarningMessage 
+								text={'Извините, но я ничего не откопал'}
+								otherSelectors={[styles.warningMessage_hAuto]}  />}
 					</div>
 		}
 

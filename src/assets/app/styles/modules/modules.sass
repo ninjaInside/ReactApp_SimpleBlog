@@ -1,7 +1,8 @@
 .main
 	@include flex(column, flex-start, center)
 	width: 100%
-	height: 100vh
+	height: auto
+	min-height: 100vh
 	background-color: $addC2
 
 .wrraper 
@@ -17,6 +18,7 @@
 	word-break: break-all
 
 .commentList 
+	border-top: 2px solid $addC2
 	padding: 15px
 	width: 100%
 	background-color: $addC2
@@ -82,12 +84,12 @@
 		color: $addC
 
 .addingPostField
-	@include flex(column, center, center) 
+	@include flex(column, flex-start, center) 
 	width: 100%
-	max-width: 1215px
+	max-width: 1095px
 	padding: 15px
 	height: 100%
-	position: relative
+	min-height: 100vh
 
 	& > form 
 		@include flex(column, center, center) 
@@ -109,7 +111,7 @@
 		margin: 0
 
 	&__text 
-		height: 100%
+		height: 450px
 		width: 100%
 		max-width: 450px
 		border: 2px solid $addC
@@ -128,9 +130,8 @@
 
 	&__btns 
 		@include flex(column, center, flex-start)
-		position: absolute
-		top: 15px 
-		left: 15px
+		width: 100%
+		margin-bottom: 15px
 
 		& > * 
 			margin-bottom: 5px
@@ -193,7 +194,7 @@
 	@include flex(column, center, center)
 	width: 100%
 	height: 100vh
-	background-color: $mainC
+	background-color: $addC2
 
 	&__form 
 		@include flex(column, center, center)
@@ -248,9 +249,9 @@
 	max-width: 1215px
 	padding: 0 15px
 	height: 100%
+	min-height: 100vh
 	padding: 15px
 	position: relative
-	background-color: $addC2
 	border-bottom: 2px solid $addC
 
 	&__btn 
@@ -278,9 +279,10 @@
 .appField
 	@include flex(row, space-between, stretch)
 	width: 100%
-	max-width: 1215px
+	max-width: 1095px
 	padding: 0 15px
 	height: 100%
+	min-height: 100vh
 	padding: 15px
 
 	&__postList
@@ -311,7 +313,7 @@
 
 			&__postList 
 				height: 100%
-
+				min-height: 100vh
 .postItem
 	padding: 10px
 	position: relative
@@ -380,8 +382,9 @@
 			width: inherit
 			height: inherit
 			border-radius: 1000px
-			border: 1px solid black
-			background-color: black
+			border: 2px solid $addC
+			background-color: $addC2
+			color: $whiteC
 			text-decoration: none
 
 	&__buttonUser 
@@ -392,7 +395,7 @@
 		height: 44px
 		border: 0
 		border-radius: 50%
-		background-color: $mainC
+		background-color: $addC2
 		color: $addC
 		font: 1.1rem sans-serif
 		margin-left: 5px

@@ -3,7 +3,7 @@ import styles from '../styles/main.sass'
 import {Formik} from 'formik'
 import axios from 'axios'
 
-import ErrorMessage from './ErrorMessage'
+import ErrorMessage from './ErrorMessage.jsx'
 
 class FormRegistration extends React.Component {
 	render() {
@@ -69,7 +69,11 @@ class FormRegistration extends React.Component {
 						})
 						.then((response) => {
 							if (response.status === 201) {
-								return localStorage.setItem('AuthKey', response.data.key)
+								localStorage.setItem('AuthKey', response.data.key)
+								localStorage.setItem('Login', values.username)
+								localStorage.setItem('Email', values.email)
+
+								return 
 							} 
 
 							throw new Error()

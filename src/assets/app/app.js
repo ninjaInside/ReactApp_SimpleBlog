@@ -10,12 +10,12 @@ WebFont.load({
 	}
   });
 
-import AuthorizationButton from './components/AuthorizationButton'
-import WarningMessage from './components/WarningMessage'
-import PostItem from './components/PostItem'
-import TagItem from './components/TagItem'
-import BlogItem from './components/BlogItem'
-import AddingPostField from './components/AddingPostField' 
+import AuthorizationButton from './components/AuthorizationButton.jsx'
+import WarningMessage from './components/WarningMessage.jsx'
+import PostList from './components/PostList.jsx'
+import TagList from './components/TagList.jsx'
+import BlogItem from './components/BlogItem.jsx'
+import AddingPostField from './components/AddingPostField.jsx' 
 
 
 class App extends React.Component {
@@ -36,7 +36,7 @@ class App extends React.Component {
 			tagList: null,
 			AuthorizationToken: this.handleGetUserToken(),
 			contentVisible: this.handleGetUserToken(),
-			fieldPostItem: true,
+			fieldPostItem: null,
 			tag: null,
 			currentTag: null,
 			fieldAdd: null,
@@ -165,20 +165,12 @@ class App extends React.Component {
 
 			content = (
 				<>
-					<div className={styles.appField__postList}>
-						{this.state.postList instanceof Array ? this.state.postList.map((i) => {
-							return <PostItem title={i.title} text={
-								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
-							} tag={i.tags} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
-						}) : <WarningMessage text={'Извините, но я ничего не откопал'} />}
-					</div>
+					<PostList postList={this.state.postList} />
 
-					<div className={styles.appField__tagList}>
-						<TagItem text='all' key='all' handleToggle={this.handleToggleTag.bind(this, null)} />
-						{this.state.postList instanceof Array ? this.state.tagList.map((i) => {
-							return <TagItem text={i.text} key={i.text} handleToggle={this.handleToggleTag.bind(this, i.text)} />
-						}) : ''}
-					</div>
+					<TagList 
+						postList={this.state.postList}
+						tagList={this.state.tagList}
+						handleToggle={this.handleToggleTag} />
 				</>
 			)
 

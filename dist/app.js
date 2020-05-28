@@ -1843,7 +1843,7 @@ module.exports = {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "../../../node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._395_DCqLm40-Tdp0PIOzOh {\n  padding: 15px;\n  width: 100%;\n  background-color: #000d0f; }\n  ._1uY0LkMdR0MKblmW5JV8hQ {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    margin-bottom: 30px;\n    width: 100%; }\n    @media screen and (max-width: 464px) {\n      ._1uY0LkMdR0MKblmW5JV8hQ {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column; }\n        ._1uY0LkMdR0MKblmW5JV8hQ > * {\n          width: 100%; } }\n  ._1TI2Wi5iuE-HUaTbvWy24a {\n    margin-left: 15px;\n    padding: 10px 15px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._1TI2Wi5iuE-HUaTbvWy24a:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n    @media screen and (max-width: 464px) {\n      ._1TI2Wi5iuE-HUaTbvWy24a {\n        margin-left: 0;\n        margin-top: 15px; } }\n  .pdrYeDCXGQCro58ajnQpM {\n    resize: none;\n    background-color: transparent;\n    border: 2px solid #0087bd;\n    -webkit-transition: .3s linear;\n    -o-transition: .3s linear;\n    transition: .3s linear;\n    padding: 5px;\n    color: #fff; }\n    .pdrYeDCXGQCro58ajnQpM:focus {\n      background-color: rgba(0, 135, 189, 0.2); }\n\n._1odwBeDwuYAkTKIZRgM6vr {\n  color: #fff;\n  font-size: .9rem;\n  margin-bottom: 15px;\n  word-break: break-all; }\n  ._1odwBeDwuYAkTKIZRgM6vr:last-child {\n    margin: 0; }\n  ._1odwBeDwuYAkTKIZRgM6vr > * {\n    display: block;\n    margin-bottom: 5px; }\n    ._1odwBeDwuYAkTKIZRgM6vr > *:last-child {\n      margin: 0; }\n  .r5LCiuTH2a2nePY7Xq2eC {\n    font-style: italic;\n    color: #0087bd; }\n\n._3AGX28uocB_PGnpfr5ixhy {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  max-width: 1215px;\n  padding: 15px;\n  height: 100%;\n  position: relative; }\n  ._3AGX28uocB_PGnpfr5ixhy > form {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: inherit;\n    height: inherit; }\n  ._3AGX28uocB_PGnpfr5ixhy > form > * {\n    margin-bottom: 20px;\n    -webkit-transition: .3s linear;\n    -o-transition: .3s linear;\n    transition: .3s linear; }\n    ._3AGX28uocB_PGnpfr5ixhy > form > *:focus {\n      background-color: rgba(0, 135, 189, 0.2); }\n    @media screen and (max-width: 464px) {\n      ._3AGX28uocB_PGnpfr5ixhy > form > * {\n        width: 100%; } }\n  ._3AGX28uocB_PGnpfr5ixhy *:last-child {\n    margin: 0; }\n  .CGPT3WIjEDkvnaNv-K3Fm {\n    height: 100%;\n    width: 100%;\n    max-width: 450px;\n    border: 2px solid #0087bd;\n    background-color: transparent;\n    padding: 5px;\n    color: #fff;\n    resize: none; }\n  ._3506JMEIlnwlW-kojSTpli, .-Pk7U_-vZxhrSx9Dcu9ZI {\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff; }\n  ._2TbFmf5ehTO9y7IJfjoXEn {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    position: absolute;\n    top: 15px;\n    left: 15px; }\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      margin-bottom: 5px; }\n      ._2TbFmf5ehTO9y7IJfjoXEn > *:last-child {\n        margin: 0; }\n  ._14VQy2FjGhgw8YOd3KYxqP, .iCiG4BH576oMcDsau-YWx, ._11jPRx7tfPO9Rt5pvHcXLG {\n    padding: 10px 15px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._14VQy2FjGhgw8YOd3KYxqP:active, .iCiG4BH576oMcDsau-YWx:active, ._11jPRx7tfPO9Rt5pvHcXLG:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  @media screen and (max-width: 664px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn {\n      position: static;\n      width: 100%;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-bottom: 30px; } }\n  @media screen and (max-width: 464px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      width: 100%; } }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #09294a; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px;\n  position: relative;\n  background-color: #000d0f;\n  border-bottom: 2px solid #0087bd; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto;\n    background-color: transparent; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n  @media screen and (max-width: 564px) {\n    ._2e5H7rsnISx3f3ehS7XVkZ {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: reverse;\n          -ms-flex-direction: column-reverse;\n              flex-direction: column-reverse; }\n      ._16l6cHGcVZmXOeH-nOfyAT {\n        width: 100%;\n        max-height: 200px;\n        overflow: auto; }\n      ._1wq9vVLoiRdLHc4F0XNTZB {\n        height: 100%; } }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a, ._2z1LH2XcHbOI-xDM_7G1BO button {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 1px solid black;\n      background-color: black;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #09294a;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n._3RLpx52_frjFoJI33MSx9n {\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start; }\n  ._3RLpx52_frjFoJI33MSx9n > * {\n    text-align: left; }\n\n._2sUWkSLsozWdV0cXZj8zc- {\n  height: auto; }\n\n._7QISbHrMnwIi5-70VkoGd {\n  height: 100%; }\n\n._1Q7_z3jsdOsNiLaLrknzXp {\n  position: static; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n.commentList {\n\tpadding: 15px;\n\twidth: 100%;\n\tbackground-color: $addC2;\n\n\t&__fieldAddComment {\n\t\t@include flex(row, flex-start, center);\n\t\tmargin-bottom: 30px;\n\t\twidth: 100%;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\tflex-direction: column;\n\n\t\t\t\t& > * {\n\t\t\t\t\twidth: 100%; } } } }\n\n\n\t&__addBtn {\n\t\tmargin-left: 15px;\n\t\tpadding: 10px 15px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); }\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\tmargin-left: 0;\n\t\t\t\tmargin-top: 15px; } } }\n\n\t&__textInput {\n\t\tresize: none;\n\t\tbackground-color: transparent;\n\t\tborder: 2px solid $addC;\n\t\ttransition: .3s linear;\n\t\tpadding: 5px;\n\t\tcolor: $whiteC;\n\n\t\t&:focus {\n\t\t\tbackground-color: rgba($addC, .2); } } }\n\n.commentItem {\n\tcolor: $whiteC;\n\tfont-size: .9rem;\n\tmargin-bottom: 15px;\n\tword-break: break-all;\n\n\t&:last-child {\n\t\tmargin: 0; }\n\n\t& > * {\n\t\tdisplay: block;\n\t\tmargin-bottom: 5px;\n\n\t\t&:last-child {\n\t\t\tmargin: 0; } }\n\n\t&__time {\n\t\tfont-style: italic;\n\t\tcolor: $addC; } }\n\n.addingPostField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 15px;\n\theight: 100%;\n\tposition: relative;\n\n\t& > form {\n\t\t@include flex(column, center, center);\n\t\twidth: inherit;\n\t\theight: inherit; }\n\n\t& > form > * {\n\t\tmargin-bottom: 20px;\n\t\ttransition: .3s linear;\n\n\t\t&:focus {\n\t\t\tbackground-color: rgba($addC, .2); }\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t*:last-child {\n\t\tmargin: 0; }\n\n\t&__text {\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\tmax-width: 450px;\n\t\tborder: 2px solid $addC;\n\t\tbackground-color: transparent;\n\t\tpadding: 5px;\n\t\tcolor: $whiteC;\n\t\tresize: none; }\n\n\t&__title, &__tag {\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC; }\n\n\t&__btns {\n\t\t@include flex(column, center, flex-start);\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tleft: 15px;\n\n\t\t& > * {\n\t\t\tmargin-bottom: 5px;\n\n\t\t\t&:last-child {\n\t\t\t\tmargin: 0; } } }\n\n\t&__closeBtn, &__modificateBtn, &__createBtn {\n\t\tpadding: 10px 15px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t@media screen and (max-width: 664px) {\n\t\t& {\n\t\t\t&__btns {\n\t\t\t\tposition: static;\n\t\t\t\twidth: 100%;\n\t\t\t\talign-items: center;\n\t\t\t\tmargin-bottom: 30px; } } }\n\n\t@media screen and (max-width: 464px) {\n\t\t& {\n\t\t\t&__btns {\n\n\t\t\t\t& > * {\n\t\t\t\t\twidth: 100%; } } } } }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $mainC;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer; } }\n\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tflex-shrink: 0;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\tposition: relative;\n\tbackground-color: $addC2;\n\tborder-bottom: 2px solid $addC;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: transparent;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t@media screen and (max-width: 564px) {\n\t\t& {\n\t\t\tflex-direction: column-reverse;\n\n\t\t\t&__tagList {\n\t\t\t\twidth: 100%;\n\t\t\t\tmax-height: 200px;\n\t\t\t\toverflow: auto; }\n\n\t\t\t&__postList {\n\t\t\t\theight: 100%; } } } }\n\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a, button {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 1px solid black;\n\t\t\tbackground-color: black;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $mainC;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n\n.warningMessage {\n\t&_textLeft {\n\t\talign-items: flex-start;\n\n\t\t& > * {\n\t\t\ttext-align: left; } }\n\n\t&_hAuto {\n\t\theight: auto; } }\n\n\n.h100 {\n\theight: 100%; }\n\n.pStatic {\n\tposition: static; }\n\n"]}]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n\n* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: 'Montserrat'; }\n\n._2BWgge0yt73bmhFIgv08dv {\n  width: 100%;\n  padding: 15px;\n  background-color: #0087bd;\n  color: #fff; }\n  .Ccp3zPbiESAawvlJYihms {\n    font-size: 1.4rem; }\n\n._3Z1i1AqKHMKSiTgHdf2Uoa {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: auto;\n  min-height: 100vh;\n  background-color: #000d0f; }\n\n._1dIAROcXWgdrUwoZdOARUV {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  font: 1rem 'Montserrat'; }\n\n._18sEA6hRtdtR9PeXckJGAs {\n  width: 100%;\n  padding-left: 35px;\n  color: red;\n  word-break: break-all; }\n\n._395_DCqLm40-Tdp0PIOzOh {\n  border-top: 2px solid #000d0f;\n  padding: 15px;\n  width: 100%;\n  background-color: #000d0f; }\n  ._1uY0LkMdR0MKblmW5JV8hQ {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: start;\n        -ms-flex-pack: start;\n            justify-content: flex-start;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    margin-bottom: 30px;\n    width: 100%; }\n    @media screen and (max-width: 464px) {\n      ._1uY0LkMdR0MKblmW5JV8hQ {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column; }\n        ._1uY0LkMdR0MKblmW5JV8hQ > * {\n          width: 100%; } }\n  ._1TI2Wi5iuE-HUaTbvWy24a {\n    margin-left: 15px;\n    padding: 10px 15px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._1TI2Wi5iuE-HUaTbvWy24a:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n    @media screen and (max-width: 464px) {\n      ._1TI2Wi5iuE-HUaTbvWy24a {\n        margin-left: 0;\n        margin-top: 15px; } }\n  .pdrYeDCXGQCro58ajnQpM {\n    resize: none;\n    background-color: transparent;\n    border: 2px solid #0087bd;\n    -webkit-transition: .3s linear;\n    -o-transition: .3s linear;\n    transition: .3s linear;\n    padding: 5px;\n    color: #fff; }\n    .pdrYeDCXGQCro58ajnQpM:focus {\n      background-color: rgba(0, 135, 189, 0.2); }\n\n._1odwBeDwuYAkTKIZRgM6vr {\n  color: #fff;\n  font-size: .9rem;\n  margin-bottom: 15px;\n  word-break: break-all; }\n  ._1odwBeDwuYAkTKIZRgM6vr:last-child {\n    margin: 0; }\n  ._1odwBeDwuYAkTKIZRgM6vr > * {\n    display: block;\n    margin-bottom: 5px; }\n    ._1odwBeDwuYAkTKIZRgM6vr > *:last-child {\n      margin: 0; }\n  .r5LCiuTH2a2nePY7Xq2eC {\n    font-style: italic;\n    color: #0087bd; }\n\n._3AGX28uocB_PGnpfr5ixhy {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  max-width: 1095px;\n  padding: 15px;\n  height: 100%;\n  min-height: 100vh; }\n  ._3AGX28uocB_PGnpfr5ixhy > form {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: inherit;\n    height: inherit; }\n  ._3AGX28uocB_PGnpfr5ixhy > form > * {\n    margin-bottom: 20px;\n    -webkit-transition: .3s linear;\n    -o-transition: .3s linear;\n    transition: .3s linear; }\n    ._3AGX28uocB_PGnpfr5ixhy > form > *:focus {\n      background-color: rgba(0, 135, 189, 0.2); }\n    @media screen and (max-width: 464px) {\n      ._3AGX28uocB_PGnpfr5ixhy > form > * {\n        width: 100%; } }\n  ._3AGX28uocB_PGnpfr5ixhy *:last-child {\n    margin: 0; }\n  .CGPT3WIjEDkvnaNv-K3Fm {\n    height: 450px;\n    width: 100%;\n    max-width: 450px;\n    border: 2px solid #0087bd;\n    background-color: transparent;\n    padding: 5px;\n    color: #fff;\n    resize: none; }\n  ._3506JMEIlnwlW-kojSTpli, .-Pk7U_-vZxhrSx9Dcu9ZI {\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff; }\n  ._2TbFmf5ehTO9y7IJfjoXEn {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    width: 100%;\n    margin-bottom: 15px; }\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      margin-bottom: 5px; }\n      ._2TbFmf5ehTO9y7IJfjoXEn > *:last-child {\n        margin: 0; }\n  ._14VQy2FjGhgw8YOd3KYxqP, .iCiG4BH576oMcDsau-YWx, ._11jPRx7tfPO9Rt5pvHcXLG {\n    padding: 10px 15px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._14VQy2FjGhgw8YOd3KYxqP:active, .iCiG4BH576oMcDsau-YWx:active, ._11jPRx7tfPO9Rt5pvHcXLG:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  @media screen and (max-width: 664px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn {\n      position: static;\n      width: 100%;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-bottom: 30px; } }\n  @media screen and (max-width: 464px) {\n    ._2TbFmf5ehTO9y7IJfjoXEn > * {\n      width: 100%; } }\n\n._23CTfpc3xrc9dAw2JLCC6- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100%; }\n  ._3Xfm3Vi8zzJDbYFN8f797x {\n    display: inline-block;\n    margin-bottom: 10px;\n    width: 100%;\n    max-width: 400px;\n    text-align: center;\n    color: #fff; }\n  ._2V7ROz81_AYSck_z4udl00 {\n    margin-top: 20px;\n    padding: 15px 20px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._2V7ROz81_AYSck_z4udl00:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n\n._2A7BXLNkvnrMz4mfvxxO58 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  width: 100%;\n  height: 100vh;\n  background-color: #000d0f; }\n  .ppliOgpYJdZZceueEaFW5 {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 250px;\n    padding: 15px;\n    margin-bottom: 25px; }\n    @media screen and (max-width: 464px) {\n      .ppliOgpYJdZZceueEaFW5 {\n        width: 100%; } }\n  ._1HnKGi-uwoe-bUSse2RimT {\n    margin-bottom: 20px;\n    padding: 5px;\n    background-color: transparent;\n    border: 0;\n    border-bottom: 2px solid #0087bd;\n    font-size: 1rem;\n    color: #fff;\n    width: 100%; }\n    ._1HnKGi-uwoe-bUSse2RimT:invalid {\n      outline: none;\n      -webkit-box-shadow: 0 0 0 0 transparent;\n              box-shadow: 0 0 0 0 transparent;\n      border-color: red; }\n  ._1MoRAIyFkfpr6SXRaBTsnE {\n    width: 100%;\n    margin-top: 20px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n    ._1MoRAIyFkfpr6SXRaBTsnE:active {\n      background-color: rgba(0, 135, 189, 0.5); }\n  ._2WZl7K_t-RdpsLlikEjTl8 {\n    border: 2px solid #0087bd;\n    border-radius: 5px;\n    color: #fff;\n    background-color: transparent;\n    padding: 8px;\n    cursor: pointer; }\n\n.FT_Go-5nfbPtBpdNnY9g8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n  width: 100%;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  max-width: 1215px;\n  padding: 0 15px;\n  height: 100%;\n  min-height: 100vh;\n  padding: 15px;\n  position: relative;\n  border-bottom: 2px solid #0087bd; }\n  ._33sOpbce9UbX2_KSc-KuMO {\n    position: absolute;\n    top: 15px;\n    right: 15px;\n    padding: 15px 10px;\n    background-color: #0087bd;\n    border: 0;\n    color: #fff;\n    cursor: pointer; }\n  .ZChupKaClrJwJhDNzNUwQ {\n    margin-bottom: 15px;\n    line-height: 1.6rem; }\n  ._2XspdHFN9VLQh4sKWat3XT {\n    margin-top: 35px; }\n  @media screen and (max-width: 364px) {\n    .ZChupKaClrJwJhDNzNUwQ {\n      text-align: justify; } }\n\n._2e5H7rsnISx3f3ehS7XVkZ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch;\n  width: 100%;\n  max-width: 1095px;\n  padding: 0 15px;\n  height: 100%;\n  min-height: 100vh;\n  padding: 15px; }\n  ._1wq9vVLoiRdLHc4F0XNTZB {\n    width: 100%;\n    overflow: auto;\n    background-color: transparent; }\n    ._1wq9vVLoiRdLHc4F0XNTZB > * {\n      width: 100%; }\n  ._16l6cHGcVZmXOeH-nOfyAT {\n    width: 200px;\n    overflow: auto;\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    background-color: #09294a; }\n    ._16l6cHGcVZmXOeH-nOfyAT > * {\n      width: 100%; }\n  @media screen and (max-width: 564px) {\n    ._2e5H7rsnISx3f3ehS7XVkZ {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: reverse;\n          -ms-flex-direction: column-reverse;\n              flex-direction: column-reverse; }\n      ._16l6cHGcVZmXOeH-nOfyAT {\n        width: 100%;\n        max-height: 200px;\n        overflow: auto; }\n      ._1wq9vVLoiRdLHc4F0XNTZB {\n        height: 100%;\n        min-height: 100vh; } }\n\n.HKdV7wDgD8BKzqp8jyUsZ {\n  padding: 10px;\n  position: relative;\n  border-bottom: 1px solid black;\n  height: auto;\n  min-height: 100px;\n  cursor: pointer; }\n  .HKdV7wDgD8BKzqp8jyUsZ:first-child {\n    border-top: 1px solid black; }\n  .HKdV7wDgD8BKzqp8jyUsZ:last-child {\n    border-bottom: 0; }\n  .HKdV7wDgD8BKzqp8jyUsZ > * {\n    display: block; }\n  ._3H9fiiCB3rWwScG3M5ZmKU {\n    margin: 0;\n    margin-bottom: 10px; }\n  ._3D6eXVfbdr1em-2S3HmL_O {\n    margin-bottom: 15px; }\n  ._1c-BRKmymcwg1lUkzbrnfg {\n    position: absolute;\n    right: 10px;\n    bottom: 5px; }\n\n._2FBlZUgHIVJJR2gVUJBtBX {\n  border: 0;\n  padding: 15px 10px;\n  background-color: transparent;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: .05rem;\n  font-size: 1.1rem; }\n  ._2FBlZUgHIVJJR2gVUJBtBX:hover {\n    background-color: #0087bd; }\n\n.NI2dO8kHDacHWTa-5GlXw {\n  position: relative;\n  z-index: 100; }\n  ._3DBz1YGY6Ju9nwadYkIt8k {\n    position: absolute;\n    color: black;\n    margin-top: 10px;\n    width: auto; }\n  ._1-AnX1VntdspC6vHUmx80v {\n    padding: 0;\n    list-style: none; }\n  ._2z1LH2XcHbOI-xDM_7G1BO {\n    margin-bottom: 10px;\n    width: 54px;\n    height: 54px; }\n    ._2z1LH2XcHbOI-xDM_7G1BO > a, ._2z1LH2XcHbOI-xDM_7G1BO button {\n      display: table-cell;\n      vertical-align: middle;\n      text-align: center;\n      width: inherit;\n      height: inherit;\n      border-radius: 1000px;\n      border: 2px solid #0087bd;\n      background-color: #000d0f;\n      color: #fff;\n      text-decoration: none; }\n  ._3ujDIxQN2zoK3sTK9PfSJL {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n    width: 44px;\n    height: 44px;\n    border: 0;\n    border-radius: 50%;\n    background-color: #000d0f;\n    color: #0087bd;\n    font: 1.1rem sans-serif;\n    margin-left: 5px;\n    cursor: pointer; }\n\n.cOui3lQ5dYTGWOFXN04jr {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.txswYI2a3rVXmjBBRaZT2 {\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start; }\n\n._3RLpx52_frjFoJI33MSx9n {\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start; }\n  ._3RLpx52_frjFoJI33MSx9n > * {\n    text-align: left; }\n\n._2sUWkSLsozWdV0cXZj8zc- {\n  height: auto; }\n\n._2LK_Zf9qQ4wfeKOO_irms3 {\n  padding: 15px; }\n\n._7QISbHrMnwIi5-70VkoGd {\n  height: 100%; }\n\n._1Q7_z3jsdOsNiLaLrknzXp {\n  position: static; }\n", "",{"version":3,"sources":["/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/default/default.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modules/modules.sass","/home/ninjainside/Desktop/GitRep/ReactApp_SimpleBlog/src/assets/app/styles/modification/modification.sass"],"names":[],"mappings":"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","file":"main.sass","sourcesContent":["@mixin flex($fd, $js, $at) {\n\tdisplay: flex;\n\tflex-direction: $fd;\n\tjustify-content: $js;\n\talign-items: $at; }\n\n$mainC: #09294a;\n$addC: #0087bd;\n$addC2: #000d0f;\n\n$warningColor: red;\n\n$blackC: #000;\n$whiteC: #fff;\n\n$mxW: 1200px;\n\nbody {\n\tmargin: 0;\n\tpadding: 0; }\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: 'Montserrat'; }\n\n\n.header {\n\twidth: 100%;\n\tpadding: 15px;\n\tbackground-color: $addC;\n\tcolor: $whiteC;\n\n\t&__logo {\n\t\tfont-size: 1.4rem; } }\n",".main {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\theight: auto;\n\tmin-height: 100vh;\n\tbackground-color: $addC2; }\n\n.wrraper {\n\twidth: 100%;\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tfont: 1rem 'Montserrat'; }\n\n.errorMessage {\n\twidth: 100%;\n\tpadding-left: 35px;\n\tcolor: $warningColor;\n\tword-break: break-all; }\n\n.commentList {\n\tborder-top: 2px solid $addC2;\n\tpadding: 15px;\n\twidth: 100%;\n\tbackground-color: $addC2;\n\n\t&__fieldAddComment {\n\t\t@include flex(row, flex-start, center);\n\t\tmargin-bottom: 30px;\n\t\twidth: 100%;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\tflex-direction: column;\n\n\t\t\t\t& > * {\n\t\t\t\t\twidth: 100%; } } } }\n\n\n\t&__addBtn {\n\t\tmargin-left: 15px;\n\t\tpadding: 10px 15px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); }\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\tmargin-left: 0;\n\t\t\t\tmargin-top: 15px; } } }\n\n\t&__textInput {\n\t\tresize: none;\n\t\tbackground-color: transparent;\n\t\tborder: 2px solid $addC;\n\t\ttransition: .3s linear;\n\t\tpadding: 5px;\n\t\tcolor: $whiteC;\n\n\t\t&:focus {\n\t\t\tbackground-color: rgba($addC, .2); } } }\n\n.commentItem {\n\tcolor: $whiteC;\n\tfont-size: .9rem;\n\tmargin-bottom: 15px;\n\tword-break: break-all;\n\n\t&:last-child {\n\t\tmargin: 0; }\n\n\t& > * {\n\t\tdisplay: block;\n\t\tmargin-bottom: 5px;\n\n\t\t&:last-child {\n\t\t\tmargin: 0; } }\n\n\t&__time {\n\t\tfont-style: italic;\n\t\tcolor: $addC; } }\n\n.addingPostField {\n\t@include flex(column, flex-start, center);\n\twidth: 100%;\n\tmax-width: 1095px;\n\tpadding: 15px;\n\theight: 100%;\n\tmin-height: 100vh;\n\n\t& > form {\n\t\t@include flex(column, center, center);\n\t\twidth: inherit;\n\t\theight: inherit; }\n\n\t& > form > * {\n\t\tmargin-bottom: 20px;\n\t\ttransition: .3s linear;\n\n\t\t&:focus {\n\t\t\tbackground-color: rgba($addC, .2); }\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t*:last-child {\n\t\tmargin: 0; }\n\n\t&__text {\n\t\theight: 450px;\n\t\twidth: 100%;\n\t\tmax-width: 450px;\n\t\tborder: 2px solid $addC;\n\t\tbackground-color: transparent;\n\t\tpadding: 5px;\n\t\tcolor: $whiteC;\n\t\tresize: none; }\n\n\t&__title, &__tag {\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC; }\n\n\t&__btns {\n\t\t@include flex(column, center, flex-start);\n\t\twidth: 100%;\n\t\tmargin-bottom: 15px;\n\n\t\t& > * {\n\t\t\tmargin-bottom: 5px;\n\n\t\t\t&:last-child {\n\t\t\t\tmargin: 0; } } }\n\n\t&__closeBtn, &__modificateBtn, &__createBtn {\n\t\tpadding: 10px 15px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t@media screen and (max-width: 664px) {\n\t\t& {\n\t\t\t&__btns {\n\t\t\t\tposition: static;\n\t\t\t\twidth: 100%;\n\t\t\t\talign-items: center;\n\t\t\t\tmargin-bottom: 30px; } } }\n\n\t@media screen and (max-width: 464px) {\n\t\t& {\n\t\t\t&__btns {\n\n\t\t\t\t& > * {\n\t\t\t\t\twidth: 100%; } } } } }\n\n\n.warningMessage {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100%;\n\n\t&__title {\n\t\tdisplay: inline-block;\n\t\tmargin-bottom: 10px;\n\t\twidth: 100%;\n\t\tmax-width: 400px;\n\t\ttext-align: center;\n\t\tcolor: $whiteC; }\n\n\t&__btn {\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 20px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } } }\n\n\n.authField {\n\t@include flex(column, center, center);\n\twidth: 100%;\n\theight: 100vh;\n\tbackground-color: $addC2;\n\n\t&__form {\n\t\t@include flex(column, center, center);\n\t\twidth: 250px;\n\t\tpadding: 15px;\n\t\tmargin-bottom: 25px;\n\n\t\t@media screen and (max-width: 464px) {\n\t\t\t& {\n\t\t\t\twidth: 100%; } } }\n\n\t&__input {\n\t\tmargin-bottom: 20px;\n\t\tpadding: 5px;\n\t\tbackground-color: transparent;\n\t\tborder: 0;\n\t\tborder-bottom: 2px solid $addC;\n\t\tfont-size: 1rem;\n\t\tcolor: $whiteC;\n\t\twidth: 100%;\n\n\t\t&:invalid {\n\t\t\toutline: none;\n\t\t\tbox-shadow: 0 0 0 0 transparent;\n\t\t\tborder-color: $warningColor; } }\n\n\t&__btn {\n\t\twidth: 100%;\n\t\tmargin-top: 20px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer;\n\n\t\t&:active {\n\t\t\tbackground-color: rgba($addC, .5); } }\n\n\t&__toggleBtn {\n\t\tborder: 2px solid $addC;\n\t\tborder-radius: 5px;\n\t\tcolor: $whiteC;\n\t\tbackground-color: transparent;\n\t\tpadding: 8px;\n\t\tcursor: pointer; } }\n\n\n.blogItem {\n\t@include flex(column, flex-start, flex-start);\n\twidth: 100%;\n\tflex-shrink: 0;\n\tmax-width: 1215px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tmin-height: 100vh;\n\tpadding: 15px;\n\tposition: relative;\n\tborder-bottom: 2px solid $addC;\n\n\t&__btn {\n\t\tposition: absolute;\n\t\ttop: 15px;\n\t\tright: 15px;\n\t\tpadding: 15px 10px;\n\t\tbackground-color: $addC;\n\t\tborder: 0;\n\t\tcolor: $whiteC;\n\t\tcursor: pointer; }\n\n\t&__text {\n\t\tmargin-bottom: 15px;\n\t\tline-height: 1.6rem; }\n\n\t&__title {\n\t\tmargin-top: 35px; }\n\n\t@media screen and (max-width: 364px) {\n\t\t& {\n\t\t\t&__text {\n\t\t\t\ttext-align: justify; } } } }\n\n.appField {\n\t@include flex(row, space-between, stretch);\n\twidth: 100%;\n\tmax-width: 1095px;\n\tpadding: 0 15px;\n\theight: 100%;\n\tmin-height: 100vh;\n\tpadding: 15px;\n\n\t&__postList {\n\t\twidth: 100%;\n\t\toverflow: auto;\n\t\tbackground-color: transparent;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t&__tagList {\n\t\twidth: 200px;\n\t\toverflow: auto;\n\t\tflex-shrink: 0;\n\t\tbackground-color: $mainC;\n\n\t\t& > * {\n\t\t\twidth: 100%; } }\n\n\t@media screen and (max-width: 564px) {\n\t\t& {\n\t\t\tflex-direction: column-reverse;\n\n\t\t\t&__tagList {\n\t\t\t\twidth: 100%;\n\t\t\t\tmax-height: 200px;\n\t\t\t\toverflow: auto; }\n\n\t\t\t&__postList {\n\t\t\t\theight: 100%;\n\t\t\t\tmin-height: 100vh; } } } }\n.postItem {\n\tpadding: 10px;\n\tposition: relative;\n\tborder-bottom: 1px solid black;\n\theight: auto;\n\tmin-height: 100px;\n\tcursor: pointer;\n\n\t&:first-child {\n\t\tborder-top: 1px solid black; }\n\n\t&:last-child {\n\t\tborder-bottom: 0; }\n\n\t& > * {\n\t\tdisplay: block; }\n\n\t&__title {\n\t\tmargin: 0;\n\t\tmargin-bottom: 10px; }\n\n\t&__text {\n\t\tmargin-bottom: 15px; }\n\n\t&__tag {\n\t\tposition: absolute;\n\t\tright: 10px;\n\t\tbottom: 5px; } }\n\n.tagItem {\n\tborder: 0;\n\tpadding: 15px 10px;\n\tbackground-color: transparent;\n\tcolor: $whiteC;\n\ttext-transform: uppercase;\n\tletter-spacing: .05rem;\n\tfont-size: 1.1rem;\n\n\t&:hover {\n\t\tbackground-color: $addC; } }\n\n\n.authButton {\n\tposition: relative;\n\tz-index: 100;\n\n\t&__nav {\n\t\tposition: absolute;\n\t\tcolor: black;\n\t\tmargin-top: 10px;\n\t\twidth: auto; }\n\n\t&__buttonList {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\n\t&__buttonItem {\n\t\tmargin-bottom: 10px;\n\t\twidth: 54px;\n\t\theight: 54px;\n\n\t\t& > a, button {\n\t\t\tdisplay: table-cell;\n\t\t\tvertical-align: middle;\n\t\t\ttext-align: center;\n\t\t\twidth: inherit;\n\t\t\theight: inherit;\n\t\t\tborder-radius: 1000px;\n\t\t\tborder: 2px solid $addC;\n\t\t\tbackground-color: $addC2;\n\t\t\tcolor: $whiteC;\n\t\t\ttext-decoration: none; } }\n\n\t&__buttonUser {\n\t\tdisplay: table-cell;\n\t\tvertical-align: middle;\n\t\ttext-align: center;\n\t\twidth: 44px;\n\t\theight: 44px;\n\t\tborder: 0;\n\t\tborder-radius: 50%;\n\t\tbackground-color: $addC2;\n\t\tcolor: $addC;\n\t\tfont: 1.1rem sans-serif;\n\t\tmargin-left: 5px;\n\t\tcursor: pointer; } }\n\n\n\n\n",".wrraper {\n\t&_flexSb {\n\t\t@include flex(row, space-between, center); } }\n\n.warningMessage {\n\t&_textTop {\n\t\tjustify-content: flex-start; }\n\n\t&_textLeft {\n\t\talign-items: flex-start;\n\n\t\t& > * {\n\t\t\ttext-align: left; } }\n\n\t&_hAuto {\n\t\theight: auto; }\n\n\t&_p15 {\n\t\tpadding: 15px; } }\n\n\n.h100 {\n\theight: 100%; }\n\n.pStatic {\n\tposition: static; }\n\n"]}]);
 // Exports
 exports.locals = {
 	"header": "_2BWgge0yt73bmhFIgv08dv",
@@ -1891,8 +1891,10 @@ exports.locals = {
 	"authButton__buttonItem": "_2z1LH2XcHbOI-xDM_7G1BO",
 	"authButton__buttonUser": "_3ujDIxQN2zoK3sTK9PfSJL",
 	"wrraper_flexSb": "cOui3lQ5dYTGWOFXN04jr",
+	"warningMessage_textTop": "txswYI2a3rVXmjBBRaZT2",
 	"warningMessage_textLeft": "_3RLpx52_frjFoJI33MSx9n",
 	"warningMessage_hAuto": "_2sUWkSLsozWdV0cXZj8zc-",
+	"warningMessage_p15": "_2LK_Zf9qQ4wfeKOO_irms3",
 	"h100": "_7QISbHrMnwIi5-70VkoGd",
 	"pStatic": "_1Q7_z3jsdOsNiLaLrknzXp"
 };
@@ -10917,12 +10919,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! webfontloader */ "../../../node_modules/webfontloader/webfontloader.js");
 /* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(webfontloader__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_AuthorizationButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/AuthorizationButton */ "./components/AuthorizationButton.js");
-/* harmony import */ var _components_WarningMessage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/WarningMessage */ "./components/WarningMessage.js");
-/* harmony import */ var _components_PostItem__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/PostItem */ "./components/PostItem.js");
-/* harmony import */ var _components_TagItem__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/TagItem */ "./components/TagItem.js");
-/* harmony import */ var _components_BlogItem__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/BlogItem */ "./components/BlogItem.js");
-/* harmony import */ var _components_AddingPostField__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/AddingPostField */ "./components/AddingPostField.js");
+/* harmony import */ var _components_AuthorizationButton_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/AuthorizationButton.jsx */ "./components/AuthorizationButton.jsx");
+/* harmony import */ var _components_WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/WarningMessage.jsx */ "./components/WarningMessage.jsx");
+/* harmony import */ var _components_PostList_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/PostList.jsx */ "./components/PostList.jsx");
+/* harmony import */ var _components_TagList_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/TagList.jsx */ "./components/TagList.jsx");
+/* harmony import */ var _components_BlogItem_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/BlogItem.jsx */ "./components/BlogItem.jsx");
+/* harmony import */ var _components_AddingPostField_jsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/AddingPostField.jsx */ "./components/AddingPostField.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -10986,7 +10988,7 @@ var App = /*#__PURE__*/function (_React$Component) {
       tagList: null,
       AuthorizationToken: _this.handleGetUserToken(),
       contentVisible: _this.handleGetUserToken(),
-      fieldPostItem: true,
+      fieldPostItem: null,
       tag: null,
       currentTag: null,
       fieldAdd: null,
@@ -11114,43 +11116,23 @@ var App = /*#__PURE__*/function (_React$Component) {
       var endRendering;
 
       if (!this.state.contentVisible) {
-        content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WarningMessage__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
           text: "\n\t\t\t\t\t\t\u041D\u0443, \u0442\u044B \u043A\u0430\u043A \u0431\u044B \u043D\u0435 \u0437\u0430\u0440\u0435\u0433\u0430\u043D. \u041F\u0440\u043E\u0448\u0443 \u0442\u0435\u0431\u044F \u0437\u0430\u0440\u0435\u0433\u0430\u0442\u044C\u0441\u044F, \u0438\u0431\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0430\u043A \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043F\u043E\u0441\u0442\u044B,\n\t\t\t\t\t\t\u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0436\u0430\u0442\u044C \u043B\u0435\u0432\u0443\u044E \u0432\u0435\u0440\u0445\u043D\u044E\u044E \u043A\u043D\u043E\u043F\u043E\u0447\u043A\u0443, \u043D\u043E \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0431\u0435\u0437 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 :)",
           textButton: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C",
           toggleContent: this.handleShowContent
         });
       } else {
-        content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.appField__postList
-        }, this.state.postList instanceof Array ? this.state.postList.map(function (i) {
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostItem__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            title: i.title,
-            text: i.text.length > 370 ? i.text.slice(0, 370) : i.text,
-            tag: i.tags,
-            key: i.id,
-            handleShow: function handleShow() {
-              return _this5.handleShowPost(i.id);
-            }
-          });
-        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WarningMessage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          text: 'Извините, но я ничего не откопал'
-        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.appField__tagList
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TagItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
-          text: "all",
-          key: "all",
-          handleToggle: this.handleToggleTag.bind(this, null)
-        }), this.state.postList instanceof Array ? this.state.tagList.map(function (i) {
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TagItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
-            text: i.text,
-            key: i.text,
-            handleToggle: _this5.handleToggleTag.bind(_this5, i.text)
-          });
-        }) : ''));
+        content = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostList_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          postList: this.state.postList
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TagList_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          postList: this.state.postList,
+          tagList: this.state.tagList,
+          handleToggle: this.handleToggleTag
+        }));
       }
 
       if (this.state.fieldPostItem) {
-        endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogItem__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogItem_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
           item: this.state.fieldPostItem,
           handleEmpty: this.handleEmptyField
         });
@@ -11159,7 +11141,7 @@ var App = /*#__PURE__*/function (_React$Component) {
       }
 
       if (this.state.fieldAdd) {
-        endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddingPostField__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        endRendering = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddingPostField_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
           closeField: this.handleToggleFieldAdd
         });
       }
@@ -11170,7 +11152,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.header
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "".concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.wrraper, " ").concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_2___default.a.wrraper_flexSb)
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AuthorizationButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AuthorizationButton_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
         token: this.state.AuthorizationToken,
         toggleFieldAdd: this.handleToggleFieldAdd
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -11186,10 +11168,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./components/AddingPostField.js":
-/*!***************************************!*\
-  !*** ./components/AddingPostField.js ***!
-  \***************************************/
+/***/ "./components/AddingPostField.jsx":
+/*!****************************************!*\
+  !*** ./components/AddingPostField.jsx ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11201,7 +11183,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _ModificationPosts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModificationPosts */ "./components/ModificationPosts.js");
+/* harmony import */ var _ModificationPosts_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModificationPosts.jsx */ "./components/ModificationPosts.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11282,7 +11264,7 @@ var AddingPostField = /*#__PURE__*/function (_React$Component) {
           className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.addingPostField__createBtn
         }, "Create"));
       } else {
-        render = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModificationPosts__WEBPACK_IMPORTED_MODULE_3__["default"], null);
+        render = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModificationPosts_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null);
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11312,10 +11294,10 @@ var AddingPostField = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/AuthorizationButton.js":
-/*!*******************************************!*\
-  !*** ./components/AuthorizationButton.js ***!
-  \*******************************************/
+/***/ "./components/AuthorizationButton.jsx":
+/*!********************************************!*\
+  !*** ./components/AuthorizationButton.jsx ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11361,12 +11343,14 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
     _classCallCheck(this, AuthorizationButton);
 
     _this = _super.call(this, props);
+    _this.toggleButtonREF = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
     _this.state = {
       token: _this.props.token,
-      isToggle: true
+      isToggle: false
     };
     _this.handleToggleBtnList = _this.handleToggleBtnList.bind(_assertThisInitialized(_this));
     _this.handleBlurHideBtn = _this.handleBlurHideBtn.bind(_assertThisInitialized(_this));
+    _this.handleToggleMenu = _this.handleToggleMenu.bind(_assertThisInitialized(_this));
     return _this;
   }
 
@@ -11393,18 +11377,35 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
       }, 200);
     }
   }, {
+    key: "handleToggleMenu",
+    value: function handleToggleMenu(list) {
+      console.log(this.toggleButtonREF.current);
+      if (this.state.isToggle) return list;
+      return '';
+    }
+  }, {
     key: "render",
     value: function render() {
       var buttonList;
 
       if (!this.state.token) {
-        buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__nav,
+          ref: this.toggleButtonREF
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonList
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
           className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: "users.html"
-        }, "S"), " "));
+        }, "S"), " ")));
       } else {
-        buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        buttonList = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__nav,
+          ref: this.toggleButtonREF
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonList
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
           className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           onClick: this.props.toggleFieldAdd.bind(this, true)
@@ -11412,11 +11413,7 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
           className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
         }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: "//"
-        }, "E"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonItem
-        }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "//"
-        }, "L"), " "));
+        }, "E"), " ")));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11427,11 +11424,7 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonUser,
         onClick: this.handleToggleBtnList
-      }, "U")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__nav
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.authButton__buttonList
-      }, this.state.isToggle ? '' : buttonList)));
+      }, "U")), this.handleToggleMenu(buttonList));
     }
   }]);
 
@@ -11442,10 +11435,10 @@ var AuthorizationButton = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/BlogItem.js":
-/*!********************************!*\
-  !*** ./components/BlogItem.js ***!
-  \********************************/
+/***/ "./components/BlogItem.jsx":
+/*!*********************************!*\
+  !*** ./components/BlogItem.jsx ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11455,7 +11448,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _CommentList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommentList */ "./components/CommentList.js");
+/* harmony import */ var _CommentList_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommentList.jsx */ "./components/CommentList.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11507,7 +11500,7 @@ var BlogItem = /*#__PURE__*/function (_React$Component) {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__text
       }, this.props.item.text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.blogItem__tag
-      }, this.props.item.tag)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommentList__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      }, this.props.item.tag)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommentList_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
@@ -11518,10 +11511,10 @@ var BlogItem = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/CommentItem.js":
-/*!***********************************!*\
-  !*** ./components/CommentItem.js ***!
-  \***********************************/
+/***/ "./components/CommentItem.jsx":
+/*!************************************!*\
+  !*** ./components/CommentItem.jsx ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11589,10 +11582,10 @@ var CommentItem = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/CommentList.js":
-/*!***********************************!*\
-  !*** ./components/CommentList.js ***!
-  \***********************************/
+/***/ "./components/CommentList.jsx":
+/*!************************************!*\
+  !*** ./components/CommentList.jsx ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11602,8 +11595,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _CommentItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommentItem */ "./components/CommentItem.js");
-/* harmony import */ var _WarningMessage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WarningMessage */ "./components/WarningMessage.js");
+/* harmony import */ var _CommentItem_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommentItem.jsx */ "./components/CommentItem.jsx");
+/* harmony import */ var _WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WarningMessage.jsx */ "./components/WarningMessage.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11654,12 +11647,12 @@ var CommentList = /*#__PURE__*/function (_React$Component) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.commentList__addBtn
       }, "Add Comment")), this.props.listComments instanceof Array ? this.props.listComments.map(function (i) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommentItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommentItem_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
           author: i.author,
           text: i.text,
           time: i.time
         });
-      }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WarningMessage__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
         text: "\u041A\u043E\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0438 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u044B",
         otherSelectors: [_styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage_hAuto, _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage_textLeft]
       }));
@@ -11673,10 +11666,10 @@ var CommentList = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/ModificationPosts.js":
-/*!*****************************************!*\
-  !*** ./components/ModificationPosts.js ***!
-  \*****************************************/
+/***/ "./components/ModificationPosts.jsx":
+/*!******************************************!*\
+  !*** ./components/ModificationPosts.jsx ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11688,8 +11681,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _PostItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PostItem */ "./components/PostItem.js");
-/* harmony import */ var _WarningMessage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./WarningMessage */ "./components/WarningMessage.js");
+/* harmony import */ var _PostItem_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PostItem.jsx */ "./components/PostItem.jsx");
+/* harmony import */ var _WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./WarningMessage.jsx */ "./components/WarningMessage.jsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11759,7 +11752,7 @@ var ModificationPosts = /*#__PURE__*/function (_React$Component) {
         render = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "".concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.appField__postList, " ").concat(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.h100)
         }, this.state.postList instanceof Array ? this.state.postList.map(function (i) {
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostItem_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
             title: i.title,
             text: i.text.length > 370 ? i.text.slice(0, 370) : i.text,
             tag: i.tags,
@@ -11768,8 +11761,9 @@ var ModificationPosts = /*#__PURE__*/function (_React$Component) {
               return _this2.handleShowPost(i.id);
             }
           });
-        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WarningMessage__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          text: 'Извините, но я ничего не откопал'
+        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          text: 'Извините, но я ничего не откопал',
+          otherSelectors: [_styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage_hAuto]
         }));
       }
 
@@ -11784,10 +11778,10 @@ var ModificationPosts = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/PostItem.js":
-/*!********************************!*\
-  !*** ./components/PostItem.js ***!
-  \********************************/
+/***/ "./components/PostItem.jsx":
+/*!*********************************!*\
+  !*** ./components/PostItem.jsx ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11856,10 +11850,94 @@ var PostItem = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/TagItem.js":
-/*!*******************************!*\
-  !*** ./components/TagItem.js ***!
-  \*******************************/
+/***/ "./components/PostList.jsx":
+/*!*********************************!*\
+  !*** ./components/PostList.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PostItem_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PostItem.jsx */ "./components/PostItem.jsx");
+/* harmony import */ var _WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WarningMessage.jsx */ "./components/WarningMessage.jsx");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+var PostList = /*#__PURE__*/function (_React$Component) {
+  _inherits(PostList, _React$Component);
+
+  var _super = _createSuper(PostList);
+
+  function PostList() {
+    _classCallCheck(this, PostList);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(PostList, [{
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.appField__postList
+      }, this.props.postList instanceof Array ? this.props.postList.map(function (i) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostItem_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          title: i.title,
+          text: i.text.length > 370 ? i.text.slice(0, 370) : i.text,
+          tag: i.tags,
+          key: i.id,
+          handleShow: function handleShow() {
+            return _this.handleShowPost(i.id);
+          }
+        });
+      }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        text: 'Извините, но я ничего не откопал',
+        otherSelectors: [_styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage_hAuto, _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.warningMessage_p15]
+      }));
+    }
+  }]);
+
+  return PostList;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (PostList);
+
+/***/ }),
+
+/***/ "./components/TagItem.jsx":
+/*!********************************!*\
+  !*** ./components/TagItem.jsx ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11922,10 +12000,91 @@ var TagItem = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/WarningMessage.js":
-/*!**************************************!*\
-  !*** ./components/WarningMessage.js ***!
-  \**************************************/
+/***/ "./components/TagList.jsx":
+/*!********************************!*\
+  !*** ./components/TagList.jsx ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.sass */ "./styles/main.sass");
+/* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _TagItem_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TagItem.jsx */ "./components/TagItem.jsx");
+/* harmony import */ var _WarningMessage_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WarningMessage.jsx */ "./components/WarningMessage.jsx");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+var TagList = /*#__PURE__*/function (_React$Component) {
+  _inherits(TagList, _React$Component);
+
+  var _super = _createSuper(TagList);
+
+  function TagList() {
+    _classCallCheck(this, TagList);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(TagList, [{
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default.a.appField__tagList
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TagItem_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        text: "all",
+        key: "all",
+        handleToggle: this.props.handleToggle.bind(this, null)
+      }), this.props.postList instanceof Array ? this.props.tagList.map(function (i) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TagItem_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          text: i.text,
+          key: i.text,
+          handleToggle: _this.handleToggleTag.bind(_this, i.text)
+        });
+      }) : '');
+    }
+  }]);
+
+  return TagList;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (TagList);
+
+/***/ }),
+
+/***/ "./components/WarningMessage.jsx":
+/*!***************************************!*\
+  !*** ./components/WarningMessage.jsx ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/main.sass'
 import axios from 'axios'
 
-import ModificationPosts from './ModificationPosts'
+import ModificationPosts from './ModificationPosts.jsx'
 
 class AddingPostField extends React.Component {
 	constructor(props) {

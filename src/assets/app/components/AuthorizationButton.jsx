@@ -5,13 +5,16 @@ class AuthorizationButton extends React.Component {
 	constructor(props) {
 		super(props)
 
+		this.toggleButtonREF = React.createRef()
+
 		this.state = {
 			token: this.props.token,
-			isToggle: true
+			isToggle: false
 		}
 
 		this.handleToggleBtnList = this.handleToggleBtnList.bind(this)
 		this.handleBlurHideBtn = this.handleBlurHideBtn.bind(this)
+		this.handleToggleMenu = this.handleToggleMenu.bind(this)
 	} 
 
 	handleToggleBtnList(e) {
@@ -31,28 +34,37 @@ class AuthorizationButton extends React.Component {
 		}, 200)
 	}
 
+	handleToggleMenu(list) {
+		console.log(this.toggleButtonREF.current)
+		if (this.state.isToggle) return list 
+		return ''
+	}
+
 	render() {
 		let buttonList
 
 		if (!this.state.token) {
 
 			buttonList = (
-				<>
-					<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
-				</>
+				<nav className={styles.authButton__nav} ref={this.toggleButtonREF}>
+					<ul className={styles.authButton__buttonList}>
+						<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
+					</ul>
+				</nav>
 			)
 
 		} else {
 
 			buttonList = (
-				<>
-					<li className={styles.authButton__buttonItem}> 
-					<button 
-						onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
-					</li>
-					<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
-					<li className={styles.authButton__buttonItem}> <a href="//">L</a> </li>
-				</>
+				<nav className={styles.authButton__nav} ref={this.toggleButtonREF}>
+					<ul className={styles.authButton__buttonList}>
+						<li className={styles.authButton__buttonItem}> 
+						<button 
+							onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
+						</li>
+						<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
+					</ul>
+				</nav>
 			)
 
 		}
@@ -65,11 +77,7 @@ class AuthorizationButton extends React.Component {
 						onClick={this.handleToggleBtnList} 
 						>U</button>
 				</div>
-				<nav className={styles.authButton__nav}>
-					<ul className={styles.authButton__buttonList}>
-						{this.state.isToggle ? '' : buttonList}
-					</ul>
-				</nav>
+				{this.handleToggleMenu(buttonList)}
 			</div>
 		)
 	}

@@ -9,8 +9,8 @@ WebFont.load({
 	}
 });
 
-import FormRegistration from './components/FormRegistration'
-import FormLogin from './components/FormLogin'
+import FormRegistration from './components/FormRegistration.jsx'
+import FormLogin from './components/FormLogin.jsx'
 
 class App extends React.Component {
 	constructor(props) {
