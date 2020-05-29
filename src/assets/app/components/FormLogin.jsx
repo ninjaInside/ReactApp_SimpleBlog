@@ -47,7 +47,7 @@ class FormLogin extends React.Component {
 					onSubmit={(values, {setSubmitting}) => {
 						axios({
 							method: 'post',
-							url: 'http://localhost:8000/api/v1/auth/login/',
+							url: 'https:\/\/govnoblog.herokuapp.com/api/v1/auth/login/',
 							headers: {
 								'Content-type': 'application/json'
 							},

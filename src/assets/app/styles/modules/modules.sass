@@ -96,10 +96,14 @@
 	position: relative
 	z-index: -2
 
-	& > form 
+	&__form 
 		@include flex(column, center, center) 
-		width: inherit
+		width: 450px
 		height: inherit
+
+		@media screen and (max-width: 464px) 
+			&
+				width: 100%
 
 	& > form > *
 		margin-bottom: 20px
@@ -118,7 +122,6 @@
 	&__text 
 		height: 450px
 		width: 100%
-		max-width: 450px
 		border: 2px solid $addC
 		background-color: transparent
 		padding: 5px
@@ -286,7 +289,7 @@
 	width: 100%
 	max-width: 1080px
 	height: 100%
-	min-height: 100vh
+	max-height: 100vh
 	padding: 15px
 	position: relative
 	z-index: -2
@@ -323,16 +326,12 @@
 .postItem
 	padding: 10px
 	position: relative
-	border-bottom: 1px solid black
+	border-bottom: 2px solid $mainC
 	height: auto 
 	min-height: 100px
+	background-color: transparent 
+	color: $whiteC
 	cursor: pointer
-
-	&:first-child 
-		border-top: 1px solid black
-
-	&:last-child
-		border-bottom: 0
 
 	& > * 
 		display: block
@@ -342,12 +341,15 @@
 		margin-bottom: 10px
 
 	&__text
-		margin-bottom: 15px
+		margin-bottom: 25px
+		word-break: break-all
 
 	&__tag 
 		position: absolute
-		right: 10px
-		bottom: 5px
+		padding: 5px 10px
+		right: 0px
+		bottom: 0px
+		background-color: $mainC
 
 .tagItem
 	border: 0

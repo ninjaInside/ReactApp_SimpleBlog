@@ -118,11 +118,11 @@ class App extends React.Component {
 		if (!this.state.currentTag) {
 			axios({
 				method: 'get',
-				url: 'http:\/\/localhost:8000/api/v1/posts/'
+				url: 'https:\/\/govnoblog.herokuapp.com/api/v1/posts/'
 			})
 			.then((response) => {
 				this.setState({
-					postList: response
+					postList: response.data
 				})
 			})
 		}
@@ -130,7 +130,7 @@ class App extends React.Component {
 	}
 
 	handleGetTags() {
-		if (!(this.state.postList instanceof Array)) return
+		if (!(this.state.postList instanceof Array)) console.log(1)
 
 		return ['жопа']
 	}

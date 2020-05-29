@@ -61,7 +61,7 @@ class FormRegistration extends React.Component {
 					onSubmit={(values, {setSubmitting}) => {
 						axios({
 							method: 'post',
-							url: 'http://localhost:8000/api/v1/auth/registration/',
+							url: 'https:\/\/govnoblog.herokuapp.com/api/v1/auth/registration/',
 							headers: {
 								'Content-type': 'application/json'
 							},
