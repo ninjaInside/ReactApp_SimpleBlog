@@ -44,8 +44,6 @@ module.exports = {
 		  $: 'jquery',
 		  jQuery: 'jquery'
 		}),
-
-		new HardSourceWebpackPlugin(),
 	],
 
 	module: {
@@ -70,7 +68,8 @@ module.exports = {
 					options: {
 						sourceMap: true,
 						importLoaders: 1, 
-						modules: true
+						modules: true,
+						localsConvention: 'camelCase'
 					}
 				},
 				{

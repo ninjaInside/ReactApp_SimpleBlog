@@ -14,30 +14,20 @@ class AuthorizationButton extends React.Component {
 
 		this.handleToggleBtnList = this.handleToggleBtnList.bind(this)
 		this.handleBlurHideBtn = this.handleBlurHideBtn.bind(this)
-		this.handleToggleMenu = this.handleToggleMenu.bind(this)
 	} 
 
 	handleToggleBtnList(e) {
-		this.setState((state) => {
-			return {
-				isToggle: !this.state.isToggle
-			}
-		})
+		let buttonListREF = this.toggleButtonREF.current
 
+		buttonListREF.classList.toggle(styles.authButton_menuOpen)
 	}
 
 	handleBlurHideBtn(e) {
-		setTimeout(() => {
-			this.setState({
-				isToggle: true
-			})
-		}, 200)
-	}
+		let buttonListREF = this.toggleButtonREF.current
 
-	handleToggleMenu(list) {
-		console.log(this.toggleButtonREF.current)
-		if (this.state.isToggle) return list 
-		return ''
+		setTimeout(() => {
+			buttonListREF.classList.remove(styles.authButton_menuOpen)
+		}, 0)
 	}
 
 	render() {
@@ -46,25 +36,21 @@ class AuthorizationButton extends React.Component {
 		if (!this.state.token) {
 
 			buttonList = (
-				<nav className={styles.authButton__nav} ref={this.toggleButtonREF}>
-					<ul className={styles.authButton__buttonList}>
-						<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
-					</ul>
-				</nav>
+				<>
+					<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
+				</>
 			)
 
 		} else {
 
 			buttonList = (
-				<nav className={styles.authButton__nav} ref={this.toggleButtonREF}>
-					<ul className={styles.authButton__buttonList}>
-						<li className={styles.authButton__buttonItem}> 
-						<button 
-							onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
-						</li>
-						<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
-					</ul>
-				</nav>
+				<>
+					<li className={styles.authButton__buttonItem}> 
+					<button 
+						onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
+					</li>
+					<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
+				</>
 			)
 
 		}
@@ -77,7 +63,11 @@ class AuthorizationButton extends React.Component {
 						onClick={this.handleToggleBtnList} 
 						>U</button>
 				</div>
-				{this.handleToggleMenu(buttonList)}
+				<nav className={styles.authButton__nav}>
+					<ul className={styles.authButton__buttonList} ref={this.toggleButtonREF}>
+						{buttonList}
+					</ul>
+				</nav>
 			</div>
 		)
 	}

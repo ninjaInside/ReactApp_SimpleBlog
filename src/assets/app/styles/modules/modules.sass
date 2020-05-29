@@ -4,12 +4,15 @@
 	height: auto
 	min-height: 100vh
 	background-color: $addC2
+	position: relative
+	z-index: 0
 
 .wrraper 
 	width: 100%
 	max-width: 1200px
 	margin: 0 auto 
 	font: 1rem 'Montserrat'
+	position: relative
 
 .errorMessage
 	width: 100%
@@ -86,10 +89,12 @@
 .addingPostField
 	@include flex(column, flex-start, center) 
 	width: 100%
-	max-width: 1095px
+	max-width: 1080px
 	padding: 15px
 	height: 100%
 	min-height: 100vh
+	position: relative
+	z-index: -2
 
 	& > form 
 		@include flex(column, center, center) 
@@ -279,11 +284,12 @@
 .appField
 	@include flex(row, space-between, stretch)
 	width: 100%
-	max-width: 1095px
-	padding: 0 15px
+	max-width: 1080px
 	height: 100%
 	min-height: 100vh
 	padding: 15px
+	position: relative
+	z-index: -2
 
 	&__postList
 		width: 100% 
@@ -351,6 +357,7 @@
 	text-transform: uppercase
 	letter-spacing: .05rem
 	font-size: 1.1rem
+	cursor: pointer
 
 	&:hover 
 		background-color: $addC
@@ -358,17 +365,21 @@
 
 .authButton 
 	position: relative
-	z-index: 100
 
 	&__nav 
 		position: absolute
-		color: black
 		margin-top: 10px
 		width: auto
+		z-index: -1
 
 	&__buttonList 
 		padding: 0
 		list-style: none
+		transform: translateY(-135px)
+		opacity: 0
+		transition: .3s linear
+		position: relative
+		z-index: 1000
 
 	&__buttonItem 
 		margin-bottom: 10px
@@ -376,7 +387,7 @@
 		height: 54px
 
 		& > a, button
-			display: table-cell 
+			display: table-cell
 			vertical-align: middle
 			text-align: center
 			width: inherit
@@ -386,6 +397,8 @@
 			background-color: $addC2
 			color: $whiteC
 			text-decoration: none
+			cursor: pointer
+
 
 	&__buttonUser 
 		display: table-cell 
@@ -399,6 +412,8 @@
 		color: $addC
 		font: 1.1rem sans-serif
 		margin-left: 5px
+		position: relative
+		z-index: 100
 		cursor: pointer
 
 

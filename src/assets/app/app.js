@@ -194,7 +194,7 @@ class App extends React.Component {
 		return (
 			<div className={styles.main}>
 				<header className={styles.header}>
-					<div className={`${styles.wrraper} ${styles.wrraper_flexSb}`}>
+					<div className={`${styles.wrraper} ${styles.wrraper_flexSb} ${styles.wrraper_p15} ${styles.wrraper_colorBlue}`}>
 						<AuthorizationButton token={this.state.AuthorizationToken} toggleFieldAdd={this.handleToggleFieldAdd} />
 						<span className={styles.header__logo}>The Blog</span>
 					</div>
