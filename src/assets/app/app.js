@@ -80,10 +80,17 @@ class App extends React.Component {
 	}
 
 	handleShowPost(postId) {
-		this.setState(state => {
-			return {
-				fieldPostItem: state.postList[postId]
+		axios({
+			method: 'get',
+			url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/${postId}`,
+			headers: {
+				'Content-type': 'application/json',
 			}
+		})
+		.then(res => {
+			this.setState({
+				fieldPostItem: res.data
+			})
 		})
 	}
 
@@ -165,7 +172,7 @@ class App extends React.Component {
 
 			content = (
 				<>
-					<PostList postList={this.state.postList} />
+					<PostList postList={this.state.postList} handleShow={this.handleShowPost} />
 
 					<TagList 
 						postList={this.state.postList}

@@ -13,13 +13,13 @@ class BlogItem extends React.Component {
 						this.props.item.title
 					}</h1>
 					<span className={styles.blogItem__text}>{
-						this.props.item.text
+						this.props.item.body
 					}</span>
 					<span className={styles.blogItem__tag}>{
-						this.props.item.tag
+						this.props.item.tags[0].name
 					}</span>
 				</div>
-				<CommentList />
+				<CommentList listComments={this.props.item.comments} currentPost={this.props.item.id} />
 			</>
 		)
 	}

@@ -261,6 +261,7 @@
 	padding: 15px
 	position: relative
 	border-bottom: 2px solid $addC
+	color: $whiteC
 
 	&__btn 
 		position: absolute
@@ -279,6 +280,14 @@
 	&__title
 		margin-top: 35px
 
+	&__tag
+		position: absolute
+		bottom: 10px
+		right: 15px 
+		padding: 5px 10px
+		background-color: $mainC
+
+
 	@media screen and (max-width: 364px) 
 		&
 			&__text
@@ -288,8 +297,7 @@
 	@include flex(row, space-between, stretch)
 	width: 100%
 	max-width: 1080px
-	height: 100%
-	max-height: 100vh
+	height: 100vh
 	padding: 15px
 	position: relative
 	z-index: -2

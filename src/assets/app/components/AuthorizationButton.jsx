@@ -46,10 +46,11 @@ class AuthorizationButton extends React.Component {
 			buttonList = (
 				<>
 					<li className={styles.authButton__buttonItem}> 
-					<button 
-						onClick={this.props.toggleFieldAdd.bind(this, true)}>A</button> 
+						<button 
+							onClick={this.props.toggleFieldAdd.bind(this, true)}>L</button> 
 					</li>
-					<li className={styles.authButton__buttonItem}> <a href="//">E</a> </li>
+					<li className={styles.authButton__buttonItem}> 
+						<a href="users.html">L</a> </li>
 				</>
 			)
 

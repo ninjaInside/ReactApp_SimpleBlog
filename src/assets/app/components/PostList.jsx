@@ -11,7 +11,7 @@ class PostList extends React.Component {
 				{this.props.postList instanceof Array ? this.props.postList.map((i) => {
 					return <PostItem title={i.title} text={
 						i.body.length > 370 ? i.text.slice(0, 370) : i.body 
-					} tag={i.tags[0].name} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
+					} tag={i.tags[0].name} key={i.id} handleShow={() => this.props.handleShow(i.id)} />
 				}) : <WarningMessage 
 						text={'Извините, но я ничего не откопал'} 
 						otherSelectors={[styles.warningMessage_hAuto, styles.warningMessage_p15]} />}
