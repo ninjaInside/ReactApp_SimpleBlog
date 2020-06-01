@@ -33,7 +33,7 @@ class App extends React.Component {
 
 		this.state = {
 			postList: null,
-			tagList: null,
+			tagList: [],
 			AuthorizationToken: this.handleGetUserToken(),
 			contentVisible: this.handleGetUserToken(),
 			fieldPostItem: null,
@@ -47,16 +47,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		new Promise(resolve => {
-			this.handleGetPosts()
-
-			resolve()
-		})
-		.then(() => {
-			this.setState({
-				tagList: this.handleGetTags()
-			})
-		})
+		this.handleGetPosts()
 	}
 
 	handleToggleFieldAdd(value) {
@@ -123,6 +114,7 @@ class App extends React.Component {
 		}
 
 		if (!this.state.currentTag) {
+			
 			axios({
 				method: 'get',
 				url: 'https:\/\/govnoblog.herokuapp.com/api/v1/posts/'
@@ -131,15 +123,46 @@ class App extends React.Component {
 				this.setState({
 					postList: response.data
 				})
+
+				this.handleGetTags()
 			})
+		
+		} else {
+
+			axios({
+				method: 'get',
+				url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/tag/${this.state.currentTag}`
+			})
+			.then((response) => {
+				this.setState({
+					postList: response.data
+				})
+			})
+
 		}
 		
 	}
 
 	handleGetTags() {
-		if (!(this.state.postList instanceof Array)) console.log(1)
+		let collection = new Set()
 
-		return ['жопа']
+		this.state.postList.forEach(item => {
+			for (let tag of item.tags) {
+				let isExist
+
+				for (let i of Array.from(collection)) {
+					if (i.name === tag.name) isExist = true
+				}	
+
+				if (!isExist) {
+					collection.add({...tag})
+				}
+			}
+		})
+
+		this.setState({
+			tagList: Array.from(collection)
+		})
 	}
 
 	render() {
@@ -150,10 +173,6 @@ class App extends React.Component {
 				</div>
 			)
 		}
-
-		setTimeout(() => {
-			console.log(this.state.tagList)
-		}, 1000)
 
 		let content
 		let endRendering
@@ -175,7 +194,6 @@ class App extends React.Component {
 					<PostList postList={this.state.postList} handleShow={this.handleShowPost} />
 
 					<TagList 
-						postList={this.state.postList}
 						tagList={this.state.tagList}
 						handleToggle={this.handleToggleTag} />
 				</>
@@ -202,7 +220,10 @@ class App extends React.Component {
 			<div className={styles.main}>
 				<header className={styles.header}>
 					<div className={`${styles.wrraper} ${styles.wrraper_flexSb} ${styles.wrraper_p15} ${styles.wrraper_colorBlue}`}>
-						<AuthorizationButton token={this.state.AuthorizationToken} toggleFieldAdd={this.handleToggleFieldAdd} />
+						<AuthorizationButton 
+							token={this.state.AuthorizationToken} 
+							toggleFieldAdd={this.handleToggleFieldAdd}
+							username={localStorage.getItem('Login')[0].toUpperCase()} />
 						<span className={styles.header__logo}>The Blog</span>
 					</div>
 				</header>

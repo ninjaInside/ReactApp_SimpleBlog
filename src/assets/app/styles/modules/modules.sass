@@ -71,6 +71,8 @@
 	font-size: .9rem
 	margin-bottom: 15px
 	word-break: break-all
+	width: 100%
+	max-width: 300px
 
 	&:last-child 
 		margin: 0
@@ -81,6 +83,9 @@
 
 		&:last-child 
 			margin: 0
+
+	&__author
+		font-size: 1.1rem
 
 	&__time 
 		font-style: italic
@@ -276,16 +281,24 @@
 	&__text 
 		margin-bottom: 15px
 		line-height: 1.6rem
+		word-break: break-all
 
 	&__title
 		margin-top: 35px
 
 	&__tag
+		padding: 5px 10px
+		background-color: $mainC
+		margin: 0 5px
+
+		&:last-child 
+			margin-right: 0
+
+	&__tagList 
+		@include flex(row, flex-start, center)
 		position: absolute
 		bottom: 10px
 		right: 15px 
-		padding: 5px 10px
-		background-color: $mainC
 
 
 	@media screen and (max-width: 364px) 
@@ -294,10 +307,10 @@
 				text-align: justify
 
 .appField
-	@include flex(row, space-between, stretch)
+	@include flex(row, space-between, flex-start)
 	width: 100%
 	max-width: 1080px
-	height: 100vh
+	height: auto
 	padding: 15px
 	position: relative
 	z-index: -2
@@ -315,6 +328,8 @@
 		overflow: auto
 		flex-shrink: 0
 		background-color: $mainC
+		position: sticky
+		top: 0
 
 		& > *
 			width: 100%
@@ -332,14 +347,13 @@
 				height: 100%
 				min-height: 100vh
 .postItem
-	padding: 10px
+	padding: 10px 0
 	position: relative
 	border-bottom: 2px solid $mainC
 	height: auto 
 	min-height: 100px
 	background-color: transparent 
 	color: $whiteC
-	cursor: pointer
 
 	& > * 
 		display: block
@@ -349,15 +363,32 @@
 		margin-bottom: 10px
 
 	&__text
-		margin-bottom: 25px
+		margin-bottom: 45px
 		word-break: break-all
 
+	&__tagList
+		@include flex(row, flex-start, center)
+		position: absolute
+		right: 0
+		bottom: 0
+
 	&__tag 
+		padding: 5px 10px
+		background-color: $mainC
+		margin: 0 5px
+
+		&:last-child 
+			margin-right: 0
+
+	&__openBtn 
 		position: absolute
 		padding: 5px 10px
-		right: 0px
-		bottom: 0px
+		left: 0
+		bottom: 0
 		background-color: $mainC
+		color: $whiteC
+		border: 0
+		cursor: pointer
 
 .tagItem
 	border: 0
@@ -368,6 +399,7 @@
 	letter-spacing: .05rem
 	font-size: 1.1rem
 	cursor: pointer
+	word-break: break-all
 
 	&:hover 
 		background-color: $addC
@@ -408,6 +440,7 @@
 			color: $whiteC
 			text-decoration: none
 			cursor: pointer
+			font-size: 1.1rem
 
 
 	&__buttonUser 
@@ -420,7 +453,7 @@
 		border-radius: 50%
 		background-color: $addC2
 		color: $addC
-		font: 1.1rem sans-serif
+		font-size: 1.1rem
 		margin-left: 5px
 		position: relative
 		z-index: 100

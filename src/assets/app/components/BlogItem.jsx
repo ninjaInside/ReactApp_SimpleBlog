@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/main.sass'
+import axios from 'axios'
 
 import CommentList from './CommentList.jsx'
 
@@ -15,11 +16,11 @@ class BlogItem extends React.Component {
 					<span className={styles.blogItem__text}>{
 						this.props.item.body
 					}</span>
-					<span className={styles.blogItem__tag}>{
-						this.props.item.tags[0].name
-					}</span>
+					<div className={styles.blogItem__tagList}>
+						{this.props.item.tags.map(t => <span className={styles.blogItem__tag} key={t.slug}>{t.name}</span>)}
+					</div>
 				</div>
-				<CommentList listComments={this.props.item.comments} currentPost={this.props.item.id} />
+				<CommentList currentPost={this.props.item.id} />
 			</>
 		)
 	}

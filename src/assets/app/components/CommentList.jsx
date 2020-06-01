@@ -10,10 +10,16 @@ class CommentList extends React.Component {
 		super(props)
 
 		this.handleAddComment = this.handleAddComment.bind(this)
+		this.handleLoadComments = this.handleLoadComments.bind(this)
 
 		this.state = {
-			valueComment: ''
+			valueComment: '',
+			comments: []
 		}
+	}
+
+	componentDidMount() {
+		this.handleLoadComments()
 	}
 
 	handleAddComment(postId) {
@@ -29,7 +35,22 @@ class CommentList extends React.Component {
 				post: postId
 			}
 		})
+		.then(() => {
+			this.handleLoadComments()
+		})
 	} 
+
+	handleLoadComments() {
+		axios({
+			method: 'get',
+			url: `https:\/\/govnoblog.herokuapp.com/api/v2/posts/${this.props.currentPost}/comments`
+		})
+		.then(response => {
+			this.setState({
+				comments: response.data.reverse()
+			})
+		})
+	}
 
 	render() {
 		return (
@@ -47,11 +68,12 @@ class CommentList extends React.Component {
 						className={styles.commentList__addBtn}
 						onClick={this.handleAddComment.bind(this, this.props.currentPost)} >Add Comment</button>
 				</div>
-				{this.props.listComments instanceof Array ? 
-					this.props.listComments.map(i => <CommentItem 
+				{this.state.comments[0] ? 
+					this.state.comments.map(i => <CommentItem 
 														author={i.author.username}
 														text={i.text}
-														time={new Date(i.created).toTimeString()} />)
+														time={new Date(i.created).toLocaleTimeString()}
+														key={i.author.username} />)
 					:
 					
 					<WarningMessage 

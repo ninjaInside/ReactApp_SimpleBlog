@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import PostItem from './PostItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
+import PostList from './PostList.jsx'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
@@ -16,34 +17,40 @@ class ModificationPosts extends React.Component {
 
 		this.handleModificatePost = this.handleModificatePost.bind(this)
 		this.handleGetPost = this.handleGetPost.bind(this)
-		this.handleAddPost = this.handleAddPost.bind(this)
 	}
 
-	handleModificatePost() {
+	componentDidMount() {
+		this.handleGetPost()
+	}
 
+	handleModificatePost(postId, e) {
+		
 	}
 
 	handleGetPost() {
-
-	}
-
-	handleAddPost() {
-
+		axios({
+			method: 'get',
+			url: `https:\/\/govnoblog.herokuapp.com/api/v1/users/current/posts/`,
+			headers: {
+				'Authorization': `Token ${localStorage.getItem('AuthKey')}`
+			}
+		})
+		.then(response => {
+			this.setState({
+				postList: response.data
+			})
+		})
 	}
 
 	render() {
 		let render
 
 		if (!this.state.currentPost) {
-			render = <div className={`${styles.appField__postList} ${styles.h100}`}>
-						{this.state.postList instanceof Array ? this.state.postList.map((i) => {
-							return <PostItem title={i.title} text={
-								i.text.length > 370 ? i.text.slice(0, 370) : i.text 
-							} tag={i.tags} key={i.id} handleShow={() => this.handleShowPost(i.id)} />
-						}) : <WarningMessage 
-								text={'Извините, но я ничего не откопал'}
-								otherSelectors={[styles.warningMessage_hAuto]}  />}
-					</div>
+			render = <PostList 
+						postList={this.state.postList} 
+						btnText={'Modificate'} 
+						handleShow={this.handleModificatePost}/>
+
 		}
 
 		return (

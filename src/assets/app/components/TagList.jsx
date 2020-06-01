@@ -9,9 +9,9 @@ class TagList extends React.Component {
 		return (
 			<div className={styles.appField__tagList}>
 				<TagItem text='all' key='all' handleToggle={this.props.handleToggle.bind(this, null)} />
-				{this.props.postList instanceof Array ? this.props.tagList.map((i) => {
-					return <TagItem text={i.text} key={i.text} handleToggle={this.props.handleToggle.bind(this, i.text)} />
-				}) : ''}
+				{this.props.tagList.map((i) => {
+					return <TagItem text={i.name} key={i.name} handleToggle={this.props.handleToggle.bind(this, i.slug)} />
+				})}
 			</div>
 		)
 	}

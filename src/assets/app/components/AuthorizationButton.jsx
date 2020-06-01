@@ -62,7 +62,7 @@ class AuthorizationButton extends React.Component {
 					<button 
 						className={styles.authButton__buttonUser} 
 						onClick={this.handleToggleBtnList} 
-						>U</button>
+						>{this.props.username ? this.props.username : 'U'}</button>
 				</div>
 				<nav className={styles.authButton__nav}>
 					<ul className={styles.authButton__buttonList} ref={this.toggleButtonREF}>

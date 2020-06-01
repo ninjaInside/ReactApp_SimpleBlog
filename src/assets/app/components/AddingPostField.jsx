@@ -39,14 +39,14 @@ class AddingPostField extends React.Component {
 			render = <Formik
 					initialValues={{
 						title: '', 
-						tags: [], 
+						tags: '', 
 						body: '', 
 					}}
 					validate={values => {
 						let errors = {}
 
 						if (values.body.length < 15) {
-							errors.body = 'В тексте должно быть как минимум больше одного символа'
+							errors.body = 'В тексте должно быть как минимум больше 15 символов'
 						}
 
 						if (values.title.length <= 0) {
@@ -58,6 +58,10 @@ class AddingPostField extends React.Component {
 							errors.title = 'В заголовке НЕ должно быть больше 150 символов'
 
 						} 
+
+						if (values.tags.split(' ').length > 5) {
+							errors.tags = 'Количество тегов не должно превышать 5'
+						}
 						
 						return errors
 					}}
@@ -114,6 +118,7 @@ class AddingPostField extends React.Component {
 					            placeholder='Text'></textarea>
 					        {errors.body && touched.body ? <ErrorMessage text={errors.body} /> : ''}
 					        {errors.title && touched.title ? <ErrorMessage text={errors.title} /> : ''}
+					        {errors.tags && touched.tags ? <ErrorMessage text={errors.tags} /> : ''}
 							<button
 								type='submit'
 								className={styles.addingPostField__createBtn}>Create</button>
