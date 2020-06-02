@@ -259,7 +259,7 @@
 	@include flex(column, flex-start, flex-start)
 	width: 100%
 	flex-shrink: 0
-	max-width: 1215px
+	max-width: 1080px
 	padding: 0 15px
 	height: 100%
 	min-height: 100vh
@@ -267,6 +267,8 @@
 	position: relative
 	border-bottom: 2px solid $addC
 	color: $whiteC
+	position: relative
+	z-index: -2
 
 	&__btn 
 		position: absolute
@@ -361,6 +363,8 @@
 	&__title
 		margin: 0
 		margin-bottom: 10px
+		color: $addC
+		cursor: pointer
 
 	&__text
 		margin-bottom: 45px
@@ -379,16 +383,6 @@
 
 		&:last-child 
 			margin-right: 0
-
-	&__openBtn 
-		position: absolute
-		padding: 5px 10px
-		left: 0
-		bottom: 0
-		background-color: $mainC
-		color: $whiteC
-		border: 0
-		cursor: pointer
 
 .tagItem
 	border: 0

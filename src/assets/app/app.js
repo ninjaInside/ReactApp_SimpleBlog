@@ -15,7 +15,7 @@ import WarningMessage from './components/WarningMessage.jsx'
 import PostList from './components/PostList.jsx'
 import TagList from './components/TagList.jsx'
 import BlogItem from './components/BlogItem.jsx'
-import AddingPostField from './components/AddingPostField.jsx' 
+import PostChanges from './components/PostChanges.jsx' 
 
 
 class App extends React.Component {
@@ -213,7 +213,7 @@ class App extends React.Component {
 
 
 		if (this.state.fieldAdd) {
-			endRendering = <AddingPostField closeField={this.handleToggleFieldAdd} />
+			endRendering = <PostChanges closeField={this.handleToggleFieldAdd} />
 		}
 
 		return (

@@ -5,29 +5,61 @@ import axios from 'axios'
 import PostItem from './PostItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
 import PostList from './PostList.jsx'
+import FormAddPost from './FormAddPost.jsx'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
 		super(props)
 
 		this.state = {
-			currentPost: null,
 			postList: null,
+			title: '',
+			body: '',
+			tags: ''
 		}
 
 		this.handleModificatePost = this.handleModificatePost.bind(this)
+		this.handleGetPostList = this.handleGetPostList.bind(this)
 		this.handleGetPost = this.handleGetPost.bind(this)
 	}
 
 	componentDidMount() {
-		this.handleGetPost()
+		this.handleGetPostList()
 	}
 
-	handleModificatePost(postId, e) {
-		
+	handleModificatePost(values, {setSubmitting}) {
+		values.tags = values.tags.split(' ')
+
+		axios({
+			method: 'put',
+			url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/${this.props.postId}/`,
+			headers: {
+				'Authorization': `Token ${localStorage.getItem('AuthKey')}`
+			},
+			data: values
+		})
+		.then(response => {
+			location.reload()
+		})
 	}
 
-	handleGetPost() {
+	handleGetPost(postId) {
+		axios({
+			method: 'get',
+			url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/${postId}/`,
+		})
+		.then(response => {
+			this.setState({
+				title: response.data.title,
+				body: response.data.body,
+				tags: response.data.tags.map((i) => i.name).join(' '),
+			})
+
+			this.props.handleChangePostId(postId)
+		})
+	}
+
+	handleGetPostList() {
 		axios({
 			method: 'get',
 			url: `https:\/\/govnoblog.herokuapp.com/api/v1/users/current/posts/`,
@@ -45,12 +77,20 @@ class ModificationPosts extends React.Component {
 	render() {
 		let render
 
-		if (!this.state.currentPost) {
+		if (this.props.postId) {
+
+			render = <FormAddPost 
+						responseFunction={this.handleModificatePost} 
+						title={this.state.title}
+						body={this.state.body}
+						tags={this.state.tags} />
+		
+		} else {
+			
 			render = <PostList 
 						postList={this.state.postList} 
-						btnText={'Modificate'} 
-						handleShow={this.handleModificatePost}/>
-
+						handleShow={this.handleGetPost} />
+		
 		}
 
 		return (
