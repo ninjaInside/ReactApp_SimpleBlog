@@ -223,7 +223,7 @@ class App extends React.Component {
 						<AuthorizationButton 
 							token={this.state.AuthorizationToken} 
 							toggleFieldAdd={this.handleToggleFieldAdd}
-							username={localStorage.getItem('Login')[0].toUpperCase()} />
+							username={localStorage.getItem('Login')[0].toUpperCase() || 'U'} />
 						<span className={styles.header__logo}>The Blog</span>
 					</div>
 				</header>
