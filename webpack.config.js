@@ -8,7 +8,9 @@ const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 
 const paths = {
 	src: path.resolve(__dirname, 'src/assets/app/'),
-	dist: path.resolve(__dirname, 'dist/')
+	dist: path.resolve(__dirname, 'dist/view'),
+	stylesAlias: path.resolve(__dirname, 'src/assets/app/styles'),
+	componentsAlias: path.resolve(__dirname, 'src/assets/app/components')
 }
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
@@ -93,7 +95,10 @@ module.exports = {
 
 	resolve: {
 		modules: ["node_modules", paths.src],
-		extensions: ['.js', '.min.js']
+		alias: {
+			Styles: paths.stylesAlias,
+			Components: paths.componentsAlias,	
+		}
 	},
 
 	watch: NODE_ENV === 'development',

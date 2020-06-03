@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/main.sass'
+import styles from 'Styles/main.sass'
 
 import PostItem from './PostItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
@@ -12,8 +12,9 @@ class PostList extends React.Component {
 					return <PostItem 
 								title={i.title} 
 								text={i.body.length > 270 ? i.body.slice(0, 270) + '...' : i.body} 
-								tags={i.tags} key={i.id} 
-								handleShow={this.props.handleShow.bind(this, i.id)} 
+								tags={i.tags} 
+								key={i.id} 
+								postId={i.id} 
 								btnText={this.props.btnText} />
 				}) : <WarningMessage 
 						text={'Извините, но я ничего не откопал'} 

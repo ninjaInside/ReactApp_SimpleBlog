@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/main.sass'
+import styles from 'Styles/main.sass'
 
 class ErrorMessage extends React.Component {
 	render() {

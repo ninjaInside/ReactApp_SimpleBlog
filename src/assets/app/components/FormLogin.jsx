@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/main.sass'
+import styles from 'Styles/main.sass'
 import {Formik} from 'formik'
 import axios from 'axios'
 

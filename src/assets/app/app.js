@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import styles from './styles/main.sass'
 import axios from 'axios'
 import WebFont from 'webfontloader'
@@ -8,14 +9,14 @@ WebFont.load({
 	google: {
 	  families: ['Montserrat', 'Open-Sans']
 	}
-  });
+});
 
-import AuthorizationButton from './components/AuthorizationButton.jsx'
-import WarningMessage from './components/WarningMessage.jsx'
-import PostList from './components/PostList.jsx'
-import TagList from './components/TagList.jsx'
-import BlogItem from './components/BlogItem.jsx'
-import PostChanges from './components/PostChanges.jsx' 
+import AuthorizationButton from 'Components/AuthorizationButton.jsx'
+import WarningMessage from 'Components/WarningMessage.jsx'
+import BlogItem from 'Components/BlogItem.jsx'
+import PostChanges from 'Components/PostChanges.jsx' 
+
+import Home from 'Components/componentsPages/Home.jsx' 
 
 
 class App extends React.Component {
@@ -46,11 +47,11 @@ class App extends React.Component {
 		}
 	}
 
-	componentDidMount() {
+	componentDidMount () {
 		this.handleGetPosts()
 	}
 
-	handleToggleFieldAdd(value) {
+	handleToggleFieldAdd (value) {
 		this.setState({
 			fieldAdd: value 
 		})
@@ -177,30 +178,6 @@ class App extends React.Component {
 		let content
 		let endRendering
 
-		if (!this.state.contentVisible) {
-
-			content = <WarningMessage 
-						text={`
-						Ну, ты как бы не зареган. Прошу тебя зарегаться, ибо только так ты сможешь создавать посты,
-						для этого ты можешь нажать левую верхнюю кнопочку, но ты можешь и продолжить без регистрации :)`} 
-						textButton='Продолжить' 
-						toggleContent={this.handleShowContent}
-						/>
-
-		} else {
-
-			content = (
-				<>
-					<PostList postList={this.state.postList} handleShow={this.handleShowPost} />
-
-					<TagList 
-						tagList={this.state.tagList}
-						handleToggle={this.handleToggleTag} />
-				</>
-			)
-
-		}
-
 		if (this.state.fieldPostItem) {
 
 			endRendering = <BlogItem item={this.state.fieldPostItem} handleEmpty={this.handleEmptyField} />
@@ -223,18 +200,31 @@ class App extends React.Component {
 						<AuthorizationButton 
 							token={this.state.AuthorizationToken} 
 							toggleFieldAdd={this.handleToggleFieldAdd}
-							username={localStorage.getItem('Login')[0].toUpperCase() || 'U'} />
+							username={'U'} />
 						<span className={styles.header__logo}>The Blog</span>
 					</div>
 				</header>
 				
-				{endRendering}
+				<Switch>
+					<Route exact path='/'>
+						{contentWrap(
+							<Home 
+								userAuth={this.state.AuthorizationToken}
+								postList={this.state.postList}
+								tagList={this.state.tagList}
+								handleShowPost={this.handleShowPost}
+								handleToggleTag={this.handleToggleTag}/>)}
+					</Route>
+					<Route path='/:id/post' component={BlogItem} />
+				</Switch>
 			</div>
 		)
 	}
 }
 
 ReactDOM.render(
-	<App />,
+	<Router>
+		<App />
+	</Router>,
 	document.querySelector('#root')
 )
