@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'Styles/main.sass'
-import axios from 'axios'
+import BlogAPI from 'Services/BlogAPI'
 
 import CommentItem from './CommentItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
@@ -14,41 +14,28 @@ class CommentList extends React.Component {
 
 		this.state = {
 			valueComment: '',
-			comments: []
+			comments: [],
+			postId: parseInt(this.props.postId)
 		}
 	}
 
 	componentDidMount() {
-		this.handleLoadComments()
+		this.handleLoadComments(this.state.postId)
 	}
 
-	handleAddComment(postId) {
-		axios({
-			method: 'post',
-			url: 'https:\/\/govnoblog.herokuapp.com/api/v1/comments/',
-			headers: {
-				'Content-type': 'application/json',
-				'Authorization': `Token ${localStorage.getItem('AuthKey')}`
-			},
-			data: {
-				text: this.state.valueComment,
-				post: postId
-			}
-		})
-		.then(() => {
-			this.handleLoadComments()
-		})
+	async handleAddComment(postId, text) {
+		let comment = await BlogAPI.addCommentToPost(postId, text)
+
+		console.log(this.state.postId)
+
+		this.handleLoadComments(this.state.postId)
 	} 
 
-	handleLoadComments() {
-		axios({
-			method: 'get',
-			url: `https:\/\/govnoblog.herokuapp.com/api/v2/posts/${this.props.currentPost}/comments`
-		})
-		.then(response => {
-			this.setState({
-				comments: response.data.reverse()
-			})
+	async handleLoadComments() {
+		let commentList = await BlogAPI.getCommentsListById(this.state.postId) 
+
+		this.setState({
+			comments: commentList
 		})
 	}
 
@@ -66,14 +53,14 @@ class CommentList extends React.Component {
 						}}></textarea>
 					<button 
 						className={styles.commentList__addBtn}
-						onClick={this.handleAddComment.bind(this, this.props.currentPost)} >Add Comment</button>
+						onClick={this.handleAddComment.bind(this, this.state.postId, this.state.valueComment)}>Add Comment</button>
 				</div>
 				{this.state.comments[0] ? 
-					this.state.comments.map(i => <CommentItem 
-														author={i.author.username}
-														text={i.text}
-														time={new Date(i.created).toLocaleTimeString()}
-														key={i.author.username} />)
+					this.state.comments.map(item => <CommentItem 
+														author={item.author.username}
+														text={item.text}
+														time={new Date(item.created).toLocaleTimeString()}
+														key={item.id} />)
 					:
 					
 					<WarningMessage 

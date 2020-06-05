@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import styles from './styles/main.sass'
-import axios from 'axios'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import styles from 'Styles/main.sass'
 import WebFont from 'webfontloader'
+import BlogAPI from 'Services/BlogAPI'
 
 WebFont.load({
 	google: {
@@ -14,9 +14,11 @@ WebFont.load({
 import AuthorizationButton from 'Components/AuthorizationButton.jsx'
 import WarningMessage from 'Components/WarningMessage.jsx'
 import BlogItem from 'Components/BlogItem.jsx'
-import PostChanges from 'Components/PostChanges.jsx' 
+import PostChanges from 'Components/PostChanges.jsx'
+import Wrraper from 'Components/Wrraper.jsx' 
 
 import Home from 'Components/componentsPages/Home.jsx' 
+import Users from 'Components/componentsPages/Users.jsx'
 
 
 class App extends React.Component {
@@ -25,21 +27,18 @@ class App extends React.Component {
 
 		this.handleGetUserToken = this.handleGetUserToken.bind(this)
 		this.handleShowContent = this.handleShowContent.bind(this)
-		this.handleShowPost = this.handleShowPost.bind(this)
 		this.handleEmptyField = this.handleEmptyField.bind(this)
-		this.handleToggleTag = this.handleToggleTag.bind(this)
 		this.handleGetPosts = this.handleGetPosts.bind(this)
 		this.handleGetTags = this.handleGetTags.bind(this)
 		this.handleToggleFieldAdd = this.handleToggleFieldAdd.bind(this)
 
 		this.state = {
-			postList: null,
+			postList: [],
 			tagList: [],
 			AuthorizationToken: this.handleGetUserToken(),
 			contentVisible: this.handleGetUserToken(),
 			fieldPostItem: null,
 			tag: null,
-			currentTag: null,
 			fieldAdd: null,
 			modificateField: null,
 			pointerOne: 0,
@@ -49,6 +48,7 @@ class App extends React.Component {
 
 	componentDidMount () {
 		this.handleGetPosts()
+		this.handleGetTags()
 	}
 
 	handleToggleFieldAdd (value) {
@@ -71,124 +71,30 @@ class App extends React.Component {
 		})
 	}
 
-	handleShowPost(postId) {
-		axios({
-			method: 'get',
-			url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/${postId}`,
-			headers: {
-				'Content-type': 'application/json',
-			}
-		})
-		.then(res => {
-			this.setState({
-				fieldPostItem: res.data
-			})
-		})
-	}
-
 	handleEmptyField() {
 		this.setState({
 			fieldPostItem: null
 		})
 	}
 
-	handleToggleTag(tag) {
-		new Promise(resolve => {
-			this.setState({
-				tag: tag
-			})
-
-			resolve()
-		})
-		.then(r => {
-			this.handleGetPosts()
-		})
-	}
-
-	handleGetPosts() {
-		if (this.state.currentTag !== this.state.tag) {
-			this.setState((state) => {
-				return {
-					currentTag: state.tag
-				}
-			})
-		}
-
-		if (!this.state.currentTag) {
-			
-			axios({
-				method: 'get',
-				url: 'https:\/\/govnoblog.herokuapp.com/api/v1/posts/'
-			})
-			.then((response) => {
-				this.setState({
-					postList: response.data
-				})
-
-				this.handleGetTags()
-			})
-		
-		} else {
-
-			axios({
-				method: 'get',
-				url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/tag/${this.state.currentTag}`
-			})
-			.then((response) => {
-				this.setState({
-					postList: response.data
-				})
-			})
-
-		}
-		
-	}
-
-	handleGetTags() {
-		let collection = new Set()
-
-		this.state.postList.forEach(item => {
-			for (let tag of item.tags) {
-				let isExist
-
-				for (let i of Array.from(collection)) {
-					if (i.name === tag.name) isExist = true
-				}	
-
-				if (!isExist) {
-					collection.add({...tag})
-				}
-			}
-		})
+	async handleGetPosts(tag) {
+		let postList = await BlogAPI.getPostList(tag)
 
 		this.setState({
-			tagList: Array.from(collection)
+			postList: postList,
+			tag: tag
+		})
+	}
+
+	async handleGetTags() {
+		let tagList = await BlogAPI.getTagList() 
+		
+		this.setState({
+			tagList: tagList
 		})
 	}
 
 	render() {
-		let contentWrap = contents => {
-			return (
-				<div className={styles.appField}>
-					{contents}
-				</div>
-			)
-		}
-
-		let content
-		let endRendering
-
-		if (this.state.fieldPostItem) {
-
-			endRendering = <BlogItem item={this.state.fieldPostItem} handleEmpty={this.handleEmptyField} />
-
-		} else {
-
-			endRendering = contentWrap(content)
-
-		}
-
-
 		if (this.state.fieldAdd) {
 			endRendering = <PostChanges closeField={this.handleToggleFieldAdd} />
 		}
@@ -207,15 +113,17 @@ class App extends React.Component {
 				
 				<Switch>
 					<Route exact path='/'>
-						{contentWrap(
+						<Wrraper selectorName={styles.appField}>
 							<Home 
 								userAuth={this.state.AuthorizationToken}
 								postList={this.state.postList}
 								tagList={this.state.tagList}
 								handleShowPost={this.handleShowPost}
-								handleToggleTag={this.handleToggleTag}/>)}
+								handleSortByTag={this.handleGetPosts}/>)
+						</Wrraper>
 					</Route>
-					<Route path='/:id/post' component={BlogItem} />
+					<Route exact path='/:id/post' component={BlogItem} />
+					<Route path='/users' component={Users} />
 				</Switch>
 			</div>
 		)

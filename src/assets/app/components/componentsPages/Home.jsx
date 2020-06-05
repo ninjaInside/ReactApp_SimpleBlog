@@ -16,7 +16,7 @@ class Home extends React.Component {
 
 					<TagList 
 						tagList={this.props.tagList}
-						handleToggle={this.props.handleToggleTag} />
+						handleSortByTag={this.props.handleSortByTag} />
 				</>
 				:
 				<WarningMessage 

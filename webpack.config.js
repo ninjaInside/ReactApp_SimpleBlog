@@ -8,9 +8,11 @@ const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 
 const paths = {
 	src: path.resolve(__dirname, 'src/assets/app/'),
-	dist: path.resolve(__dirname, 'dist/view'),
+	view: path.resolve(__dirname, 'dist/view'),
+	dist: path.resolve(__dirname, 'dist/assets'),
 	stylesAlias: path.resolve(__dirname, 'src/assets/app/styles'),
-	componentsAlias: path.resolve(__dirname, 'src/assets/app/components')
+	componentsAlias: path.resolve(__dirname, 'src/assets/app/components'),
+	services: path.resolve(__dirname, 'src/assets/app/services')
 }
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
@@ -26,7 +28,6 @@ module.exports = {
 	context: paths.src,
 	entry: {
 		app: 'app.js',
-		auth: 'auth.js',
 	},
 	output: {
 		path: paths.dist,
@@ -97,7 +98,8 @@ module.exports = {
 		modules: ["node_modules", paths.src],
 		alias: {
 			Styles: paths.stylesAlias,
-			Components: paths.componentsAlias,	
+			Components: paths.componentsAlias,
+			Services: paths.services	
 		}
 	},
 
@@ -108,8 +110,9 @@ module.exports = {
 	},
 
 	devServer: {
-    	contentBase: paths.dist,
-    	port: 3000
+    	contentBase: paths.view,
+    	port: 3000,
+    	historyApiFallback: true
   }
 }
 	

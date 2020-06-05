@@ -18,21 +18,21 @@ class FormAddPost extends React.Component {
 					let errors = {}
 
 					if (values.body.length < 15) {
-						errors.body = 'В тексте должно быть как минимум больше 15 символов'
+						errors.body = 'Text should contain 15 letter'
 					}
 
-					if (values.title.length <= 0) {
+					if (values.title.length <= 5) {
 					
-						errors.title = 'В заголовке должно быть как минимум больше одного символа'
+						errors.title = 'Title should contain 5 letter'
 					
 					} else if (values.title.length > 150) {
 
-						errors.title = 'В заголовке НЕ должно быть больше 150 символов'
+						errors.title = 'Title not should contain 150 letter'
 
 					} 
 
 					if (values.tags.split(' ').length > 5) {
-						errors.tags = 'Количество тегов не должно превышать 5'
+						errors.tags = 'Quantity tag\s not should exceed 5'
 					}
 					
 					return errors

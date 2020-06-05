@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from 'Styles/main.sass'
+import { Link } from 'react-router-dom'
 
 class AuthorizationButton extends React.Component {
 	constructor(props) {
@@ -37,7 +38,8 @@ class AuthorizationButton extends React.Component {
 
 			buttonList = (
 				<>
-					<li className={styles.authButton__buttonItem}> <a href="users.html">S</a> </li>
+					<li className={styles.authButton__buttonItem}> <Link to={'/'}>H</Link> </li>
+					<li className={styles.authButton__buttonItem}> <Link to={'/users'}>L</Link> </li>
 				</>
 			)
 
@@ -46,11 +48,14 @@ class AuthorizationButton extends React.Component {
 			buttonList = (
 				<>
 					<li className={styles.authButton__buttonItem}> 
-						<button 
-							onClick={this.props.toggleFieldAdd.bind(this, true)}>L</button> 
+						<Link to={'/'}>H</Link> 
 					</li>
 					<li className={styles.authButton__buttonItem}> 
-						<a href="users.html">L</a> </li>
+						<Link to={'/'}>L</Link> 
+					</li>
+					<li className={styles.authButton__buttonItem}> 
+						<Link to={'/users'}>L</Link> 
+					</li>
 				</>
 			)
 

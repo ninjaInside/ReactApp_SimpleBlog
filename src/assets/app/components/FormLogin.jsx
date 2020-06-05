@@ -2,6 +2,7 @@ import React from 'react'
 import styles from 'Styles/main.sass'
 import {Formik} from 'formik'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 import ErrorMessage from './ErrorMessage.jsx'
 
@@ -18,27 +19,27 @@ class FormLogin extends React.Component {
 
 						if (values.username.length > 15) {
 
-							errors.username = 'Слишком длинное имя'
+							errors.username = 'Too long name'
 
 						} else if (!values.username) {
 
-							errors.username = 'Нет имени'
+							errors.username = 'No username'
 
 						}
 
 						if (!values.email) {
 
-							errors.email = 'Нет почты'
+							errors.email = 'No email'
 
 						} else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
 
-							errors.email = 'Почта неверна'						
+							errors.email = 'Wrong email'						
 
 						}
 
 						if (!values.password) {
 						
-							errors.password = 'Нет пароля'
+							errors.password = 'No password'
 							
 						}
 						
@@ -78,42 +79,50 @@ class FormLogin extends React.Component {
 					handleSubmit,
 					isSubmitting
 				}) => (
-						<form onSubmit={handleSubmit} className={styles.authField__form}>
-							<input
-								type='text'
-					            name='username'
-					            onChange={handleChange}
-					            onBlur={handleBlur}
-					            value={values.text}
-					            className={styles.authField__input}
-					            placeholder='Username'
-							/>
-							{errors.username && touched.username ? <ErrorMessage text={errors.username} /> : ''}
-							<input
-								type='email'
-								name='email'
-								onChange={handleChange}
-								onBlur={handleBlur}
-								value={values.email}
-								className={styles.authField__input}
-								placeholder='Email'
-							/>
-							{errors.email && touched.email ? <ErrorMessage text={errors.email} /> : ''}
-							<input
-								type='password'
-								name='password'
-								onChange={handleChange}
-								onBlur={handleBlur}
-								value={values.password}
-								className={styles.authField__input}
-								placeholder='Password'
-							/>
-							{errors.password && touched.password ? <ErrorMessage text={errors.password} /> : ''}
-							<button
-								type='submit'
-								className={styles.authField__btn}
-							>Sign in</button>
-						</form>	
+						<>
+							<form onSubmit={handleSubmit} className={styles.authField__form}>
+								<input
+									type='text'
+						            name='username'
+						            onChange={handleChange}
+						            onBlur={handleBlur}
+						            value={values.text}
+						            className={styles.authField__input}
+						            placeholder='Username'
+								/>
+								{errors.username && touched.username ? <ErrorMessage text={errors.username} /> : ''}
+								<input
+									type='email'
+									name='email'
+									onChange={handleChange}
+									onBlur={handleBlur}
+									value={values.email}
+									className={styles.authField__input}
+									placeholder='Email'
+								/>
+								{errors.email && touched.email ? <ErrorMessage text={errors.email} /> : ''}
+								<input
+									type='password'
+									name='password'
+									onChange={handleChange}
+									onBlur={handleBlur}
+									value={values.password}
+									className={styles.authField__input}
+									placeholder='Password'
+								/>
+								{errors.password && touched.password ? <ErrorMessage text={errors.password} /> : ''}
+								<button
+									type='submit'
+									className={styles.authField__btn}
+								>Sign in</button>
+							</form>
+
+							<Link 
+								className={styles.authField__toggleBtn}
+								to={'/users'}>
+								Back to registration?
+							</Link>	
+						</>
 					)}
 				</Formik>)
 	}
