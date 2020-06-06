@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from '../styles/main.sass'
 import axios from 'axios'
-import {Formik} from 'formik'
+import { Formik } from 'formik'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 import ModificationPosts from './ModificationPosts.jsx'
 import ErrorMessage from './ErrorMessage.jsx'
-import FormAddPost from './FormAddPost.jsx'
+import FormPost from './FormPost.jsx'
 
 class AddingPost extends React.Component {
 	constructor(props) {
 		super(props)
 
 		this.state = {
-			modificateField: null,
 			currentPostId: null
 		}
 
@@ -44,42 +44,24 @@ class AddingPost extends React.Component {
 	}
 
 	render() {
-		let render
-
-		if (!this.state.modificateField) {
-			render = <FormAddPost 
-						responseFunction={this.handleAddPost}
-						/>
-		} else {
-			render = <ModificationPosts 
-						handleChangePostId={this.handleChangePostId} 
-						postId={this.state.currentPostId} />
-		}
-
 		return (
 			<div className={styles.addingPostField}>
 				<div className={styles.addingPostField__btns}>
-					<button 
+					<Link
 						className={styles.addingPostField__closeBtn}
-						onClick={this.props.closeField.bind(this, null)}>Close</button>
-					<button 
+						to={'/'}>Close</Link>
+					<Link 
 						className={styles.addingPostField__modificateBtn}
-						onClick={() => {
-							this.setState((state) => {
-								return {
-									modificateField: !state.modificateField
-								}
-							})
-						}}>{this.state.modificateField ? 'Add Post' : 'Modification my posts'}</button>	
-					{this.state.currentPostId ? 
-						<button 
-							className={styles.addingPostField__closeBtn}
-							onClick={this.handleChangePostId.bind(this, null)}>Back</button>
-						:
-						''
-					}			
+						to={'/postChanges/modificate/list'}>Change my posts</Link>				
 				</div>
-				{render}
+				
+				<Switch>
+					<Route exact path='/postChanges'>
+						<FormPost responseFunction={this.handleAddPost} />
+					</Route>
+
+					<Route path='/postChanges/modificate/list' component={ModificationPosts} />
+				</Switch>
 			</div>
 		)
 	}

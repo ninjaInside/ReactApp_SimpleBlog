@@ -39,7 +39,7 @@ class AuthorizationButton extends React.Component {
 			buttonList = (
 				<>
 					<li className={styles.authButton__buttonItem}> <Link to={'/'}>H</Link> </li>
-					<li className={styles.authButton__buttonItem}> <Link to={'/users'}>L</Link> </li>
+					<li className={styles.authButton__buttonItem}> <Link to={'/users'}>R</Link> </li>
 				</>
 			)
 
@@ -51,10 +51,10 @@ class AuthorizationButton extends React.Component {
 						<Link to={'/'}>H</Link> 
 					</li>
 					<li className={styles.authButton__buttonItem}> 
-						<Link to={'/'}>L</Link> 
+						<Link to={'/postChanges'}>A</Link> 
 					</li>
 					<li className={styles.authButton__buttonItem}> 
-						<Link to={'/users'}>L</Link> 
+						<Link to={'/users'}>R</Link> 
 					</li>
 				</>
 			)

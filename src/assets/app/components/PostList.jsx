@@ -8,14 +8,16 @@ class PostList extends React.Component {
 	render() {
 		return (
 			<div className={styles.appField__postList}>
-				{this.props.postList instanceof Array ? this.props.postList.map((i) => {
+				{this.props.postList.length !== 0 ? this.props.postList.map(item => {
 					return <PostItem 
-								title={i.title} 
-								text={i.body.length > 270 ? i.body.slice(0, 270) + '...' : i.body} 
-								tags={i.tags} 
-								key={i.id} 
-								postId={i.id} 
-								btnText={this.props.btnText} />
+								title={item.title} 
+								text={item.body.length > 270 ? item.body.slice(0, 270) + '...' : item.body} 
+								tags={item.tags} 
+								key={item.id} 
+								postId={item.id} 
+								btnText={this.props.btnText} 
+								afterUrl={this.props.afterUrl}
+								beforeUrl={this.props.beforeUrl}/>
 				}) : <WarningMessage 
 						text={'Извините, но я ничего не откопал'} 
 						otherSelectors={[styles.warningMessage_hAuto, styles.warningMessage_p15]} />}

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'Styles/main.sass'
-import BlogAPI from 'Services/BlogAPI'
+import { blogContentAPI as BlogAPI } from 'Services/BlogAPI'
 import {Link} from 'react-router-dom'
 
 import CommentList from './CommentList.jsx'
@@ -44,7 +44,7 @@ class BlogItem extends React.Component {
 			<>
 				<div className={styles.blogItem}>
 					<Link to={'/'}>
-						<button onClick={this.props.handleEmpty} className={styles.blogItem__btn}>Back</button>
+						<button onClick={this.props.handleEmpty} className={styles.blogItem__btn}>Back to posts</button>
 					</Link>
 					<h1 className={styles.blogItem__title}>{
 						this.state.post.title

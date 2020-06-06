@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'Styles/main.sass'
-import BlogAPI from 'Services/BlogAPI'
+import { blogCommentAPI as BlogAPI } from 'Services/BlogAPI'
 
 import CommentItem from './CommentItem.jsx'
 import WarningMessage from './WarningMessage.jsx'

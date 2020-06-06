@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import styles from 'Styles/main.sass'
 import WebFont from 'webfontloader'
-import BlogAPI from 'Services/BlogAPI'
+import { blogContentAPI as BlogAPI } from 'Services/BlogAPI'
 
 WebFont.load({
 	google: {
@@ -36,13 +36,7 @@ class App extends React.Component {
 			postList: [],
 			tagList: [],
 			AuthorizationToken: this.handleGetUserToken(),
-			contentVisible: this.handleGetUserToken(),
-			fieldPostItem: null,
 			tag: null,
-			fieldAdd: null,
-			modificateField: null,
-			pointerOne: 0,
-			pointerTwo: 50,
 		}
 	}
 
@@ -95,10 +89,6 @@ class App extends React.Component {
 	}
 
 	render() {
-		if (this.state.fieldAdd) {
-			endRendering = <PostChanges closeField={this.handleToggleFieldAdd} />
-		}
-
 		return (
 			<div className={styles.main}>
 				<header className={styles.header}>
@@ -119,11 +109,12 @@ class App extends React.Component {
 								postList={this.state.postList}
 								tagList={this.state.tagList}
 								handleShowPost={this.handleShowPost}
-								handleSortByTag={this.handleGetPosts}/>)
+								handleSortByTag={this.handleGetPosts}/>
 						</Wrraper>
 					</Route>
 					<Route exact path='/:id/post' component={BlogItem} />
 					<Route path='/users' component={Users} />
+					<Route path='/postChanges' component={PostChanges} />
 				</Switch>
 			</div>
 		)

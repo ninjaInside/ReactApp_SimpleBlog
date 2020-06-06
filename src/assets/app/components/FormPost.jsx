@@ -5,7 +5,7 @@ import axios from 'axios'
 
 import ErrorMessage from './ErrorMessage.jsx'
 
-class FormAddPost extends React.Component {
+class FormPost extends React.Component {
 	render() {
 		return (
 			<Formik
@@ -57,6 +57,7 @@ class FormAddPost extends React.Component {
 				            value={values.title}
 				            className={styles.addingPostField__title}
 				            placeholder='Title'/>
+				        {errors.title && touched.title ? <ErrorMessage text={errors.title} /> : ''}
 						<input 
 							type='text'
 				            name='tags'
@@ -65,6 +66,7 @@ class FormAddPost extends React.Component {
 				            value={values.tags}
 				            className={styles.addingPostField__tag}
 				            placeholder='Tag'/>
+				        {errors.tags && touched.tags ? <ErrorMessage text={errors.tags} /> : ''}
 						<textarea
 							type='text'
 				            name='body'
@@ -74,8 +76,6 @@ class FormAddPost extends React.Component {
 				            className={styles.addingPostField__text}
 				            placeholder='Text'></textarea>
 				        {errors.body && touched.body ? <ErrorMessage text={errors.body} /> : ''}
-				        {errors.title && touched.title ? <ErrorMessage text={errors.title} /> : ''}
-				        {errors.tags && touched.tags ? <ErrorMessage text={errors.tags} /> : ''}
 						<button
 							type='submit'
 							className={styles.addingPostField__createBtn}>Create</button>
@@ -87,5 +87,5 @@ class FormAddPost extends React.Component {
 	}
 }
 
-export default FormAddPost
+export default FormPost
 

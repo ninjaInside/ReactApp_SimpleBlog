@@ -9,8 +9,11 @@ class TagList extends React.Component {
 		return (
 			<div className={styles.appField__tagList}>
 				<TagItem text='all' key='all' handleSortByTag={this.props.handleSortByTag.bind(this, null)} />
-				{this.props.tagList.map((i) => {
-					return <TagItem text={i.name} key={i.name} handleSortByTag={this.props.handleSortByTag.bind(this, i.slug)} />
+				{this.props.tagList.map(item => {
+					return <TagItem 
+								text={item.name} 
+								key={item.name} 
+								handleSortByTag={this.props.handleSortByTag.bind(this, item.slug)} />
 				})}
 			</div>
 		)

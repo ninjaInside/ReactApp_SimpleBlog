@@ -1,21 +1,19 @@
 import React from 'react';
-import styles from '../styles/main.sass'
+import styles from 'Styles/main.sass'
 import axios from 'axios'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 import PostItem from './PostItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
 import PostList from './PostList.jsx'
-import FormAddPost from './FormAddPost.jsx'
+import FormPost from './FormPost.jsx'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
 		super(props)
 
 		this.state = {
-			postList: null,
-			title: '',
-			body: '',
-			tags: ''
+			postList: [],
 		}
 
 		this.handleModificatePost = this.handleModificatePost.bind(this)
@@ -94,7 +92,18 @@ class ModificationPosts extends React.Component {
 		}
 
 		return (
-			render
+			<Switch>
+				<Route exact path='/postChanges/modificate/list'>
+					<PostList 
+						postList={this.state.postList} 
+						afterUrl={''}
+						beforeUrl={'postChanges/modificate/post'} />
+				</Route>
+
+				<Route path='/postChanges/modificate/post/:id'>
+					'asdf'
+				</Route>
+			</Switch>
 		)
 	}
 }

@@ -102,8 +102,8 @@
 	z-index: -2
 
 	&__form 
-		@include flex(column, center, center) 
-		width: 450px
+		@include flex(column, center, flex-start) 
+		width: 100%
 		height: inherit
 
 		@media screen and (max-width: 464px) 
@@ -140,9 +140,10 @@
 		border-bottom: 2px solid $addC 
 		font-size: 1rem
 		color: $whiteC
+		width: 50%
 
 	&__btns 
-		@include flex(column, center, flex-start)
+		@include flex(column, center, flex-end)
 		width: 100%
 		margin-bottom: 15px
 
