@@ -2,11 +2,12 @@ import React from 'react';
 import styles from 'Styles/main.sass'
 import axios from 'axios'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { blogContentAPI as BlogAPI } from 'Services/BlogAPI'
 
 import PostItem from './PostItem.jsx'
 import WarningMessage from './WarningMessage.jsx'
 import PostList from './PostList.jsx'
-import FormPost from './FormPost.jsx'
+import FormModificatePost from './FormModificatePost.jsx'
 
 class ModificationPosts extends React.Component {
 	constructor(props) {
@@ -41,22 +42,6 @@ class ModificationPosts extends React.Component {
 		})
 	}
 
-	handleGetPost(postId) {
-		axios({
-			method: 'get',
-			url: `https:\/\/govnoblog.herokuapp.com/api/v1/posts/${postId}/`,
-		})
-		.then(response => {
-			this.setState({
-				title: response.data.title,
-				body: response.data.body,
-				tags: response.data.tags.map((i) => i.name).join(' '),
-			})
-
-			this.props.handleChangePostId(postId)
-		})
-	}
-
 	handleGetPostList() {
 		axios({
 			method: 'get',
@@ -72,37 +57,23 @@ class ModificationPosts extends React.Component {
 		})
 	}
 
+	async handleGetPost(props) {
+		let post = await BlogAPI.getPostById(props.match.params.id)
+
+		return post
+	}
+
 	render() {
-		let render
-
-		if (this.props.postId) {
-
-			render = <FormAddPost 
-						responseFunction={this.handleModificatePost} 
-						title={this.state.title}
-						body={this.state.body}
-						tags={this.state.tags} />
-		
-		} else {
-			
-			render = <PostList 
-						postList={this.state.postList} 
-						handleShow={this.handleGetPost} />
-		
-		}
-
 		return (
 			<Switch>
-				<Route exact path='/postChanges/modificate/list'>
+				<Route exact path='/postChanges/modificate'>
 					<PostList 
 						postList={this.state.postList} 
 						afterUrl={''}
-						beforeUrl={'postChanges/modificate/post'} />
+						beforeUrl={'post/'} />
 				</Route>
 
-				<Route path='/postChanges/modificate/post/:id'>
-					'asdf'
-				</Route>
+				<Route path='/postChanges/modificate/post/:id' render={props => <FormModificatePost {...props} />} />
 			</Switch>
 		)
 	}

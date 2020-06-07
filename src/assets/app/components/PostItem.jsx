@@ -7,7 +7,7 @@ class PostItem extends React.Component {
 		return (
 			<div className={styles.postItem}>
 				<Link
-					to={`${this.props.beforeUrl}/${this.props.postId}/${this.props.afterUrl}`}
+					to={`${this.props.beforeUrl}${this.props.postId}${this.props.afterUrl}`}
 					className={styles.postItem__title}>
 						<h2>{this.props.title}</h2>
 				</Link>

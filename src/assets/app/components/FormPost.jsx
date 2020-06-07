@@ -1,18 +1,21 @@
 import React from 'react';
 import styles from 'Styles/main.sass'
-import {Formik} from 'formik'
+import { Formik } from 'formik'
 import axios from 'axios'
+import { blogContentAPI as BlogAPI } from 'Services/BlogAPI'
 
 import ErrorMessage from './ErrorMessage.jsx'
 
 class FormPost extends React.Component {
 	render() {
+		console.log(this.props.title)
 		return (
 			<Formik
+				enableReinitialize
 				initialValues={{
-					title: this.props.title || '', 
-					tags: this.props.tags || '', 
-					body: this.props.body || '', 
+					title: this.props.title ?? '', 
+					body: this.props.body ?? '', 
+					tags: this.props.tags ?? ''
 				}}
 				validate={values => {
 					let errors = {}

@@ -13,8 +13,8 @@ class Home extends React.Component {
 					<PostList 
 						postList={this.props.postList} 
 						handleShow={this.props.handleShowPost} 
-						afterUrl={'post'}
-						beforeUrl={''}/>
+						afterUrl={'/post'}
+						beforeUrl={'/'}/>
 
 					<TagList 
 						tagList={this.props.tagList}

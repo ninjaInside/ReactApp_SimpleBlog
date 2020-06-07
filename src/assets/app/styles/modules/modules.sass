@@ -106,7 +106,7 @@
 		width: 100%
 		height: inherit
 
-		@media screen and (max-width: 464px) 
+		@media screen and (max-width: 664px) 
 			&
 				width: 100%
 
@@ -117,7 +117,7 @@
 		&:focus
 			background-color: rgba($addC, .2)
 
-		@media screen and (max-width: 464px) 
+		@media screen and (max-width: 664px) 
 			&
 				width: 100%
 
@@ -171,7 +171,10 @@
 				align-items: center
 				margin-bottom: 30px
 
-	@media screen and (max-width: 464px)
+				& > * 
+					text-align: center
+
+	@media screen and (max-width: 664px)
 		& 
 			&__btns
 
@@ -273,10 +276,11 @@
 	position: relative
 	z-index: -2
 
+	&__btns
+		@include flex(row, flex-end, center)
+		width: 100%
+
 	&__btn 
-		position: absolute
-		top: 15px
-		right: 15px
 		padding: 15px 10px
 		background-color: $addC
 		border: 0
@@ -289,7 +293,7 @@
 		word-break: break-all
 
 	&__title
-		margin-top: 35px
+		margin-top: 15px
 
 	&__tag
 		padding: 5px 10px
@@ -347,6 +351,7 @@
 				width: 100%
 				max-height: 200px
 				overflow: auto
+				position: static
 
 			&__postList 
 				height: 100%
@@ -397,6 +402,7 @@
 	font-size: 1.1rem
 	cursor: pointer
 	word-break: break-all
+	transition: .2s linear
 
 	&:hover 
 		background-color: $addC
@@ -416,7 +422,7 @@
 		list-style: none
 		transform: translateY(-135px)
 		opacity: 0
-		transition: .3s linear
+		transition: .2s linear
 		position: relative
 		z-index: 1000
 

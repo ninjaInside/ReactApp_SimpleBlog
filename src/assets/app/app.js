@@ -115,6 +115,9 @@ class App extends React.Component {
 					<Route exact path='/:id/post' component={BlogItem} />
 					<Route path='/users' component={Users} />
 					<Route path='/postChanges' component={PostChanges} />
+					<Route path='/postChanges/modificate/post/:id'>
+						'sdfgsdfg'
+					</Route>
 				</Switch>
 			</div>
 		)

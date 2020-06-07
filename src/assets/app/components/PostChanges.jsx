@@ -52,15 +52,16 @@ class AddingPost extends React.Component {
 						to={'/'}>Close</Link>
 					<Link 
 						className={styles.addingPostField__modificateBtn}
-						to={'/postChanges/modificate/list'}>Change my posts</Link>				
+						to={'/postChanges/modificate/'}>Change my posts</Link>				
 				</div>
 				
 				<Switch>
 					<Route exact path='/postChanges'>
-						<FormPost responseFunction={this.handleAddPost} />
+						<FormPost 
+							responseFunction={this.handleAddPost} />
 					</Route>
 
-					<Route path='/postChanges/modificate/list' component={ModificationPosts} />
+					<Route path='/postChanges/modificate/' component={ModificationPosts} />
 				</Switch>
 			</div>
 		)

@@ -43,9 +43,11 @@ class BlogItem extends React.Component {
 		return (
 			<>
 				<div className={styles.blogItem}>
-					<Link to={'/'}>
-						<button onClick={this.props.handleEmpty} className={styles.blogItem__btn}>Back to posts</button>
-					</Link>
+					<div className={styles.blogItem__btns}>
+						<Link to={'/'}>
+							<button onClick={this.props.handleEmpty} className={styles.blogItem__btn}>Back to posts</button>
+						</Link>
+					</div>
 					<h1 className={styles.blogItem__title}>{
 						this.state.post.title
 					}</h1>
