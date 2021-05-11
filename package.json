@@ -40,7 +40,7 @@
     "react-dom": "^16.13.1",
     "normalize.css": "^8.0.1",
     "owl.carousel2": "^2.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "formik": "^2.1.4",
     "bootstrap": "^4.4.1",
     "webfontloader": "^1.6.28"
